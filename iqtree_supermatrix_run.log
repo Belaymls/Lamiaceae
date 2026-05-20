@@ -1,0 +1,864 @@
+nohup: ignoring input
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb 12 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    dongfei (AVX512, FMA3, 503 GB RAM)
+Command: iqtree2 -s /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/supermatrix/concatenated_supermatrix.fasta -p /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/supermatrix/partitions.txt -m MFP -bb 1000 -nt 4 --prefix /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix
+Seed:    434663 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Apr 26 20:49:29 2026
+Kernel:  AVX+FMA - 4 threads (144 CPU cores detected)
+
+Reading partition model file /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/supermatrix/partitions.txt ...
+Reading alignment file /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/supermatrix/concatenated_supermatrix.fasta ... Fasta format detected
+Reading fasta file: done in 0.243467 secs using 91.29% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 110 sequences with 196363 columns, 132858 distinct patterns
+76346 parsimony-informative, 29448 singleton sites, 90569 constant sites
+                                               Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0813858 secs using 310.4% CPU
+   1  Aeollanthus_buchnerianus_K004875075             14.89%    failed      0.43%
+   2  Aeollanthus_densiflorus_HIBPR0112                8.80%    failed      0.22%
+   3  Aeollanthus_myrianthus_HIBPR0122                 8.71%    failed      0.01%
+   4  Aeollanthus_parvifolius_K004875749              10.65%    passed     50.44%
+   5  Aeollanthus_rehmanii_K00487505                  22.08%    passed     39.02%
+   6  Capitanopsis_angustifolia_K005567934             5.44%    passed     87.73%
+   7  Capitanopsis_cloiselii_K000247853                5.98%    passed     81.04%
+   8  Coleus_adenophorus_K006096388                   22.59%    failed      2.46%
+   9  Coleus_aegyptiacus_ETH3259                      73.02%    failed      3.19%
+  10  Coleus_albicalyx_K005569364                      9.96%    failed      0.00%
+  11  Coleus_alpinus_ETH831                           21.76%    passed     81.77%
+  12  Coleus_alpinus_SAJITBM0042                      16.76%    passed     75.69%
+  13  Coleus_alpinus_SAJITBM0043                      18.81%    passed     41.94%
+  14  Coleus_arabicus_K000735960                      26.16%    passed     38.74%
+  15  Coleus_barbatus_SAJITBM0020                     22.25%    failed      0.00%
+  16  Coleus_caninus_HIB081                           32.05%    passed     13.82%
+  17  Coleus_caninus_SAJITBM0016                      28.52%    passed     25.46%
+  18  Coleus_caninus_SAJITBM0035                      30.09%    passed     39.16%
+  19  Coleus_caninus_SAJITBM0040                      25.10%    failed      0.00%
+  20  Coleus_comosus_ETH18                            31.04%    failed      1.74%
+  21  Coleus_comosus_ETH2445                          38.95%    passed      5.98%
+  22  Coleus_comosus_ETH6246                          32.71%    passed     17.68%
+  23  Coleus_comosus_SAJITBM0005                      21.12%    passed     35.27%
+  24  Coleus_comosus_SAJITBM0010                      17.76%    failed      0.31%
+  25  Coleus_comosus_SAJITBM0023                      27.09%    passed     38.76%
+  26  Coleus_cylindraceus_SAJITBM0029                 44.89%    passed      9.61%
+  27  Coleus_cylindraceus_SAJITBM0036                 19.03%    passed     41.05%
+  28  Coleus_defoliatus_SAJITBM0038                   95.09%    failed      0.02%
+  29  Coleus_gillettii_SAJITBM0019                    17.99%    passed     98.99%
+  30  Coleus_gracilis_SAJITBM0024                     16.70%    passed     71.50%
+  31  Coleus_hadiensis_ETH6395                        34.30%    passed     11.00%
+  32  Coleus_hadiensis_SAJITBM0015                    12.66%    passed     59.86%
+  33  Coleus_igniarius_ETH2109                        17.81%    passed     78.78%
+  34  Coleus_igniarius_SAJITBM0017                    25.64%    passed     29.23%
+  35  Coleus_kirkii_K004876272                        23.76%    passed     37.52%
+  36  Coleus_lactiflorus_ETH5200                      20.16%    passed     78.21%
+  37  Coleus_lactiflorus_SAJITBM0012                  29.96%    passed     51.22%
+  38  Coleus_lanuginosus_ETH1072                      15.14%    passed     78.13%
+  39  Coleus_lanuginosus_ETH89                        29.90%    passed     45.48%
+  40  Coleus_lanuginosus_SAJITBM0001                  12.38%    failed      4.60%
+  41  Coleus_lanuginosus_SAJITBM0028                  57.20%    failed      0.00%
+  42  Coleus_livingstonei_K004876462                  11.33%    passed     98.20%
+  43  Coleus_maculosus_subsp._edulis_SAJITBM0030      10.28%    passed     16.74%
+  44  Coleus_maculosus_subsp._maculosus_HIB5159        6.53%    passed     81.40%
+  45  Coleus_maculosus_subsp._maculosus_SAJITBM0002    5.42%    passed     53.04%
+  46  Coleus_maculosus_subsp_edulis_ETH2227            9.26%    passed     65.40%
+  47  Coleus_marrubatus_ETH2227                        9.71%    passed     52.72%
+  48  Coleus_melleri_ETH7758                          10.24%    passed     53.01%
+  49  Coleus_melleri_HIB3933                          34.19%    passed     14.10%
+  50  Coleus_meyeri_ETH14916                           9.69%    passed     68.52%
+  51  Coleus_meyeri_HIB1615                           14.41%    passed     76.83%
+  52  Coleus_meyeris_HIB2900                           8.74%    passed     36.49%
+  53  Coleus_minutiflorus_SAJITBM0045                  9.83%    passed     83.85%
+  54  Coleus_pallidus_K004929320                      12.77%    passed     19.60%
+  55  Coleus_prostratus_ETH5743                       11.15%    passed      9.93%
+  56  Coleus_scutellaroide_SAJITBM0006                14.42%    passed     43.94%
+  57  Coleus_scutellaroide_SAJITBM0008                10.95%    passed     85.51%
+  58  Coleus_scutellaroide_SAJITBM0009                 9.94%    passed     99.30%
+  59  Coleus_shirensis_K006097385                     17.96%    passed     31.84%
+  60  Coleus_sp._HIB113                                9.15%    passed     13.36%
+  61  Coleus_sp._SAJITBM0007                          25.44%    passed     78.10%
+  62  Coleus_sp_ETH5706                               24.39%    passed     18.41%
+  63  Coleus_sp_HIB2931                               14.86%    passed     64.32%
+  64  Coleus_sp_HIB4235                               11.47%    passed     69.01%
+  65  Coleus_sp_HIB4553                                4.89%    failed      0.00%
+  66  Coleus_sp_HIB4837                               17.26%    passed     84.99%
+  67  Coleus_sp_SAJITBM0079                           17.37%    passed     48.98%
+  68  Coleus_sp_SAJIT_EJM_0011                        14.00%    passed      8.38%
+  69  Coleus_sp_SAJIT_EJM_0012                        16.34%    passed     15.25%
+  70  Coleus_sp_SAJIT_EJM_0013                        17.34%    passed     19.26%
+  71  Coleus_sp_SAJIT_EJM_0040                        17.66%    passed     14.44%
+  72  Coleus_sp_SAJIT_EJM_0051                        10.64%    passed     66.55%
+  73  Coleus_stenostachys_K004876229                  15.92%    failed      0.77%
+  74  Coleus_succulentus_SAJITBM0039                  40.52%    passed     64.67%
+  75  Coleus_sylvestris_HIB3073                       24.67%    passed     62.63%
+  76  Coleus_umbrosus_K004876386                      48.44%    failed      0.57%
+  77  Coleus_xylopodus_SAJITBM0018                    37.74%    passed     36.70%
+  78  Equilabium_acaulis_K006098452                   57.18%    passed      5.28%
+  79  Equilabium_agnewii_K006096167                   12.24%    passed     46.01%
+  80  Equilabium_annuum_K006096262                    12.68%    passed     73.85%
+  81  Equilabium_caespitosum_K006096276                9.29%    passed     28.64%
+  82  Equilabium_cinereum_K006095862                   7.42%    passed     57.64%
+  83  Equilabium_flaccidus_K006096205                 74.97%    failed      0.21%
+  84  Equilabium_glandulosum_SAJITBM0026              10.09%    passed     60.59%
+  85  Equilabium_glandulosum_SAJITBM0041              35.71%    passed     10.36%
+  86  Equilabium_goetzei_K006098396                    9.26%    passed     16.76%
+  87  Equilabium_kamerunense_ETH9082                  15.55%    passed     49.88%
+  88  Equilabium_laxiflorum_ETH99                     10.16%    passed     54.89%
+  89  Equilabium_laxiflorum_HIB3183                   10.93%    passed     51.22%
+  90  Equilabium_laxiflorus_K006245697                11.43%    passed     26.77%
+  91  Equilabium_longipes_SAJITBM0011                  8.05%    passed     75.89%
+  92  Equilabium_longipes_SAJITBM0014                 14.29%    passed     30.90%
+  93  Equilabium_parvum_ETH6713                       12.90%    passed     39.46%
+  94  Equilabium_sp_SAJITBM0003                        7.01%    passed     49.20%
+  95  Equilabium_sp_SAJIT_EJM_0056                     8.25%    passed     53.81%
+  96  Orthosiphon_schimperi_SAJITBM0032               23.31%    failed      0.01%
+  97  Platostoma_denticulatum_HIB3920                  8.21%    passed     47.08%
+  98  Platostoma_rotundifolium_SAJITBM0021            21.42%    passed     62.25%
+  99  Plectranthus_ciliatus_K006245247                13.05%    passed     91.43%
+ 100  Plectranthus_ecklonii_K006245586                 5.79%    passed     63.75%
+ 101  Plectranthus_elegans_K000049013                  5.68%    passed     87.17%
+ 102  Plectranthus_ernstii_K006245192                  5.68%    passed     66.09%
+ 103  Plectranthus_sp_SAJIT_EJM_0026                   8.58%    passed     91.37%
+ 104  Plectranthus_verticillatus_ETH4208               6.54%    passed     87.12%
+ 105  Salvia_microphylla_CRR706402                    36.42%    failed      0.00%
+ 106  Salvia_nipponica_CRR706400                      31.92%    failed      0.00%
+ 107  Tetradenia_brevispicata_K000194029               6.06%    passed     22.90%
+ 108  Tetradenia_fruticosa_K004929141                  4.55%    passed     57.89%
+ 109  Tetradenia_nervosa_K000193920                    5.93%    failed      0.01%
+ 110  Thorncroftia_media_K000385679                    6.25%    passed     94.65%
+WARNING: 5 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                           19.51%  21 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Partition file is not in NEXUS format, assuming RAxML-style partition file...
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	104	777	265	372	GTR	p1_4471_trimmed
+2	DNA	100	1275	519	645	GTR	p2_4527_trimmed
+3	DNA	96	528	193	276	GTR	p3_4691_trimmed
+4	DNA	107	675	351	200	GTR	p4_4724_trimmed
+5	DNA	99	165	30	108	GTR	p5_4744_trimmed
+6	DNA	100	528	176	285	GTR	p6_4757_trimmed
+7	DNA	109	1542	694	587	GTR	p7_4793_trimmed
+8	DNA	107	822	360	337	GTR	p8_4796_trimmed
+9	DNA	97	146	46	77	GTR	p9_4802_trimmed
+10	DNA	108	471	189	206	GTR	p10_4806_trimmed
+11	DNA	110	1617	674	684	GTR	p11_4848_trimmed
+12	DNA	109	465	198	212	GTR	p12_4889_trimmed
+13	DNA	100	189	108	64	GTR	p13_4890_trimmed
+14	DNA	103	657	221	349	GTR	p14_4893_trimmed
+15	DNA	108	952	372	485	GTR	p15_4932_trimmed
+16	DNA	104	878	298	481	GTR	p16_4942_trimmed
+17	DNA	96	555	201	266	GTR	p17_4951_trimmed
+18	DNA	98	78	30	34	GTR	p18_4954_trimmed
+19	DNA	104	276	75	172	GTR	p19_4989_trimmed
+20	DNA	110	1662	687	735	GTR	p20_4992_trimmed
+21	DNA	107	1127	453	458	GTR	p21_5018_trimmed
+22	DNA	109	686	304	273	GTR	p22_5032_trimmed
+23	DNA	103	726	324	316	GTR	p23_5034_trimmed
+24	DNA	106	489	180	255	GTR	p24_5038_trimmed
+25	DNA	89	198	103	63	GTR	p25_5064_trimmed
+26	DNA	97	471	180	241	GTR	p26_5090_trimmed
+27	DNA	66	224	74	131	GTR	p27_5104_trimmed
+28	DNA	107	755	357	288	GTR	p28_5116_trimmed
+29	DNA	107	340	137	142	GTR	p29_5123_trimmed
+30	DNA	100	447	209	176	GTR	p30_5131_trimmed
+31	DNA	101	675	266	349	GTR	p31_5138_trimmed
+32	DNA	106	1416	562	636	GTR	p32_5162_trimmed
+33	DNA	105	596	233	226	GTR	p33_5163_trimmed
+34	DNA	100	477	178	178	GTR	p34_5168_trimmed
+35	DNA	83	570	241	244	GTR	p35_5177_trimmed
+36	DNA	109	468	172	247	GTR	p36_5188_trimmed
+37	DNA	97	300	88	141	GTR	p37_5200_trimmed
+38	DNA	96	451	163	249	GTR	p38_5206_trimmed
+39	DNA	96	294	92	156	GTR	p39_5220_trimmed
+40	DNA	100	435	132	186	GTR	p40_5257_trimmed
+41	DNA	99	282	85	130	GTR	p41_5260_trimmed
+42	DNA	109	1302	546	545	GTR	p42_5264_trimmed
+43	DNA	106	300	143	105	GTR	p43_5271_trimmed
+44	DNA	108	1334	484	620	GTR	p44_5273_trimmed
+45	DNA	105	795	263	421	GTR	p45_5280_trimmed
+46	DNA	107	759	419	168	GTR	p46_5296_trimmed
+47	DNA	107	927	355	445	GTR	p47_5299_trimmed
+48	DNA	102	594	234	265	GTR	p48_5304_trimmed
+49	DNA	87	183	63	102	GTR	p49_5318_trimmed
+50	DNA	110	1038	432	438	GTR	p50_5326_trimmed
+51	DNA	102	411	192	180	GTR	p51_5328_trimmed
+52	DNA	109	2250	1154	730	GTR	p52_5333_trimmed
+53	DNA	107	120	30	76	GTR	p53_5335_trimmed
+54	DNA	105	690	261	308	GTR	p54_5339_trimmed
+55	DNA	101	726	306	351	GTR	p55_5343_trimmed
+56	DNA	82	210	74	91	GTR	p56_5347_trimmed
+57	DNA	100	513	238	170	GTR	p57_5348_trimmed
+58	DNA	97	213	74	123	GTR	p58_5354_trimmed
+59	DNA	89	270	111	132	GTR	p59_5355_trimmed
+60	DNA	106	258	102	124	GTR	p60_5357_trimmed
+61	DNA	106	862	308	382	GTR	p61_5366_trimmed
+62	DNA	108	1482	477	801	GTR	p62_5398_trimmed
+63	DNA	107	1086	464	514	GTR	p63_5404_trimmed
+64	DNA	108	1020	346	582	GTR	p64_5406_trimmed
+65	DNA	106	1212	454	627	GTR	p65_5421_trimmed
+66	DNA	103	558	266	197	GTR	p66_5422_trimmed
+67	DNA	103	949	374	461	GTR	p67_5426_trimmed
+68	DNA	109	624	209	301	GTR	p68_5427_trimmed
+69	DNA	96	552	248	253	GTR	p69_5428_trimmed
+70	DNA	93	300	138	133	GTR	p70_5430_trimmed
+71	DNA	97	657	222	366	GTR	p71_5434_trimmed
+72	DNA	104	1038	358	500	GTR	p72_5449_trimmed
+73	DNA	110	1045	392	511	GTR	p73_5454_trimmed
+74	DNA	99	342	124	187	GTR	p74_5460_trimmed
+75	DNA	110	453	162	238	GTR	p75_5463_trimmed
+76	DNA	107	435	210	149	GTR	p76_5464_trimmed
+77	DNA	105	567	215	253	GTR	p77_5469_trimmed
+78	DNA	94	445	214	160	GTR	p78_5477_trimmed
+79	DNA	109	708	287	348	GTR	p79_5489_trimmed
+80	DNA	105	468	178	240	GTR	p80_5502_trimmed
+81	DNA	106	755	298	368	GTR	p81_5513_trimmed
+82	DNA	104	526	156	277	GTR	p82_5528_trimmed
+83	DNA	98	152	47	81	GTR	p83_5531_trimmed
+84	DNA	84	239	64	131	GTR	p84_5536_trimmed
+85	DNA	98	816	274	427	GTR	p85_5551_trimmed
+86	DNA	110	724	346	234	GTR	p86_5554_trimmed
+87	DNA	66	330	129	165	GTR	p87_5562_trimmed
+88	DNA	67	156	59	73	GTR	p88_5578_trimmed
+89	DNA	102	624	225	302	GTR	p89_5594_trimmed
+90	DNA	105	880	330	466	GTR	p90_5596_trimmed
+91	DNA	109	479	186	220	GTR	p91_5599_trimmed
+92	DNA	109	2151	891	1009	GTR	p92_5614_trimmed
+93	DNA	105	522	217	258	GTR	p93_5620_trimmed
+94	DNA	109	540	171	258	GTR	p94_5634_trimmed
+95	DNA	108	453	196	197	GTR	p95_5639_trimmed
+96	DNA	53	117	20	77	GTR	p96_5642_trimmed
+97	DNA	101	845	324	363	GTR	p97_5644_trimmed
+98	DNA	68	90	30	49	GTR	p98_5656_trimmed
+99	DNA	88	381	189	172	GTR	p99_5660_trimmed
+100	DNA	107	954	390	447	GTR	p100_5664_trimmed
+101	DNA	108	816	284	403	GTR	p101_5670_trimmed
+102	DNA	107	709	244	339	GTR	p102_5699_trimmed
+103	DNA	104	635	235	311	GTR	p103_5702_trimmed
+104	DNA	107	581	268	234	GTR	p104_5703_trimmed
+105	DNA	109	1344	583	530	GTR	p105_5716_trimmed
+106	DNA	108	723	285	316	GTR	p106_5721_trimmed
+107	DNA	92	195	65	115	GTR	p107_5733_trimmed
+108	DNA	59	339	123	183	GTR	p108_5744_trimmed
+109	DNA	109	792	298	377	GTR	p109_5770_trimmed
+110	DNA	102	156	75	68	GTR	p110_5772_trimmed
+111	DNA	103	609	230	279	GTR	p111_5791_trimmed
+112	DNA	92	213	82	104	GTR	p112_5802_trimmed
+113	DNA	101	555	255	211	GTR	p113_5815_trimmed
+114	DNA	109	1121	501	456	GTR	p114_5816_trimmed
+115	DNA	86	157	57	62	GTR	p115_5821_trimmed
+116	DNA	73	417	204	156	GTR	p116_5822_trimmed
+117	DNA	107	798	303	346	GTR	p117_5840_trimmed
+118	DNA	102	813	273	387	GTR	p118_5841_trimmed
+119	DNA	106	725	305	303	GTR	p119_5842_trimmed
+120	DNA	100	123	50	62	GTR	p120_5843_trimmed
+121	DNA	84	231	84	114	GTR	p121_5849_trimmed
+122	DNA	101	183	69	97	GTR	p122_5853_trimmed
+123	DNA	96	648	271	276	GTR	p123_5857_trimmed
+124	DNA	110	561	217	296	GTR	p124_5858_trimmed
+125	DNA	102	804	332	362	GTR	p125_5859_trimmed
+126	DNA	109	1248	542	557	GTR	p126_5865_trimmed
+127	DNA	99	459	133	239	GTR	p127_5866_trimmed
+128	DNA	105	323	116	136	GTR	p128_5870_trimmed
+129	DNA	92	187	64	88	GTR	p129_5893_trimmed
+130	DNA	99	351	141	148	GTR	p130_5894_trimmed
+131	DNA	107	1032	385	486	GTR	p131_5899_trimmed
+132	DNA	106	579	227	281	GTR	p132_5910_trimmed
+133	DNA	104	696	266	362	GTR	p133_5913_trimmed
+134	DNA	107	618	286	249	GTR	p134_5918_trimmed
+135	DNA	102	423	182	161	GTR	p135_5919_trimmed
+136	DNA	109	2558	1125	1064	GTR	p136_5921_trimmed
+137	DNA	109	1261	404	696	GTR	p137_5922_trimmed
+138	DNA	99	816	306	406	GTR	p138_5926_trimmed
+139	DNA	105	789	276	446	GTR	p139_5933_trimmed
+140	DNA	100	273	101	143	GTR	p140_5936_trimmed
+141	DNA	109	726	340	319	GTR	p141_5940_trimmed
+142	DNA	89	320	134	119	GTR	p142_5941_trimmed
+143	DNA	99	522	233	235	GTR	p143_5942_trimmed
+144	DNA	109	1728	744	701	GTR	p144_5943_trimmed
+145	DNA	98	416	156	203	GTR	p145_5944_trimmed
+146	DNA	107	504	185	243	GTR	p146_5945_trimmed
+147	DNA	104	459	170	208	GTR	p147_5949_trimmed
+148	DNA	105	657	273	301	GTR	p148_5950_trimmed
+149	DNA	91	321	120	176	GTR	p149_5958_trimmed
+150	DNA	108	1012	398	400	GTR	p150_5960_trimmed
+151	DNA	107	375	119	219	GTR	p151_5968_trimmed
+152	DNA	92	642	264	276	GTR	p152_5974_trimmed
+153	DNA	103	409	171	175	GTR	p153_5977_trimmed
+154	DNA	95	474	189	210	GTR	p154_5980_trimmed
+155	DNA	107	840	361	359	GTR	p155_5981_trimmed
+156	DNA	49	72	17	23	GTR	p156_5990_trimmed
+157	DNA	102	261	103	128	GTR	p157_6000_trimmed
+158	DNA	103	222	84	122	GTR	p158_6003_trimmed
+159	DNA	105	168	68	64	GTR	p159_6004_trimmed
+160	DNA	106	273	83	164	GTR	p160_6016_trimmed
+161	DNA	97	150	60	78	GTR	p161_6026_trimmed
+162	DNA	86	415	149	174	GTR	p162_6029_trimmed
+163	DNA	105	594	247	261	GTR	p163_6034_trimmed
+164	DNA	109	1239	504	556	GTR	p164_6036_trimmed
+165	DNA	105	443	174	232	GTR	p165_6038_trimmed
+166	DNA	110	444	153	237	GTR	p166_6041_trimmed
+167	DNA	102	303	117	138	GTR	p167_6048_trimmed
+168	DNA	102	291	105	148	GTR	p168_6050_trimmed
+169	DNA	108	1185	509	461	GTR	p169_6051_trimmed
+170	DNA	101	448	188	123	GTR	p170_6056_trimmed
+171	DNA	104	443	206	158	GTR	p171_6064_trimmed
+172	DNA	68	219	85	109	GTR	p172_6068_trimmed
+173	DNA	83	338	103	151	GTR	p173_6072_trimmed
+174	DNA	109	1203	427	615	GTR	p174_6098_trimmed
+175	DNA	100	324	139	121	GTR	p175_6110_trimmed
+176	DNA	104	460	218	150	GTR	p176_6114_trimmed
+177	DNA	109	1371	494	612	GTR	p177_6119_trimmed
+178	DNA	101	100	31	56	GTR	p178_6128_trimmed
+179	DNA	103	390	155	171	GTR	p179_6130_trimmed
+180	DNA	105	663	239	336	GTR	p180_6139_trimmed
+181	DNA	98	447	183	202	GTR	p181_6148_trimmed
+182	DNA	108	609	263	261	GTR	p182_6150_trimmed
+183	DNA	108	267	106	125	GTR	p183_6164_trimmed
+184	DNA	104	751	338	274	GTR	p184_6175_trimmed
+185	DNA	110	1029	427	447	GTR	p185_6176_trimmed
+186	DNA	105	326	88	159	GTR	p186_6198_trimmed
+187	DNA	103	488	156	221	GTR	p187_6216_trimmed
+188	DNA	103	645	319	253	GTR	p188_6221_trimmed
+189	DNA	108	990	445	399	GTR	p189_6226_trimmed
+190	DNA	90	594	208	337	GTR	p190_6227_trimmed
+191	DNA	108	543	229	225	GTR	p191_6238_trimmed
+192	DNA	105	771	324	381	GTR	p192_6258_trimmed
+193	DNA	100	297	105	155	GTR	p193_6265_trimmed
+194	DNA	97	309	121	138	GTR	p194_6270_trimmed
+195	DNA	107	465	175	238	GTR	p195_6274_trimmed
+196	DNA	101	462	156	256	GTR	p196_6282_trimmed
+197	DNA	107	716	281	345	GTR	p197_6284_trimmed
+198	DNA	105	702	276	362	GTR	p198_6295_trimmed
+199	DNA	55	88	22	59	GTR	p199_6298_trimmed
+200	DNA	94	429	175	189	GTR	p200_6299_trimmed
+201	DNA	89	258	75	160	GTR	p201_6303_trimmed
+202	DNA	108	1262	555	556	GTR	p202_6318_trimmed
+203	DNA	109	1033	394	461	GTR	p203_6320_trimmed
+204	DNA	109	723	302	352	GTR	p204_6363_trimmed
+205	DNA	108	174	56	105	GTR	p205_6366_trimmed
+206	DNA	103	729	263	376	GTR	p206_6373_trimmed
+207	DNA	97	507	163	228	GTR	p207_6376_trimmed
+208	DNA	94	249	83	111	GTR	p208_6378_trimmed
+209	DNA	86	288	94	140	GTR	p209_6379_trimmed
+210	DNA	109	765	232	371	GTR	p210_6383_trimmed
+211	DNA	104	760	311	324	GTR	p211_6384_trimmed
+212	DNA	105	771	293	419	GTR	p212_6387_trimmed
+213	DNA	106	650	167	357	GTR	p213_6389_trimmed
+214	DNA	104	714	314	293	GTR	p214_6393_trimmed
+215	DNA	81	357	108	194	GTR	p215_6398_trimmed
+216	DNA	101	528	199	205	GTR	p216_6401_trimmed
+217	DNA	90	484	182	193	GTR	p217_6404_trimmed
+218	DNA	109	999	428	351	GTR	p218_6405_trimmed
+219	DNA	80	172	92	48	GTR	p219_6406_trimmed
+220	DNA	65	220	41	149	GTR	p220_6407_trimmed
+221	DNA	85	546	221	268	GTR	p221_6412_trimmed
+222	DNA	107	600	237	269	GTR	p222_6420_trimmed
+223	DNA	11	73	10	52	GTR	p223_6430_trimmed
+224	DNA	91	378	110	207	GTR	p224_6432_trimmed
+225	DNA	107	453	171	202	GTR	p225_6439_trimmed
+226	DNA	103	267	113	135	GTR	p226_6447_trimmed
+227	DNA	95	483	138	223	GTR	p227_6448_trimmed
+228	DNA	101	207	94	94	GTR	p228_6449_trimmed
+229	DNA	98	731	322	306	GTR	p229_6450_trimmed
+230	DNA	107	571	194	273	GTR	p230_6454_trimmed
+231	DNA	94	318	118	141	GTR	p231_6457_trimmed
+232	DNA	100	1245	374	711	GTR	p232_6458_trimmed
+233	DNA	106	675	302	272	GTR	p233_6459_trimmed
+234	DNA	106	1012	429	417	GTR	p234_6460_trimmed
+235	DNA	104	696	254	345	GTR	p235_6462_trimmed
+236	DNA	107	750	289	355	GTR	p236_6483_trimmed
+237	DNA	106	323	110	170	GTR	p237_6487_trimmed
+238	DNA	106	412	213	145	GTR	p238_6488_trimmed
+239	DNA	98	364	140	196	GTR	p239_6492_trimmed
+240	DNA	105	658	227	354	GTR	p240_6494_trimmed
+241	DNA	103	160	59	74	GTR	p241_6496_trimmed
+242	DNA	98	243	75	145	GTR	p242_6498_trimmed
+243	DNA	102	1226	418	644	GTR	p243_6500_trimmed
+244	DNA	93	381	119	199	GTR	p244_6506_trimmed
+245	DNA	103	404	159	171	GTR	p245_6507_trimmed
+246	DNA	87	266	77	125	GTR	p246_6526_trimmed
+247	DNA	107	953	379	434	GTR	p247_6527_trimmed
+248	DNA	83	375	142	209	GTR	p248_6528_trimmed
+249	DNA	43	102	30	51	GTR	p249_6531_trimmed
+250	DNA	91	185	48	131	GTR	p250_6532_trimmed
+251	DNA	99	540	217	245	GTR	p251_6533_trimmed
+252	DNA	104	600	247	281	GTR	p252_6538_trimmed
+253	DNA	101	499	122	295	GTR	p253_6540_trimmed
+254	DNA	109	1004	373	473	GTR	p254_6544_trimmed
+255	DNA	68	249	71	128	GTR	p255_6550_trimmed
+256	DNA	104	553	197	245	GTR	p256_6552_trimmed
+257	DNA	96	135	41	63	GTR	p257_6557_trimmed
+258	DNA	102	345	93	175	GTR	p258_6559_trimmed
+259	DNA	107	876	395	390	GTR	p259_6563_trimmed
+260	DNA	96	213	100	85	GTR	p260_6565_trimmed
+261	DNA	65	273	113	120	GTR	p261_6570_trimmed
+262	DNA	109	843	360	337	GTR	p262_6572_trimmed
+263	DNA	106	725	299	325	GTR	p263_6601_trimmed
+264	DNA	98	444	180	224	GTR	p264_6620_trimmed
+265	DNA	101	204	71	75	GTR	p265_6631_trimmed
+266	DNA	106	606	238	279	GTR	p266_6636_trimmed
+267	DNA	105	708	306	301	GTR	p267_6639_trimmed
+268	DNA	96	554	207	297	GTR	p268_6641_trimmed
+269	DNA	59	182	52	117	GTR	p269_6649_trimmed
+270	DNA	109	1332	574	606	GTR	p270_6652_trimmed
+271	DNA	106	696	255	278	GTR	p271_6660_trimmed
+272	DNA	103	542	192	271	GTR	p272_6667_trimmed
+273	DNA	90	95	36	45	GTR	p273_6679_trimmed
+274	DNA	83	70	18	38	GTR	p274_6685_trimmed
+275	DNA	103	860	249	466	GTR	p275_6689_trimmed
+276	DNA	86	174	82	68	GTR	p276_6705_trimmed
+277	DNA	106	527	243	207	GTR	p277_6713_trimmed
+278	DNA	108	1260	531	589	GTR	p278_6717_trimmed
+279	DNA	64	145	46	69	GTR	p279_6732_trimmed
+280	DNA	67	91	27	51	GTR	p280_6733_trimmed
+281	DNA	37	60	17	25	GTR	p281_6738_trimmed
+282	DNA	39	72	15	34	GTR	p282_6746_trimmed
+283	DNA	101	702	288	291	GTR	p283_6779_trimmed
+284	DNA	96	219	81	130	GTR	p284_6780_trimmed
+285	DNA	86	237	86	107	GTR	p285_6782_trimmed
+286	DNA	97	291	132	119	GTR	p286_6785_trimmed
+287	DNA	95	177	60	65	GTR	p287_6791_trimmed
+288	DNA	104	651	221	262	GTR	p288_6792_trimmed
+289	DNA	107	642	197	361	GTR	p289_6797_trimmed
+290	DNA	96	345	108	188	GTR	p290_6825_trimmed
+291	DNA	97	551	202	264	GTR	p291_6848_trimmed
+292	DNA	92	154	67	65	GTR	p292_6854_trimmed
+293	DNA	106	771	276	299	GTR	p293_6859_trimmed
+294	DNA	106	510	158	243	GTR	p294_6860_trimmed
+295	DNA	102	312	116	147	GTR	p295_6864_trimmed
+296	DNA	87	134	32	74	GTR	p296_6865_trimmed
+297	DNA	103	375	160	154	GTR	p297_6875_trimmed
+298	DNA	107	519	195	238	GTR	p298_6882_trimmed
+299	DNA	99	411	115	232	GTR	p299_6883_trimmed
+300	DNA	98	162	65	59	GTR	p300_6886_trimmed
+301	DNA	57	250	60	133	GTR	p301_6893_trimmed
+302	DNA	101	287	117	120	GTR	p302_6909_trimmed
+303	DNA	108	966	313	548	GTR	p303_6913_trimmed
+304	DNA	91	723	328	296	GTR	p304_6914_trimmed
+305	DNA	109	870	353	451	GTR	p305_6924_trimmed
+306	DNA	101	663	221	324	GTR	p306_6933_trimmed
+307	DNA	96	345	104	165	GTR	p307_6946_trimmed
+308	DNA	108	1406	659	563	GTR	p308_6947_trimmed
+309	DNA	104	645	255	290	GTR	p309_6954_trimmed
+310	DNA	99	333	102	194	GTR	p310_6955_trimmed
+311	DNA	77	449	166	197	GTR	p311_6958_trimmed
+312	DNA	107	375	121	196	GTR	p312_6961_trimmed
+313	DNA	99	246	67	125	GTR	p313_6962_trimmed
+314	DNA	106	762	285	327	GTR	p314_6968_trimmed
+315	DNA	24	210	53	117	GTR	p315_6969_trimmed
+316	DNA	79	406	141	186	GTR	p316_6977_trimmed
+317	DNA	104	318	120	162	GTR	p317_6978_trimmed
+318	DNA	106	810	375	334	GTR	p318_6979_trimmed
+319	DNA	97	270	79	148	GTR	p319_6992_trimmed
+320	DNA	95	180	84	78	GTR	p320_6995_trimmed
+321	DNA	73	201	54	114	GTR	p321_7013_trimmed
+322	DNA	106	597	219	231	GTR	p322_7021_trimmed
+323	DNA	97	290	105	135	GTR	p323_7024_trimmed
+324	DNA	103	390	157	156	GTR	p324_7028_trimmed
+325	DNA	104	726	253	369	GTR	p325_7029_trimmed
+326	DNA	76	144	41	77	GTR	p326_7067_trimmed
+327	DNA	98	382	156	181	GTR	p327_7111_trimmed
+328	DNA	108	1082	431	450	GTR	p328_7128_trimmed
+329	DNA	68	47	9	29	GTR	p329_7135_trimmed
+330	DNA	100	384	148	169	GTR	p330_7136_trimmed
+331	DNA	105	627	294	254	GTR	p331_7141_trimmed
+332	DNA	106	1231	388	603	GTR	p332_7174_trimmed
+333	DNA	93	432	160	214	GTR	p333_7194_trimmed
+334	DNA	52	268	68	109	GTR	p334_7241_trimmed
+335	DNA	102	390	144	169	GTR	p335_7273_trimmed
+336	DNA	76	38	10	26	GTR	p336_7279_trimmed
+337	DNA	85	162	58	77	GTR	p337_7296_trimmed
+338	DNA	97	222	42	128	GTR	p338_7313_trimmed
+339	DNA	96	554	196	293	GTR	p339_7324_trimmed
+340	DNA	80	465	197	189	GTR	p340_7325_trimmed
+341	DNA	105	765	310	344	GTR	p341_7331_trimmed
+342	DNA	92	399	182	177	GTR	p342_7333_trimmed
+343	DNA	96	339	124	182	GTR	p343_7336_trimmed
+344	DNA	104	247	95	127	GTR	p344_7361_trimmed
+345	DNA	102	336	110	171	GTR	p345_7363_trimmed
+346	DNA	101	306	94	166	GTR	p346_7367_trimmed
+347	DNA	104	207	60	121	GTR	p347_7371_trimmed
+348	DNA	109	617	250	275	GTR	p348_7572_trimmed
+349	DNA	93	264	96	124	GTR	p349_7577_trimmed
+350	DNA	61	222	79	86	GTR	p350_7583_trimmed
+351	DNA	88	613	221	305	GTR	p351_7602_trimmed
+352	DNA	89	234	94	115	GTR	p352_7628_trimmed
+Degree of missing data: 0.067
+Info: multi-threading strategy over partitions
+
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 1.240 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Initial log-likelihood: -2320734.884
+Current log-likelihood at step 1: -2220319.741
+Current log-likelihood at step 2: -2218529.391
+Current log-likelihood at step 3: -2218403.411
+Current log-likelihood at step 4: -2218331.391
+Current log-likelihood at step 5: -2218275.626
+Current log-likelihood at step 6: -2218230.762
+Current log-likelihood at step 7: -2218186.404
+Current log-likelihood at step 8: -2218102.962
+Current log-likelihood at step 9: -2218048.554
+Current log-likelihood at step 10: -2218017.086
+Current log-likelihood at step 11: -2217992.902
+Current log-likelihood at step 12: -2217972.934
+Current log-likelihood at step 13: -2217952.117
+Current log-likelihood at step 14: -2217943.294
+Current log-likelihood at step 15: -2217938.798
+Parameters optimization took 14 rounds (140.723 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+Initial log-likelihood: -2212896.375
+Current log-likelihood at step 1: -2212832.739
+Current log-likelihood at step 2: -2212826.873
+Current log-likelihood at step 3: -2212823.166
+Current log-likelihood at step 4: -2212820.396
+Current log-likelihood at step 5: -2212818.244
+Current log-likelihood at step 6: -2212816.524
+Current log-likelihood at step 7: -2212815.130
+Current log-likelihood at step 8: -2212813.972
+Current log-likelihood at step 9: -2212813.006
+Partition-specific rates:  0.580 0.951 0.885 1.512 0.276 0.768 1.342 1.024 0.614 1.138 2.196 1.968 0.976 0.571 0.729 0.628 1.154 0.822 0.419 0.619 0.741 0.920 1.281 0.572 2.251 1.301 0.546 0.979 1.702 0.785 0.859 0.770 0.703 1.571 1.130 0.452 0.718 0.664 0.602 0.697 1.892 0.692 0.875 0.518 0.516 2.747 0.514 0.763 0.647 0.575 0.691 1.409 0.458 0.608 0.653 0.850 1.036 0.568 0.754 2.505 1.387 0.443 0.514 0.699 0.757 2.329 0.589 2.295 0.763 1.868 0.812 0.598 0.681 0.622 1.731 1.090 0.722 0.957 0.653 0.604 0.711 0.543 0.444 0.772 0.740 1.730 1.339 0.947 0.941 0.574 1.634 0.758 0.728 0.478 0.841 0.447 0.649 0.732 0.817 0.625 0.658 0.834 0.668 0.830 0.651 1.902 0.442 0.984 0.598 0.736 0.750 0.676 1.213 1.751 2.189 1.128 0.948 0.689 0.626 1.015 1.546 0.540 0.874 1.315 2.136 0.692 0.776 2.827 0.756 0.612 0.665 0.706 0.725 2.372 0.753 0.987 0.521 0.864 0.747 0.819 0.764 1.239 0.954 2.001 0.749 2.032 0.847 0.822 0.673 1.078 0.749 0.821 0.801 0.679 0.811 1.126 0.648 12.548 0.803 0.603 4.239 0.766 0.643 1.570 0.758 0.400 2.396 0.777 0.811 0.931 1.051 0.828 0.726 0.696 1.087 0.937 0.510 0.474 0.796 0.880 0.636 0.905 0.705 10.776 1.388 1.441 0.668 0.841 0.686 0.703 0.709 0.805 0.693 0.829 1.224 0.632 0.746 1.004 0.395 0.665 0.650 0.701 0.647 0.658 0.670 0.476 0.680 0.720 0.606 0.548 0.925 0.766 0.596 0.705 0.476 0.618 1.420 2.901 1.057 0.455 1.119 0.598 1.158 0.884 0.872 2.152 0.779 2.174 0.727 0.742 0.661 0.562 0.819 0.778 0.745 0.766 0.627 0.940 0.720 0.676 1.738 3.646 0.649 0.909 0.799 0.593 2.607 0.692 0.783 0.822 0.923 1.501 0.644 0.822 0.765 0.754 0.815 0.424 1.517 1.747 0.946 1.988 0.669 0.772 0.618 0.684 0.844 0.643 0.733 2.060 0.861 0.697 0.915 0.727 0.658 2.521 0.667 0.696 0.774 0.454 1.020 0.790 0.786 0.715 0.629 0.926 0.857 0.557 0.630 0.843 0.830 0.697 0.795 0.508 0.619 0.434 1.516 1.579 0.512 2.825 0.631 0.881 2.285 0.809 0.681 0.536 1.945 0.765 0.807 0.822 0.670 0.641 0.456 1.026 1.242 0.805 0.554 1.113 0.820 1.464 0.620 0.945 0.813 1.013 0.529 0.650 0.606 0.770 0.525 2.511 1.029 0.750 0.778 1.215 0.606 0.218 0.617 0.307 0.577 1.018 1.001 1.259 0.882 0.434 0.648 0.740 0.707 2.061 0.622 1.081 0.834 0.904
+Parameters optimization took 8 rounds (60.061 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Time for fast ML tree search: 305.235 seconds
+
+NOTE: ModelFinder requires 251 MB RAM!
+Selecting individual models for 352 charsets using BIC...
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++R5 reinitialized from +R4 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.500
++R5 reinitialized from +R4 with factor 0.500
++R5 reinitialized from +R4 with factor 0.250
++R5 reinitialized from +R4 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R5 reinitialized from +I+R4 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++R5 reinitialized from +R4 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R5 reinitialized from +I+R4 with factor 0.500
++I+R5 reinitialized from +I+R4 with factor 0.250
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.062
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.500
++R5 reinitialized from +R4 with factor 0.500
++I+R5 reinitialized from +I+R4 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++I+R5 reinitialized from +I+R4 with factor 0.500
++I+R4 reinitialized from +I+R3 with factor 0.500
++I+R5 reinitialized from +I+R4 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R5 reinitialized from +R4 with factor 0.500
++R5 reinitialized from +R4 with factor 0.250
++R5 reinitialized from +R4 with factor 0.500
++R5 reinitialized from +R4 with factor 0.250
++R5 reinitialized from +R4 with factor 0.500
++R5 reinitialized from +R4 with factor 0.250
++R5 reinitialized from +R4 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R5 reinitialized from +R4 with factor 0.250
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R5 reinitialized from +R4 with factor 0.500
++R5 reinitialized from +R4 with factor 0.250
++R5 reinitialized from +R4 with factor 0.500
++R5 reinitialized from +R4 with factor 0.250
++R5 reinitialized from +R4 with factor 0.500
++R5 reinitialized from +R4 with factor 0.250
++R5 reinitialized from +R4 with factor 0.125
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++I+R4 reinitialized from +I+R3 with factor 0.500
++R6 reinitialized from +R5 with factor 0.500
++R6 reinitialized from +R5 with factor 0.250
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R3 reinitialized from +R2 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.250
++R3 reinitialized from +R2 with factor 0.125
++R3 reinitialized from +R2 with factor 0.062
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++I+R4 reinitialized from +I+R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.500
++R4 reinitialized from +R3 with factor 0.250
++R4 reinitialized from +R3 with factor 0.125
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.500
++R4 reinitialized from +R3 with factor 0.500
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.250
++R3 reinitialized from +R2 with factor 0.125
++R3 reinitialized from +R2 with factor 0.062
++I+R3 reinitialized from +I+R2 with factor 0.500
++I+R3 reinitialized from +I+R2 with factor 0.250
++I+R3 reinitialized from +I+R2 with factor 0.125
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.500
++R3 reinitialized from +R2 with factor 0.250
+Full partition model BIC score: 4452437.495 (LnL: -2206633.081  df:3214)
+Partition information was printed to /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.best_scheme.nex
+Partition information in Raxml format was printed to /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.best_scheme
+
+All model information printed to /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.model.gz
+CPU time for ModelFinder: 5633.093 seconds (1h:33m:53s)
+Wall-clock time for ModelFinder: 1464.791 seconds (0h:24m:24s)
+Generating 1000 samples for ultrafast bootstrap (seed: 434663)...
+
+NOTE: 2010 MB RAM (1 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -2266373.968
+Current log-likelihood at step 1: -2213329.898
+Current log-likelihood at step 2: -2208662.006
+Current log-likelihood at step 3: -2208066.556
+Current log-likelihood at step 4: -2207972.567
+Current log-likelihood at step 5: -2207930.192
+Current log-likelihood at step 6: -2207907.190
+Current log-likelihood at step 7: -2207883.592
+Current log-likelihood at step 8: -2207856.583
+Current log-likelihood at step 9: -2207831.085
+Current log-likelihood at step 10: -2207804.130
+Current log-likelihood at step 11: -2207775.497
+Current log-likelihood at step 12: -2207745.002
+Current log-likelihood at step 13: -2207712.496
+Current log-likelihood at step 14: -2207677.885
+Current log-likelihood at step 15: -2207641.198
+Current log-likelihood at step 16: -2207440.112
+Current log-likelihood at step 17: -2207418.201
+Current log-likelihood at step 18: -2207394.790
+Current log-likelihood at step 19: -2207369.409
+Current log-likelihood at step 20: -2207341.790
+Current log-likelihood at step 21: -2207311.515
+Current log-likelihood at step 22: -2207278.097
+Current log-likelihood at step 23: -2207240.923
+Current log-likelihood at step 24: -2207199.202
+Current log-likelihood at step 25: -2207151.947
+Current log-likelihood at step 26: -2207097.949
+Current log-likelihood at step 27: -2206973.012
+Current log-likelihood at step 28: -2206827.496
+Current log-likelihood at step 29: -2206617.542
+Current log-likelihood at step 30: -2206616.096
+Current log-likelihood at step 31: -2206614.751
+Current log-likelihood at step 32: -2206613.377
+Current log-likelihood at step 33: -2206611.950
+Current log-likelihood at step 34: -2206610.464
+Current log-likelihood at step 35: -2206608.931
+Current log-likelihood at step 36: -2206601.825
+Current log-likelihood at step 37: -2206601.771
+Partition-specific rates:  0.704 1.165 0.962 1.467 0.359 0.880 1.328 1.161 0.598 1.098 1.445 1.505 1.114 0.684 0.830 0.702 1.172 0.873 0.542 0.745 0.863 1.078 1.611 0.654 1.718 1.635 0.696 1.103 1.280 0.988 0.976 0.911 0.885 1.263 1.364 0.567 0.736 0.831 0.647 0.892 1.307 0.837 1.053 0.632 0.605 2.337 0.648 0.884 0.783 0.704 0.824 1.358 0.427 0.744 0.802 1.141 1.248 0.748 0.948 2.160 0.965 0.534 0.622 0.764 0.895 2.285 0.668 1.711 0.960 1.745 1.009 0.724 0.812 0.723 1.283 1.398 0.909 1.204 0.785 0.693 0.851 0.685 0.562 0.824 0.872 1.394 1.307 1.185 1.009 0.639 1.141 0.906 0.883 0.577 1.059 0.568 0.812 0.824 0.990 0.750 0.801 0.907 0.786 1.028 0.797 1.663 0.538 1.222 0.696 0.947 0.847 0.839 1.556 1.583 1.855 1.417 1.005 0.801 0.762 0.801 1.398 0.634 1.001 1.062 1.735 0.772 0.801 1.965 0.972 0.777 0.807 0.872 0.819 1.714 0.959 1.109 0.624 1.083 0.852 0.902 0.962 1.259 1.212 1.482 0.894 1.648 0.971 0.967 0.743 1.272 0.844 0.978 0.937 0.857 0.961 1.231 0.717 1.847 1.015 0.743 3.624 0.967 0.750 1.462 0.871 0.478 1.364 0.856 1.023 1.170 1.183 1.085 0.855 0.733 1.236 1.082 0.631 0.677 0.949 0.895 0.762 1.016 0.933 2.726 1.347 1.088 0.768 1.022 0.812 0.855 0.892 0.922 0.805 1.054 1.598 0.777 0.937 1.253 0.517 0.838 0.818 0.807 0.767 0.777 0.862 0.603 0.779 0.817 0.746 0.676 1.076 0.969 0.633 0.842 0.577 0.775 1.358 1.723 1.311 0.558 1.231 0.694 1.483 0.956 1.058 2.087 0.902 1.599 0.875 0.748 0.778 0.651 1.005 0.943 0.836 0.906 0.671 1.079 0.900 0.801 0.990 2.228 0.792 1.025 1.013 0.714 1.369 0.896 1.015 0.817 1.036 1.486 0.756 0.927 0.978 0.845 0.839 0.508 1.268 1.424 1.098 1.592 0.831 0.897 0.725 0.836 0.968 0.810 0.916 1.575 0.995 0.782 0.988 0.939 0.753 1.776 0.840 0.838 0.996 0.527 1.200 1.001 1.001 0.901 0.806 1.128 1.078 0.705 0.768 0.907 0.985 0.864 0.920 0.619 0.733 0.524 1.381 1.582 0.611 1.694 0.789 1.101 1.518 0.987 0.740 0.666 1.270 0.946 0.912 0.911 0.846 0.685 0.539 1.084 1.496 1.017 0.687 1.277 0.731 2.054 0.786 1.127 0.973 1.113 0.613 0.813 0.723 0.919 0.655 1.437 1.271 0.918 0.876 1.501 0.709 0.274 0.779 0.374 0.693 1.231 1.089 1.427 1.124 0.543 0.763 0.797 0.977 1.479 0.773 1.321 0.941 1.269
+Parameters optimization took 36 rounds (230.252 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00257429 secs using 398.4% CPU
+Computing ML distances took 0.002833 sec (of wall-clock time) 0.011125 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.000817347 secs using 300.5% CPU
+Computing RapidNJ tree took 0.028443 sec (of wall-clock time) 0.038941 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -2738340.148
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 263.472 second
+Computing log-likelihood of 98 initial trees ... 526.648 seconds
+Current best score: -2206601.771
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -2206601.771
+Current log-likelihood at step 1: -2206601.720
+Parameters optimization took 0 rounds (4.909 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 1: -2206601.720
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -2206502.422
+Current log-likelihood at step 1: -2206475.773
+Current log-likelihood at step 2: -2206472.926
+Current log-likelihood at step 3: -2206471.913
+Current log-likelihood at step 4: -2206471.422
+Current log-likelihood at step 5: -2206471.105
+Current log-likelihood at step 6: -2206470.875
+Current log-likelihood at step 7: -2206470.705
+Current log-likelihood at step 8: -2206470.573
+Current log-likelihood at step 9: -2206470.464
+Current log-likelihood at step 10: -2206470.368
+Parameters optimization took 9 rounds (73.864 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 2: -2206470.368
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -2206414.925
+Current log-likelihood at step 1: -2206406.386
+Current log-likelihood at step 2: -2206405.114
+Current log-likelihood at step 3: -2206404.731
+Current log-likelihood at step 4: -2206404.514
+Current log-likelihood at step 5: -2206404.371
+Current log-likelihood at step 6: -2206404.271
+Current log-likelihood at step 7: -2206404.190
+Parameters optimization took 6 rounds (52.712 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 3: -2206404.190
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -2206392.484
+Current log-likelihood at step 1: -2206387.576
+Current log-likelihood at step 2: -2206386.632
+Current log-likelihood at step 3: -2206386.354
+Current log-likelihood at step 4: -2206386.181
+Current log-likelihood at step 5: -2206386.057
+Current log-likelihood at step 6: -2206385.967
+Parameters optimization took 5 rounds (46.034 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BETTER TREE FOUND at iteration 6: -2206385.967
+Iteration 10 / LogL: -2206390.865 / Time: 0h:50m:56s
+Iteration 20 / LogL: -2206614.199 / Time: 1h:5m:13s
+Finish initializing candidate tree set (6)
+Current best tree score: -2206385.967 / CPU time: 2156.087
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -2206408.930 / Time: 1h:14m:27s (2h:11m:9s left)
+Iteration 40 / LogL: -2206411.942 / Time: 1h:24m:8s (1h:41m:3s left)
+Iteration 50 / LogL: -2206402.341 / Time: 1h:33m:39s (1h:19m:7s left)
+Log-likelihood cutoff on original alignment: -2206663.335
+Iteration 60 / LogL: -2206394.969 / Time: 1h:43m:32s (1h:1m:41s left)
+Iteration 70 / LogL: -2206394.611 / Time: 1h:53m:32s (0h:46m:30s left)
+Iteration 80 / LogL: -2206396.987 / Time: 2h:3m:47s (0h:32m:42s left)
+Iteration 90 / LogL: -2206406.005 / Time: 2h:14m:14s (0h:19m:44s left)
+Iteration 100 / LogL: -2206446.963 / Time: 2h:24m:27s (0h:7m:16s left)
+Log-likelihood cutoff on original alignment: -2206663.335
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.999
+TREE SEARCH COMPLETED AFTER 107 ITERATIONS / Time: 2h:32m:3s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -2206385.967
+Current log-likelihood at step 1: -2206385.859
+Current log-likelihood at step 2: -2206385.764
+Current log-likelihood at step 3: -2206385.697
+Current log-likelihood at step 4: -2206385.673
+Current log-likelihood at step 5: -2206385.653
+Current log-likelihood at step 6: -2206385.637
+Current log-likelihood at step 7: -2206385.622
+Current log-likelihood at step 8: -2206385.609
+Current log-likelihood at step 9: -2206385.598
+Current log-likelihood at step 10: -2206385.588
+Current log-likelihood at step 11: -2206385.577
+Current log-likelihood at step 12: -2206385.568
+Partition-specific rates:  0.706 1.166 0.964 1.467 0.360 0.880 1.334 1.162 0.599 1.094 1.447 1.506 1.115 0.682 0.823 0.700 1.172 0.874 0.543 0.744 0.860 1.083 1.615 0.653 1.746 1.607 0.697 1.070 1.278 0.990 0.971 0.910 0.888 1.274 1.363 0.568 0.737 0.805 0.648 0.886 1.310 0.836 1.054 0.635 0.606 2.354 0.648 0.861 0.782 0.705 0.828 1.358 0.428 0.743 0.801 1.138 1.246 0.748 0.925 2.176 0.969 0.535 0.623 0.768 0.897 2.286 0.668 1.704 0.964 1.743 1.015 0.724 0.802 0.724 1.295 1.396 0.911 1.207 0.785 0.696 0.855 0.684 0.563 0.826 0.873 1.394 1.309 1.185 1.012 0.639 1.145 0.906 0.883 0.578 1.009 0.568 0.813 0.824 0.991 0.755 0.797 0.913 0.787 1.033 0.798 1.677 0.539 1.218 0.694 0.944 0.848 0.842 1.559 1.586 1.840 1.421 1.005 0.802 0.758 0.800 1.400 0.634 1.002 1.062 1.731 0.773 0.801 1.977 0.972 0.784 0.807 0.869 0.820 1.709 0.959 1.116 0.624 1.086 0.855 0.900 0.955 1.269 1.213 1.489 0.895 1.648 0.972 0.961 0.745 1.268 0.841 0.978 0.941 0.859 0.963 1.230 0.713 1.838 1.014 0.744 3.606 0.963 0.749 1.467 0.873 0.478 1.364 0.837 1.022 1.171 1.185 1.084 0.855 0.734 1.237 1.079 0.635 0.673 0.955 0.892 0.761 1.016 0.934 2.715 1.339 1.083 0.771 1.028 0.814 0.856 0.893 0.919 0.807 1.056 1.581 0.780 0.939 1.256 0.517 0.838 0.819 0.810 0.767 0.777 0.882 0.604 0.785 0.822 0.742 0.674 1.059 0.969 0.633 0.842 0.572 0.777 1.356 1.725 1.314 0.558 1.229 0.696 1.480 0.951 1.054 2.086 0.907 1.653 0.874 0.747 0.776 0.654 1.005 0.943 0.839 0.906 0.671 1.079 0.902 0.800 0.991 2.222 0.793 1.036 1.014 0.716 1.368 0.905 1.015 0.815 1.020 1.484 0.756 0.914 0.979 0.847 0.878 0.512 1.267 1.424 1.098 1.593 0.827 0.893 0.727 0.834 0.950 0.810 0.906 1.577 0.996 0.783 0.988 0.927 0.741 1.779 0.845 0.839 0.997 0.529 1.195 0.993 0.999 0.898 0.807 1.127 1.076 0.708 0.768 0.907 0.986 0.863 0.918 0.618 0.729 0.525 1.381 1.572 0.613 1.693 0.792 1.088 1.530 0.984 0.739 0.669 1.272 0.947 0.912 0.915 0.850 0.685 0.539 1.085 1.497 1.018 0.682 1.277 0.731 2.054 0.792 1.127 0.972 1.111 0.614 0.816 0.723 0.921 0.655 1.446 1.265 0.919 0.878 1.498 0.705 0.274 0.772 0.375 0.693 1.221 1.089 1.431 1.115 0.545 0.768 0.801 0.977 1.492 0.785 1.318 0.945 1.272
+Parameters optimization took 11 rounds (67.408 sec)
+
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Partition information was printed to /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.best_model.nex
+BEST SCORE FOUND : -2206385.568
+Creating bootstrap support values...
+Split supports printed to NEXUS file /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.splits.nex
+Total tree length: 2.851
+
+Total number of iterations: 107
+CPU time used for tree search: 23658.393 sec (6h:34m:18s)
+Wall-clock time used for tree search: 7365.699 sec (2h:2m:45s)
+Total CPU time used: 30587.643 sec (8h:29m:47s)
+Total wall-clock time used: 9191.723 sec (2h:33m:11s)
+
+Computing bootstrap consensus tree...
+Reading input file /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.splits.nex...
+110 taxa and 268 splits.
+Consensus tree written to /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.contree
+Reading input trees file /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.contree
+Log-likelihood of consensus tree: -2206394.424
+
+Analysis results written to: 
+  IQ-TREE report:                /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.iqtree
+  Maximum-likelihood tree:       /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.treefile
+  Likelihood distances:          /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.mldist
+  Best partitioning scheme:      /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.best_scheme.nex
+           in RAxML format:      /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.best_scheme
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.splits.nex
+  Consensus tree:                /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.contree
+  Screen log file:               /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree_results/angio353_supermatrix.log
+
+Date and Time: Sun Apr 26 23:23:56 2026
