@@ -1,0 +1,3 @@
+pxrr -t all_gene_trees.tre -out Salvia_nipponica_CRR706400,Salvia_microphylla_CRR706402 -o all_gene_trees_ROOTED.tre
+pxrr -t all_gene_trees.tre -g Salvia_nipponica_CRR706400,Salvia_microphylla_CRR706402 -o all_gene_trees_ROOTED.tre
+pxrr -t species_tree.tre -g Salvia_nipponica_CRR706400,Salvia_microphylla_CRR706402 -o species_tree_ROOTED.tre

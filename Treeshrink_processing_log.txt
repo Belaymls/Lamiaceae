@@ -1,0 +1,1770 @@
+TreeShrink batch processing started at Sun May  3 14:40:49 CST 2026
+==============================================
+Found 352 gene trees to process...
+Processing 4471_trimmed (1/352)...
+  Created: 4471_trimmed_summary.txt
+  Created: 4471_trimmed.treefile
+  Created: 4471_trimmed.txt
+Sun May  3 14:40:52 CST 2026: SUCCESS - 4471_trimmed processed
+Processing 4527_trimmed (2/352)...
+  Created: 4527_trimmed_summary.txt
+  Created: 4527_trimmed.treefile
+  Created: 4527_trimmed.txt
+Sun May  3 14:40:53 CST 2026: SUCCESS - 4527_trimmed processed
+Processing 4691_trimmed (3/352)...
+  Created: 4691_trimmed_summary.txt
+  Created: 4691_trimmed.treefile
+  Created: 4691_trimmed.txt
+Sun May  3 14:40:53 CST 2026: SUCCESS - 4691_trimmed processed
+Processing 4724_trimmed (4/352)...
+  Created: 4724_trimmed_summary.txt
+  Created: 4724_trimmed.treefile
+  Created: 4724_trimmed.txt
+Sun May  3 14:40:54 CST 2026: SUCCESS - 4724_trimmed processed
+Processing 4744_trimmed (5/352)...
+  Created: 4744_trimmed_summary.txt
+  Created: 4744_trimmed.treefile
+  Created: 4744_trimmed.txt
+Sun May  3 14:40:55 CST 2026: SUCCESS - 4744_trimmed processed
+Processing 4757_trimmed (6/352)...
+  Created: 4757_trimmed_summary.txt
+  Created: 4757_trimmed.treefile
+  Created: 4757_trimmed.txt
+Sun May  3 14:40:56 CST 2026: SUCCESS - 4757_trimmed processed
+Processing 4793_trimmed (7/352)...
+  Created: 4793_trimmed_summary.txt
+  Created: 4793_trimmed.treefile
+  Created: 4793_trimmed.txt
+Sun May  3 14:40:57 CST 2026: SUCCESS - 4793_trimmed processed
+Processing 4796_trimmed (8/352)...
+  Created: 4796_trimmed_summary.txt
+  Created: 4796_trimmed.treefile
+  Created: 4796_trimmed.txt
+Sun May  3 14:40:58 CST 2026: SUCCESS - 4796_trimmed processed
+Processing 4802_trimmed (9/352)...
+  Created: 4802_trimmed_summary.txt
+  Created: 4802_trimmed.treefile
+  Created: 4802_trimmed.txt
+Sun May  3 14:40:59 CST 2026: SUCCESS - 4802_trimmed processed
+Processing 4806_trimmed (10/352)...
+  Created: 4806_trimmed_summary.txt
+  Created: 4806_trimmed.treefile
+  Created: 4806_trimmed.txt
+Sun May  3 14:40:59 CST 2026: SUCCESS - 4806_trimmed processed
+Processing 4848_trimmed (11/352)...
+  Created: 4848_trimmed_summary.txt
+  Created: 4848_trimmed.treefile
+  Created: 4848_trimmed.txt
+Sun May  3 14:41:00 CST 2026: SUCCESS - 4848_trimmed processed
+Processing 4889_trimmed (12/352)...
+  Created: 4889_trimmed_summary.txt
+  Created: 4889_trimmed.treefile
+  Created: 4889_trimmed.txt
+Sun May  3 14:41:01 CST 2026: SUCCESS - 4889_trimmed processed
+Processing 4890_trimmed (13/352)...
+  Created: 4890_trimmed_summary.txt
+  Created: 4890_trimmed.treefile
+  Created: 4890_trimmed.txt
+Sun May  3 14:41:02 CST 2026: SUCCESS - 4890_trimmed processed
+Processing 4893_trimmed (14/352)...
+  Created: 4893_trimmed_summary.txt
+  Created: 4893_trimmed.treefile
+  Created: 4893_trimmed.txt
+Sun May  3 14:41:03 CST 2026: SUCCESS - 4893_trimmed processed
+Processing 4932_trimmed (15/352)...
+  Created: 4932_trimmed_summary.txt
+  Created: 4932_trimmed.treefile
+  Created: 4932_trimmed.txt
+Sun May  3 14:41:04 CST 2026: SUCCESS - 4932_trimmed processed
+Processing 4942_trimmed (16/352)...
+  Created: 4942_trimmed_summary.txt
+  Created: 4942_trimmed.treefile
+  Created: 4942_trimmed.txt
+Sun May  3 14:41:05 CST 2026: SUCCESS - 4942_trimmed processed
+Processing 4951_trimmed (17/352)...
+  Created: 4951_trimmed_summary.txt
+  Created: 4951_trimmed.treefile
+  Created: 4951_trimmed.txt
+Sun May  3 14:41:05 CST 2026: SUCCESS - 4951_trimmed processed
+Processing 4954_trimmed (18/352)...
+  Created: 4954_trimmed_summary.txt
+  Created: 4954_trimmed.treefile
+  Created: 4954_trimmed.txt
+Sun May  3 14:41:06 CST 2026: SUCCESS - 4954_trimmed processed
+Processing 4989_trimmed (19/352)...
+  Created: 4989_trimmed_summary.txt
+  Created: 4989_trimmed.treefile
+  Created: 4989_trimmed.txt
+Sun May  3 14:41:07 CST 2026: SUCCESS - 4989_trimmed processed
+Processing 4992_trimmed (20/352)...
+  Created: 4992_trimmed_summary.txt
+  Created: 4992_trimmed.treefile
+  Created: 4992_trimmed.txt
+Sun May  3 14:41:08 CST 2026: SUCCESS - 4992_trimmed processed
+Processing 5018_trimmed (21/352)...
+  Created: 5018_trimmed_summary.txt
+  Created: 5018_trimmed.treefile
+  Created: 5018_trimmed.txt
+Sun May  3 14:41:09 CST 2026: SUCCESS - 5018_trimmed processed
+Processing 5032_trimmed (22/352)...
+  Created: 5032_trimmed_summary.txt
+  Created: 5032_trimmed.treefile
+  Created: 5032_trimmed.txt
+Sun May  3 14:41:10 CST 2026: SUCCESS - 5032_trimmed processed
+Processing 5034_trimmed (23/352)...
+  Created: 5034_trimmed_summary.txt
+  Created: 5034_trimmed.treefile
+  Created: 5034_trimmed.txt
+Sun May  3 14:41:10 CST 2026: SUCCESS - 5034_trimmed processed
+Processing 5038_trimmed (24/352)...
+  Created: 5038_trimmed_summary.txt
+  Created: 5038_trimmed.treefile
+  Created: 5038_trimmed.txt
+Sun May  3 14:41:11 CST 2026: SUCCESS - 5038_trimmed processed
+Processing 5064_trimmed (25/352)...
+  Created: 5064_trimmed_summary.txt
+  Created: 5064_trimmed.treefile
+  Created: 5064_trimmed.txt
+Sun May  3 14:41:12 CST 2026: SUCCESS - 5064_trimmed processed
+Processing 5090_trimmed (26/352)...
+  Created: 5090_trimmed_summary.txt
+  Created: 5090_trimmed.treefile
+  Created: 5090_trimmed.txt
+Sun May  3 14:41:13 CST 2026: SUCCESS - 5090_trimmed processed
+Processing 5104_trimmed (27/352)...
+  Created: 5104_trimmed_summary.txt
+  Created: 5104_trimmed.treefile
+  Created: 5104_trimmed.txt
+Sun May  3 14:41:14 CST 2026: SUCCESS - 5104_trimmed processed
+Processing 5116_trimmed (28/352)...
+  Created: 5116_trimmed_summary.txt
+  Created: 5116_trimmed.treefile
+  Created: 5116_trimmed.txt
+Sun May  3 14:41:15 CST 2026: SUCCESS - 5116_trimmed processed
+Processing 5123_trimmed (29/352)...
+  Created: 5123_trimmed_summary.txt
+  Created: 5123_trimmed.treefile
+  Created: 5123_trimmed.txt
+Sun May  3 14:41:15 CST 2026: SUCCESS - 5123_trimmed processed
+Processing 5131_trimmed (30/352)...
+  Created: 5131_trimmed_summary.txt
+  Created: 5131_trimmed.treefile
+  Created: 5131_trimmed.txt
+Sun May  3 14:41:16 CST 2026: SUCCESS - 5131_trimmed processed
+Processing 5138_trimmed (31/352)...
+  Created: 5138_trimmed_summary.txt
+  Created: 5138_trimmed.treefile
+  Created: 5138_trimmed.txt
+Sun May  3 14:41:17 CST 2026: SUCCESS - 5138_trimmed processed
+Processing 5162_trimmed (32/352)...
+  Created: 5162_trimmed_summary.txt
+  Created: 5162_trimmed.treefile
+  Created: 5162_trimmed.txt
+Sun May  3 14:41:18 CST 2026: SUCCESS - 5162_trimmed processed
+Processing 5163_trimmed (33/352)...
+  Created: 5163_trimmed_summary.txt
+  Created: 5163_trimmed.treefile
+  Created: 5163_trimmed.txt
+Sun May  3 14:41:19 CST 2026: SUCCESS - 5163_trimmed processed
+Processing 5168_trimmed (34/352)...
+  Created: 5168_trimmed_summary.txt
+  Created: 5168_trimmed.treefile
+  Created: 5168_trimmed.txt
+Sun May  3 14:41:20 CST 2026: SUCCESS - 5168_trimmed processed
+Processing 5177_trimmed (35/352)...
+  Created: 5177_trimmed_summary.txt
+  Created: 5177_trimmed.treefile
+  Created: 5177_trimmed.txt
+Sun May  3 14:41:21 CST 2026: SUCCESS - 5177_trimmed processed
+Processing 5188_trimmed (36/352)...
+  Created: 5188_trimmed_summary.txt
+  Created: 5188_trimmed.treefile
+  Created: 5188_trimmed.txt
+Sun May  3 14:41:21 CST 2026: SUCCESS - 5188_trimmed processed
+Processing 5200_trimmed (37/352)...
+  Created: 5200_trimmed_summary.txt
+  Created: 5200_trimmed.treefile
+  Created: 5200_trimmed.txt
+Sun May  3 14:41:22 CST 2026: SUCCESS - 5200_trimmed processed
+Processing 5206_trimmed (38/352)...
+  Created: 5206_trimmed_summary.txt
+  Created: 5206_trimmed.treefile
+  Created: 5206_trimmed.txt
+Sun May  3 14:41:23 CST 2026: SUCCESS - 5206_trimmed processed
+Processing 5220_trimmed (39/352)...
+  Created: 5220_trimmed_summary.txt
+  Created: 5220_trimmed.treefile
+  Created: 5220_trimmed.txt
+Sun May  3 14:41:24 CST 2026: SUCCESS - 5220_trimmed processed
+Processing 5257_trimmed (40/352)...
+  Created: 5257_trimmed_summary.txt
+  Created: 5257_trimmed.treefile
+  Created: 5257_trimmed.txt
+Sun May  3 14:41:25 CST 2026: SUCCESS - 5257_trimmed processed
+Processing 5260_trimmed (41/352)...
+  Created: 5260_trimmed_summary.txt
+  Created: 5260_trimmed.treefile
+  Created: 5260_trimmed.txt
+Sun May  3 14:41:26 CST 2026: SUCCESS - 5260_trimmed processed
+Processing 5264_trimmed (42/352)...
+  Created: 5264_trimmed_summary.txt
+  Created: 5264_trimmed.treefile
+  Created: 5264_trimmed.txt
+Sun May  3 14:41:26 CST 2026: SUCCESS - 5264_trimmed processed
+Processing 5271_trimmed (43/352)...
+  Created: 5271_trimmed_summary.txt
+  Created: 5271_trimmed.treefile
+  Created: 5271_trimmed.txt
+Sun May  3 14:41:27 CST 2026: SUCCESS - 5271_trimmed processed
+Processing 5273_trimmed (44/352)...
+  Created: 5273_trimmed_summary.txt
+  Created: 5273_trimmed.treefile
+  Created: 5273_trimmed.txt
+Sun May  3 14:41:28 CST 2026: SUCCESS - 5273_trimmed processed
+Processing 5280_trimmed (45/352)...
+  Created: 5280_trimmed_summary.txt
+  Created: 5280_trimmed.treefile
+  Created: 5280_trimmed.txt
+Sun May  3 14:41:29 CST 2026: SUCCESS - 5280_trimmed processed
+Processing 5296_trimmed (46/352)...
+  Created: 5296_trimmed_summary.txt
+  Created: 5296_trimmed.treefile
+  Created: 5296_trimmed.txt
+Sun May  3 14:41:30 CST 2026: SUCCESS - 5296_trimmed processed
+Processing 5299_trimmed (47/352)...
+  Created: 5299_trimmed_summary.txt
+  Created: 5299_trimmed.treefile
+  Created: 5299_trimmed.txt
+Sun May  3 14:41:31 CST 2026: SUCCESS - 5299_trimmed processed
+Processing 5304_trimmed (48/352)...
+  Created: 5304_trimmed_summary.txt
+  Created: 5304_trimmed.treefile
+  Created: 5304_trimmed.txt
+Sun May  3 14:41:32 CST 2026: SUCCESS - 5304_trimmed processed
+Processing 5318_trimmed (49/352)...
+  Created: 5318_trimmed_summary.txt
+  Created: 5318_trimmed.treefile
+  Created: 5318_trimmed.txt
+Sun May  3 14:41:32 CST 2026: SUCCESS - 5318_trimmed processed
+Processing 5326_trimmed (50/352)...
+  Created: 5326_trimmed_summary.txt
+  Created: 5326_trimmed.treefile
+  Created: 5326_trimmed.txt
+Sun May  3 14:41:33 CST 2026: SUCCESS - 5326_trimmed processed
+Processing 5328_trimmed (51/352)...
+  Created: 5328_trimmed_summary.txt
+  Created: 5328_trimmed.treefile
+  Created: 5328_trimmed.txt
+Sun May  3 14:41:34 CST 2026: SUCCESS - 5328_trimmed processed
+Processing 5333_trimmed (52/352)...
+  Created: 5333_trimmed_summary.txt
+  Created: 5333_trimmed.treefile
+  Created: 5333_trimmed.txt
+Sun May  3 14:41:35 CST 2026: SUCCESS - 5333_trimmed processed
+Processing 5335_trimmed (53/352)...
+  Created: 5335_trimmed_summary.txt
+  Created: 5335_trimmed.treefile
+  Created: 5335_trimmed.txt
+Sun May  3 14:41:36 CST 2026: SUCCESS - 5335_trimmed processed
+Processing 5339_trimmed (54/352)...
+  Created: 5339_trimmed_summary.txt
+  Created: 5339_trimmed.treefile
+  Created: 5339_trimmed.txt
+Sun May  3 14:41:37 CST 2026: SUCCESS - 5339_trimmed processed
+Processing 5343_trimmed (55/352)...
+  Created: 5343_trimmed_summary.txt
+  Created: 5343_trimmed.treefile
+  Created: 5343_trimmed.txt
+Sun May  3 14:41:37 CST 2026: SUCCESS - 5343_trimmed processed
+Processing 5347_trimmed (56/352)...
+  Created: 5347_trimmed_summary.txt
+  Created: 5347_trimmed.treefile
+  Created: 5347_trimmed.txt
+Sun May  3 14:41:38 CST 2026: SUCCESS - 5347_trimmed processed
+Processing 5348_trimmed (57/352)...
+  Created: 5348_trimmed_summary.txt
+  Created: 5348_trimmed.treefile
+  Created: 5348_trimmed.txt
+Sun May  3 14:41:39 CST 2026: SUCCESS - 5348_trimmed processed
+Processing 5354_trimmed (58/352)...
+  Created: 5354_trimmed_summary.txt
+  Created: 5354_trimmed.treefile
+  Created: 5354_trimmed.txt
+Sun May  3 14:41:40 CST 2026: SUCCESS - 5354_trimmed processed
+Processing 5355_trimmed (59/352)...
+  Created: 5355_trimmed_summary.txt
+  Created: 5355_trimmed.treefile
+  Created: 5355_trimmed.txt
+Sun May  3 14:41:41 CST 2026: SUCCESS - 5355_trimmed processed
+Processing 5357_trimmed (60/352)...
+  Created: 5357_trimmed_summary.txt
+  Created: 5357_trimmed.treefile
+  Created: 5357_trimmed.txt
+Sun May  3 14:41:42 CST 2026: SUCCESS - 5357_trimmed processed
+Processing 5366_trimmed (61/352)...
+  Created: 5366_trimmed_summary.txt
+  Created: 5366_trimmed.treefile
+  Created: 5366_trimmed.txt
+Sun May  3 14:41:42 CST 2026: SUCCESS - 5366_trimmed processed
+Processing 5398_trimmed (62/352)...
+  Created: 5398_trimmed_summary.txt
+  Created: 5398_trimmed.treefile
+  Created: 5398_trimmed.txt
+Sun May  3 14:41:43 CST 2026: SUCCESS - 5398_trimmed processed
+Processing 5404_trimmed (63/352)...
+  Created: 5404_trimmed_summary.txt
+  Created: 5404_trimmed.treefile
+  Created: 5404_trimmed.txt
+Sun May  3 14:41:44 CST 2026: SUCCESS - 5404_trimmed processed
+Processing 5406_trimmed (64/352)...
+  Created: 5406_trimmed_summary.txt
+  Created: 5406_trimmed.treefile
+  Created: 5406_trimmed.txt
+Sun May  3 14:41:45 CST 2026: SUCCESS - 5406_trimmed processed
+Processing 5421_trimmed (65/352)...
+  Created: 5421_trimmed_summary.txt
+  Created: 5421_trimmed.treefile
+  Created: 5421_trimmed.txt
+Sun May  3 14:41:46 CST 2026: SUCCESS - 5421_trimmed processed
+Processing 5422_trimmed (66/352)...
+  Created: 5422_trimmed_summary.txt
+  Created: 5422_trimmed.treefile
+  Created: 5422_trimmed.txt
+Sun May  3 14:41:47 CST 2026: SUCCESS - 5422_trimmed processed
+Processing 5426_trimmed (67/352)...
+  Created: 5426_trimmed_summary.txt
+  Created: 5426_trimmed.treefile
+  Created: 5426_trimmed.txt
+Sun May  3 14:41:48 CST 2026: SUCCESS - 5426_trimmed processed
+Processing 5427_trimmed (68/352)...
+  Created: 5427_trimmed_summary.txt
+  Created: 5427_trimmed.treefile
+  Created: 5427_trimmed.txt
+Sun May  3 14:41:48 CST 2026: SUCCESS - 5427_trimmed processed
+Processing 5428_trimmed (69/352)...
+  Created: 5428_trimmed_summary.txt
+  Created: 5428_trimmed.treefile
+  Created: 5428_trimmed.txt
+Sun May  3 14:41:49 CST 2026: SUCCESS - 5428_trimmed processed
+Processing 5430_trimmed (70/352)...
+  Created: 5430_trimmed_summary.txt
+  Created: 5430_trimmed.treefile
+  Created: 5430_trimmed.txt
+Sun May  3 14:41:50 CST 2026: SUCCESS - 5430_trimmed processed
+Processing 5434_trimmed (71/352)...
+  Created: 5434_trimmed_summary.txt
+  Created: 5434_trimmed.treefile
+  Created: 5434_trimmed.txt
+Sun May  3 14:41:51 CST 2026: SUCCESS - 5434_trimmed processed
+Processing 5449_trimmed (72/352)...
+  Created: 5449_trimmed_summary.txt
+  Created: 5449_trimmed.treefile
+  Created: 5449_trimmed.txt
+Sun May  3 14:41:52 CST 2026: SUCCESS - 5449_trimmed processed
+Processing 5454_trimmed (73/352)...
+  Created: 5454_trimmed_summary.txt
+  Created: 5454_trimmed.treefile
+  Created: 5454_trimmed.txt
+Sun May  3 14:41:53 CST 2026: SUCCESS - 5454_trimmed processed
+Processing 5460_trimmed (74/352)...
+  Created: 5460_trimmed_summary.txt
+  Created: 5460_trimmed.treefile
+  Created: 5460_trimmed.txt
+Sun May  3 14:41:53 CST 2026: SUCCESS - 5460_trimmed processed
+Processing 5463_trimmed (75/352)...
+  Created: 5463_trimmed_summary.txt
+  Created: 5463_trimmed.treefile
+  Created: 5463_trimmed.txt
+Sun May  3 14:41:54 CST 2026: SUCCESS - 5463_trimmed processed
+Processing 5464_trimmed (76/352)...
+  Created: 5464_trimmed_summary.txt
+  Created: 5464_trimmed.treefile
+  Created: 5464_trimmed.txt
+Sun May  3 14:41:55 CST 2026: SUCCESS - 5464_trimmed processed
+Processing 5469_trimmed (77/352)...
+  Created: 5469_trimmed_summary.txt
+  Created: 5469_trimmed.treefile
+  Created: 5469_trimmed.txt
+Sun May  3 14:41:56 CST 2026: SUCCESS - 5469_trimmed processed
+Processing 5477_trimmed (78/352)...
+  Created: 5477_trimmed_summary.txt
+  Created: 5477_trimmed.treefile
+  Created: 5477_trimmed.txt
+Sun May  3 14:41:57 CST 2026: SUCCESS - 5477_trimmed processed
+Processing 5489_trimmed (79/352)...
+  Created: 5489_trimmed_summary.txt
+  Created: 5489_trimmed.treefile
+  Created: 5489_trimmed.txt
+Sun May  3 14:41:58 CST 2026: SUCCESS - 5489_trimmed processed
+Processing 5502_trimmed (80/352)...
+  Created: 5502_trimmed_summary.txt
+  Created: 5502_trimmed.treefile
+  Created: 5502_trimmed.txt
+Sun May  3 14:41:58 CST 2026: SUCCESS - 5502_trimmed processed
+Processing 5513_trimmed (81/352)...
+  Created: 5513_trimmed_summary.txt
+  Created: 5513_trimmed.treefile
+  Created: 5513_trimmed.txt
+Sun May  3 14:41:59 CST 2026: SUCCESS - 5513_trimmed processed
+Processing 5528_trimmed (82/352)...
+  Created: 5528_trimmed_summary.txt
+  Created: 5528_trimmed.treefile
+  Created: 5528_trimmed.txt
+Sun May  3 14:42:00 CST 2026: SUCCESS - 5528_trimmed processed
+Processing 5531_trimmed (83/352)...
+  Created: 5531_trimmed_summary.txt
+  Created: 5531_trimmed.treefile
+  Created: 5531_trimmed.txt
+Sun May  3 14:42:01 CST 2026: SUCCESS - 5531_trimmed processed
+Processing 5536_trimmed (84/352)...
+  Created: 5536_trimmed_summary.txt
+  Created: 5536_trimmed.treefile
+  Created: 5536_trimmed.txt
+Sun May  3 14:42:02 CST 2026: SUCCESS - 5536_trimmed processed
+Processing 5551_trimmed (85/352)...
+  Created: 5551_trimmed_summary.txt
+  Created: 5551_trimmed.treefile
+  Created: 5551_trimmed.txt
+Sun May  3 14:42:03 CST 2026: SUCCESS - 5551_trimmed processed
+Processing 5554_trimmed (86/352)...
+  Created: 5554_trimmed_summary.txt
+  Created: 5554_trimmed.treefile
+  Created: 5554_trimmed.txt
+Sun May  3 14:42:04 CST 2026: SUCCESS - 5554_trimmed processed
+Processing 5562_trimmed (87/352)...
+  Created: 5562_trimmed_summary.txt
+  Created: 5562_trimmed.treefile
+  Created: 5562_trimmed.txt
+Sun May  3 14:42:04 CST 2026: SUCCESS - 5562_trimmed processed
+Processing 5578_trimmed (88/352)...
+  Created: 5578_trimmed_summary.txt
+  Created: 5578_trimmed.treefile
+  Created: 5578_trimmed.txt
+Sun May  3 14:42:05 CST 2026: SUCCESS - 5578_trimmed processed
+Processing 5594_trimmed (89/352)...
+  Created: 5594_trimmed_summary.txt
+  Created: 5594_trimmed.treefile
+  Created: 5594_trimmed.txt
+Sun May  3 14:42:06 CST 2026: SUCCESS - 5594_trimmed processed
+Processing 5596_trimmed (90/352)...
+  Created: 5596_trimmed_summary.txt
+  Created: 5596_trimmed.treefile
+  Created: 5596_trimmed.txt
+Sun May  3 14:42:07 CST 2026: SUCCESS - 5596_trimmed processed
+Processing 5599_trimmed (91/352)...
+  Created: 5599_trimmed_summary.txt
+  Created: 5599_trimmed.treefile
+  Created: 5599_trimmed.txt
+Sun May  3 14:42:08 CST 2026: SUCCESS - 5599_trimmed processed
+Processing 5614_trimmed (92/352)...
+  Created: 5614_trimmed_summary.txt
+  Created: 5614_trimmed.treefile
+  Created: 5614_trimmed.txt
+Sun May  3 14:42:09 CST 2026: SUCCESS - 5614_trimmed processed
+Processing 5620_trimmed (93/352)...
+  Created: 5620_trimmed_summary.txt
+  Created: 5620_trimmed.treefile
+  Created: 5620_trimmed.txt
+Sun May  3 14:42:09 CST 2026: SUCCESS - 5620_trimmed processed
+Processing 5634_trimmed (94/352)...
+  Created: 5634_trimmed_summary.txt
+  Created: 5634_trimmed.treefile
+  Created: 5634_trimmed.txt
+Sun May  3 14:42:10 CST 2026: SUCCESS - 5634_trimmed processed
+Processing 5639_trimmed (95/352)...
+  Created: 5639_trimmed_summary.txt
+  Created: 5639_trimmed.treefile
+  Created: 5639_trimmed.txt
+Sun May  3 14:42:11 CST 2026: SUCCESS - 5639_trimmed processed
+Processing 5642_trimmed (96/352)...
+  Created: 5642_trimmed_summary.txt
+  Created: 5642_trimmed.treefile
+  Created: 5642_trimmed.txt
+Sun May  3 14:42:12 CST 2026: SUCCESS - 5642_trimmed processed
+Processing 5644_trimmed (97/352)...
+  Created: 5644_trimmed_summary.txt
+  Created: 5644_trimmed.treefile
+  Created: 5644_trimmed.txt
+Sun May  3 14:42:13 CST 2026: SUCCESS - 5644_trimmed processed
+Processing 5656_trimmed (98/352)...
+  Created: 5656_trimmed_summary.txt
+  Created: 5656_trimmed.treefile
+  Created: 5656_trimmed.txt
+Sun May  3 14:42:14 CST 2026: SUCCESS - 5656_trimmed processed
+Processing 5660_trimmed (99/352)...
+  Created: 5660_trimmed_summary.txt
+  Created: 5660_trimmed.treefile
+  Created: 5660_trimmed.txt
+Sun May  3 14:42:14 CST 2026: SUCCESS - 5660_trimmed processed
+Processing 5664_trimmed (100/352)...
+  Created: 5664_trimmed_summary.txt
+  Created: 5664_trimmed.treefile
+  Created: 5664_trimmed.txt
+Sun May  3 14:42:15 CST 2026: SUCCESS - 5664_trimmed processed
+Processing 5670_trimmed (101/352)...
+  Created: 5670_trimmed_summary.txt
+  Created: 5670_trimmed.treefile
+  Created: 5670_trimmed.txt
+Sun May  3 14:42:16 CST 2026: SUCCESS - 5670_trimmed processed
+Processing 5699_trimmed (102/352)...
+  Created: 5699_trimmed_summary.txt
+  Created: 5699_trimmed.treefile
+  Created: 5699_trimmed.txt
+Sun May  3 14:42:17 CST 2026: SUCCESS - 5699_trimmed processed
+Processing 5702_trimmed (103/352)...
+  Created: 5702_trimmed_summary.txt
+  Created: 5702_trimmed.treefile
+  Created: 5702_trimmed.txt
+Sun May  3 14:42:18 CST 2026: SUCCESS - 5702_trimmed processed
+Processing 5703_trimmed (104/352)...
+  Created: 5703_trimmed_summary.txt
+  Created: 5703_trimmed.treefile
+  Created: 5703_trimmed.txt
+Sun May  3 14:42:19 CST 2026: SUCCESS - 5703_trimmed processed
+Processing 5716_trimmed (105/352)...
+  Created: 5716_trimmed_summary.txt
+  Created: 5716_trimmed.treefile
+  Created: 5716_trimmed.txt
+Sun May  3 14:42:20 CST 2026: SUCCESS - 5716_trimmed processed
+Processing 5721_trimmed (106/352)...
+  Created: 5721_trimmed_summary.txt
+  Created: 5721_trimmed.treefile
+  Created: 5721_trimmed.txt
+Sun May  3 14:42:20 CST 2026: SUCCESS - 5721_trimmed processed
+Processing 5733_trimmed (107/352)...
+  Created: 5733_trimmed_summary.txt
+  Created: 5733_trimmed.treefile
+  Created: 5733_trimmed.txt
+Sun May  3 14:42:21 CST 2026: SUCCESS - 5733_trimmed processed
+Processing 5744_trimmed (108/352)...
+  Created: 5744_trimmed_summary.txt
+  Created: 5744_trimmed.treefile
+  Created: 5744_trimmed.txt
+Sun May  3 14:42:22 CST 2026: SUCCESS - 5744_trimmed processed
+Processing 5770_trimmed (109/352)...
+  Created: 5770_trimmed_summary.txt
+  Created: 5770_trimmed.treefile
+  Created: 5770_trimmed.txt
+Sun May  3 14:42:23 CST 2026: SUCCESS - 5770_trimmed processed
+Processing 5772_trimmed (110/352)...
+  Created: 5772_trimmed_summary.txt
+  Created: 5772_trimmed.treefile
+  Created: 5772_trimmed.txt
+Sun May  3 14:42:24 CST 2026: SUCCESS - 5772_trimmed processed
+Processing 5791_trimmed (111/352)...
+  Created: 5791_trimmed_summary.txt
+  Created: 5791_trimmed.treefile
+  Created: 5791_trimmed.txt
+Sun May  3 14:42:25 CST 2026: SUCCESS - 5791_trimmed processed
+Processing 5802_trimmed (112/352)...
+  Created: 5802_trimmed_summary.txt
+  Created: 5802_trimmed.treefile
+  Created: 5802_trimmed.txt
+Sun May  3 14:42:25 CST 2026: SUCCESS - 5802_trimmed processed
+Processing 5815_trimmed (113/352)...
+  Created: 5815_trimmed_summary.txt
+  Created: 5815_trimmed.treefile
+  Created: 5815_trimmed.txt
+Sun May  3 14:42:26 CST 2026: SUCCESS - 5815_trimmed processed
+Processing 5816_trimmed (114/352)...
+  Created: 5816_trimmed_summary.txt
+  Created: 5816_trimmed.treefile
+  Created: 5816_trimmed.txt
+Sun May  3 14:42:27 CST 2026: SUCCESS - 5816_trimmed processed
+Processing 5821_trimmed (115/352)...
+  Created: 5821_trimmed_summary.txt
+  Created: 5821_trimmed.treefile
+  Created: 5821_trimmed.txt
+Sun May  3 14:42:28 CST 2026: SUCCESS - 5821_trimmed processed
+Processing 5822_trimmed (116/352)...
+  Created: 5822_trimmed_summary.txt
+  Created: 5822_trimmed.treefile
+  Created: 5822_trimmed.txt
+Sun May  3 14:42:29 CST 2026: SUCCESS - 5822_trimmed processed
+Processing 5840_trimmed (117/352)...
+  Created: 5840_trimmed_summary.txt
+  Created: 5840_trimmed.treefile
+  Created: 5840_trimmed.txt
+Sun May  3 14:42:30 CST 2026: SUCCESS - 5840_trimmed processed
+Processing 5841_trimmed (118/352)...
+  Created: 5841_trimmed_summary.txt
+  Created: 5841_trimmed.treefile
+  Created: 5841_trimmed.txt
+Sun May  3 14:42:31 CST 2026: SUCCESS - 5841_trimmed processed
+Processing 5842_trimmed (119/352)...
+  Created: 5842_trimmed_summary.txt
+  Created: 5842_trimmed.treefile
+  Created: 5842_trimmed.txt
+Sun May  3 14:42:31 CST 2026: SUCCESS - 5842_trimmed processed
+Processing 5843_trimmed (120/352)...
+  Created: 5843_trimmed_summary.txt
+  Created: 5843_trimmed.treefile
+  Created: 5843_trimmed.txt
+Sun May  3 14:42:32 CST 2026: SUCCESS - 5843_trimmed processed
+Processing 5849_trimmed (121/352)...
+  Created: 5849_trimmed_summary.txt
+  Created: 5849_trimmed.treefile
+  Created: 5849_trimmed.txt
+Sun May  3 14:42:33 CST 2026: SUCCESS - 5849_trimmed processed
+Processing 5853_trimmed (122/352)...
+  Created: 5853_trimmed_summary.txt
+  Created: 5853_trimmed.treefile
+  Created: 5853_trimmed.txt
+Sun May  3 14:42:34 CST 2026: SUCCESS - 5853_trimmed processed
+Processing 5857_trimmed (123/352)...
+  Created: 5857_trimmed_summary.txt
+  Created: 5857_trimmed.treefile
+  Created: 5857_trimmed.txt
+Sun May  3 14:42:35 CST 2026: SUCCESS - 5857_trimmed processed
+Processing 5858_trimmed (124/352)...
+  Created: 5858_trimmed_summary.txt
+  Created: 5858_trimmed.treefile
+  Created: 5858_trimmed.txt
+Sun May  3 14:42:36 CST 2026: SUCCESS - 5858_trimmed processed
+Processing 5859_trimmed (125/352)...
+  Created: 5859_trimmed_summary.txt
+  Created: 5859_trimmed.treefile
+  Created: 5859_trimmed.txt
+Sun May  3 14:42:37 CST 2026: SUCCESS - 5859_trimmed processed
+Processing 5865_trimmed (126/352)...
+  Created: 5865_trimmed_summary.txt
+  Created: 5865_trimmed.treefile
+  Created: 5865_trimmed.txt
+Sun May  3 14:42:37 CST 2026: SUCCESS - 5865_trimmed processed
+Processing 5866_trimmed (127/352)...
+  Created: 5866_trimmed_summary.txt
+  Created: 5866_trimmed.treefile
+  Created: 5866_trimmed.txt
+Sun May  3 14:42:38 CST 2026: SUCCESS - 5866_trimmed processed
+Processing 5870_trimmed (128/352)...
+  Created: 5870_trimmed_summary.txt
+  Created: 5870_trimmed.treefile
+  Created: 5870_trimmed.txt
+Sun May  3 14:42:39 CST 2026: SUCCESS - 5870_trimmed processed
+Processing 5893_trimmed (129/352)...
+  Created: 5893_trimmed_summary.txt
+  Created: 5893_trimmed.treefile
+  Created: 5893_trimmed.txt
+Sun May  3 14:42:40 CST 2026: SUCCESS - 5893_trimmed processed
+Processing 5894_trimmed (130/352)...
+  Created: 5894_trimmed_summary.txt
+  Created: 5894_trimmed.treefile
+  Created: 5894_trimmed.txt
+Sun May  3 14:42:41 CST 2026: SUCCESS - 5894_trimmed processed
+Processing 5899_trimmed (131/352)...
+  Created: 5899_trimmed_summary.txt
+  Created: 5899_trimmed.treefile
+  Created: 5899_trimmed.txt
+Sun May  3 14:42:42 CST 2026: SUCCESS - 5899_trimmed processed
+Processing 5910_trimmed (132/352)...
+  Created: 5910_trimmed_summary.txt
+  Created: 5910_trimmed.treefile
+  Created: 5910_trimmed.txt
+Sun May  3 14:42:42 CST 2026: SUCCESS - 5910_trimmed processed
+Processing 5913_trimmed (133/352)...
+  Created: 5913_trimmed_summary.txt
+  Created: 5913_trimmed.treefile
+  Created: 5913_trimmed.txt
+Sun May  3 14:42:43 CST 2026: SUCCESS - 5913_trimmed processed
+Processing 5918_trimmed (134/352)...
+  Created: 5918_trimmed_summary.txt
+  Created: 5918_trimmed.treefile
+  Created: 5918_trimmed.txt
+Sun May  3 14:42:44 CST 2026: SUCCESS - 5918_trimmed processed
+Processing 5919_trimmed (135/352)...
+  Created: 5919_trimmed_summary.txt
+  Created: 5919_trimmed.treefile
+  Created: 5919_trimmed.txt
+Sun May  3 14:42:45 CST 2026: SUCCESS - 5919_trimmed processed
+Processing 5921_trimmed (136/352)...
+  Created: 5921_trimmed_summary.txt
+  Created: 5921_trimmed.treefile
+  Created: 5921_trimmed.txt
+Sun May  3 14:42:46 CST 2026: SUCCESS - 5921_trimmed processed
+Processing 5922_trimmed (137/352)...
+  Created: 5922_trimmed_summary.txt
+  Created: 5922_trimmed.treefile
+  Created: 5922_trimmed.txt
+Sun May  3 14:42:47 CST 2026: SUCCESS - 5922_trimmed processed
+Processing 5926_trimmed (138/352)...
+  Created: 5926_trimmed_summary.txt
+  Created: 5926_trimmed.treefile
+  Created: 5926_trimmed.txt
+Sun May  3 14:42:47 CST 2026: SUCCESS - 5926_trimmed processed
+Processing 5933_trimmed (139/352)...
+  Created: 5933_trimmed_summary.txt
+  Created: 5933_trimmed.treefile
+  Created: 5933_trimmed.txt
+Sun May  3 14:42:48 CST 2026: SUCCESS - 5933_trimmed processed
+Processing 5936_trimmed (140/352)...
+  Created: 5936_trimmed_summary.txt
+  Created: 5936_trimmed.treefile
+  Created: 5936_trimmed.txt
+Sun May  3 14:42:49 CST 2026: SUCCESS - 5936_trimmed processed
+Processing 5940_trimmed (141/352)...
+  Created: 5940_trimmed_summary.txt
+  Created: 5940_trimmed.treefile
+  Created: 5940_trimmed.txt
+Sun May  3 14:42:50 CST 2026: SUCCESS - 5940_trimmed processed
+Processing 5941_trimmed (142/352)...
+  Created: 5941_trimmed_summary.txt
+  Created: 5941_trimmed.treefile
+  Created: 5941_trimmed.txt
+Sun May  3 14:42:51 CST 2026: SUCCESS - 5941_trimmed processed
+Processing 5942_trimmed (143/352)...
+  Created: 5942_trimmed_summary.txt
+  Created: 5942_trimmed.treefile
+  Created: 5942_trimmed.txt
+Sun May  3 14:42:52 CST 2026: SUCCESS - 5942_trimmed processed
+Processing 5943_trimmed (144/352)...
+  Created: 5943_trimmed_summary.txt
+  Created: 5943_trimmed.treefile
+  Created: 5943_trimmed.txt
+Sun May  3 14:42:53 CST 2026: SUCCESS - 5943_trimmed processed
+Processing 5944_trimmed (145/352)...
+  Created: 5944_trimmed_summary.txt
+  Created: 5944_trimmed.treefile
+  Created: 5944_trimmed.txt
+Sun May  3 14:42:53 CST 2026: SUCCESS - 5944_trimmed processed
+Processing 5945_trimmed (146/352)...
+  Created: 5945_trimmed_summary.txt
+  Created: 5945_trimmed.treefile
+  Created: 5945_trimmed.txt
+Sun May  3 14:42:54 CST 2026: SUCCESS - 5945_trimmed processed
+Processing 5949_trimmed (147/352)...
+  Created: 5949_trimmed_summary.txt
+  Created: 5949_trimmed.treefile
+  Created: 5949_trimmed.txt
+Sun May  3 14:42:55 CST 2026: SUCCESS - 5949_trimmed processed
+Processing 5950_trimmed (148/352)...
+  Created: 5950_trimmed_summary.txt
+  Created: 5950_trimmed.treefile
+  Created: 5950_trimmed.txt
+Sun May  3 14:42:56 CST 2026: SUCCESS - 5950_trimmed processed
+Processing 5958_trimmed (149/352)...
+  Created: 5958_trimmed_summary.txt
+  Created: 5958_trimmed.treefile
+  Created: 5958_trimmed.txt
+Sun May  3 14:42:57 CST 2026: SUCCESS - 5958_trimmed processed
+Processing 5960_trimmed (150/352)...
+  Created: 5960_trimmed_summary.txt
+  Created: 5960_trimmed.treefile
+  Created: 5960_trimmed.txt
+Sun May  3 14:42:58 CST 2026: SUCCESS - 5960_trimmed processed
+Processing 5968_trimmed (151/352)...
+  Created: 5968_trimmed_summary.txt
+  Created: 5968_trimmed.treefile
+  Created: 5968_trimmed.txt
+Sun May  3 14:42:58 CST 2026: SUCCESS - 5968_trimmed processed
+Processing 5974_trimmed (152/352)...
+  Created: 5974_trimmed_summary.txt
+  Created: 5974_trimmed.treefile
+  Created: 5974_trimmed.txt
+Sun May  3 14:42:59 CST 2026: SUCCESS - 5974_trimmed processed
+Processing 5977_trimmed (153/352)...
+  Created: 5977_trimmed_summary.txt
+  Created: 5977_trimmed.treefile
+  Created: 5977_trimmed.txt
+Sun May  3 14:43:00 CST 2026: SUCCESS - 5977_trimmed processed
+Processing 5980_trimmed (154/352)...
+  Created: 5980_trimmed_summary.txt
+  Created: 5980_trimmed.treefile
+  Created: 5980_trimmed.txt
+Sun May  3 14:43:01 CST 2026: SUCCESS - 5980_trimmed processed
+Processing 5981_trimmed (155/352)...
+  Created: 5981_trimmed_summary.txt
+  Created: 5981_trimmed.treefile
+  Created: 5981_trimmed.txt
+Sun May  3 14:43:02 CST 2026: SUCCESS - 5981_trimmed processed
+Processing 5990_trimmed (156/352)...
+  Created: 5990_trimmed_summary.txt
+  Created: 5990_trimmed.treefile
+  Created: 5990_trimmed.txt
+Sun May  3 14:43:03 CST 2026: SUCCESS - 5990_trimmed processed
+Processing 6000_trimmed (157/352)...
+  Created: 6000_trimmed_summary.txt
+  Created: 6000_trimmed.treefile
+  Created: 6000_trimmed.txt
+Sun May  3 14:43:03 CST 2026: SUCCESS - 6000_trimmed processed
+Processing 6003_trimmed (158/352)...
+  Created: 6003_trimmed_summary.txt
+  Created: 6003_trimmed.treefile
+  Created: 6003_trimmed.txt
+Sun May  3 14:43:04 CST 2026: SUCCESS - 6003_trimmed processed
+Processing 6004_trimmed (159/352)...
+  Created: 6004_trimmed_summary.txt
+  Created: 6004_trimmed.treefile
+  Created: 6004_trimmed.txt
+Sun May  3 14:43:05 CST 2026: SUCCESS - 6004_trimmed processed
+Processing 6016_trimmed (160/352)...
+  Created: 6016_trimmed_summary.txt
+  Created: 6016_trimmed.treefile
+  Created: 6016_trimmed.txt
+Sun May  3 14:43:06 CST 2026: SUCCESS - 6016_trimmed processed
+Processing 6026_trimmed (161/352)...
+  Created: 6026_trimmed_summary.txt
+  Created: 6026_trimmed.treefile
+  Created: 6026_trimmed.txt
+Sun May  3 14:43:07 CST 2026: SUCCESS - 6026_trimmed processed
+Processing 6029_trimmed (162/352)...
+  Created: 6029_trimmed_summary.txt
+  Created: 6029_trimmed.treefile
+  Created: 6029_trimmed.txt
+Sun May  3 14:43:08 CST 2026: SUCCESS - 6029_trimmed processed
+Processing 6034_trimmed (163/352)...
+  Created: 6034_trimmed_summary.txt
+  Created: 6034_trimmed.treefile
+  Created: 6034_trimmed.txt
+Sun May  3 14:43:09 CST 2026: SUCCESS - 6034_trimmed processed
+Processing 6036_trimmed (164/352)...
+  Created: 6036_trimmed_summary.txt
+  Created: 6036_trimmed.treefile
+  Created: 6036_trimmed.txt
+Sun May  3 14:43:09 CST 2026: SUCCESS - 6036_trimmed processed
+Processing 6038_trimmed (165/352)...
+  Created: 6038_trimmed_summary.txt
+  Created: 6038_trimmed.treefile
+  Created: 6038_trimmed.txt
+Sun May  3 14:43:10 CST 2026: SUCCESS - 6038_trimmed processed
+Processing 6041_trimmed (166/352)...
+  Created: 6041_trimmed_summary.txt
+  Created: 6041_trimmed.treefile
+  Created: 6041_trimmed.txt
+Sun May  3 14:43:11 CST 2026: SUCCESS - 6041_trimmed processed
+Processing 6048_trimmed (167/352)...
+  Created: 6048_trimmed_summary.txt
+  Created: 6048_trimmed.treefile
+  Created: 6048_trimmed.txt
+Sun May  3 14:43:12 CST 2026: SUCCESS - 6048_trimmed processed
+Processing 6050_trimmed (168/352)...
+  Created: 6050_trimmed_summary.txt
+  Created: 6050_trimmed.treefile
+  Created: 6050_trimmed.txt
+Sun May  3 14:43:13 CST 2026: SUCCESS - 6050_trimmed processed
+Processing 6051_trimmed (169/352)...
+  Created: 6051_trimmed_summary.txt
+  Created: 6051_trimmed.treefile
+  Created: 6051_trimmed.txt
+Sun May  3 14:43:14 CST 2026: SUCCESS - 6051_trimmed processed
+Processing 6056_trimmed (170/352)...
+  Created: 6056_trimmed_summary.txt
+  Created: 6056_trimmed.treefile
+  Created: 6056_trimmed.txt
+Sun May  3 14:43:14 CST 2026: SUCCESS - 6056_trimmed processed
+Processing 6064_trimmed (171/352)...
+  Created: 6064_trimmed_summary.txt
+  Created: 6064_trimmed.treefile
+  Created: 6064_trimmed.txt
+Sun May  3 14:43:15 CST 2026: SUCCESS - 6064_trimmed processed
+Processing 6068_trimmed (172/352)...
+  Created: 6068_trimmed_summary.txt
+  Created: 6068_trimmed.treefile
+  Created: 6068_trimmed.txt
+Sun May  3 14:43:16 CST 2026: SUCCESS - 6068_trimmed processed
+Processing 6072_trimmed (173/352)...
+  Created: 6072_trimmed_summary.txt
+  Created: 6072_trimmed.treefile
+  Created: 6072_trimmed.txt
+Sun May  3 14:43:17 CST 2026: SUCCESS - 6072_trimmed processed
+Processing 6098_trimmed (174/352)...
+  Created: 6098_trimmed_summary.txt
+  Created: 6098_trimmed.treefile
+  Created: 6098_trimmed.txt
+Sun May  3 14:43:18 CST 2026: SUCCESS - 6098_trimmed processed
+Processing 6110_trimmed (175/352)...
+  Created: 6110_trimmed_summary.txt
+  Created: 6110_trimmed.treefile
+  Created: 6110_trimmed.txt
+Sun May  3 14:43:19 CST 2026: SUCCESS - 6110_trimmed processed
+Processing 6114_trimmed (176/352)...
+  Created: 6114_trimmed_summary.txt
+  Created: 6114_trimmed.treefile
+  Created: 6114_trimmed.txt
+Sun May  3 14:43:20 CST 2026: SUCCESS - 6114_trimmed processed
+Processing 6119_trimmed (177/352)...
+  Created: 6119_trimmed_summary.txt
+  Created: 6119_trimmed.treefile
+  Created: 6119_trimmed.txt
+Sun May  3 14:43:20 CST 2026: SUCCESS - 6119_trimmed processed
+Processing 6128_trimmed (178/352)...
+  Created: 6128_trimmed_summary.txt
+  Created: 6128_trimmed.treefile
+  Created: 6128_trimmed.txt
+Sun May  3 14:43:21 CST 2026: SUCCESS - 6128_trimmed processed
+Processing 6130_trimmed (179/352)...
+  Created: 6130_trimmed_summary.txt
+  Created: 6130_trimmed.treefile
+  Created: 6130_trimmed.txt
+Sun May  3 14:43:22 CST 2026: SUCCESS - 6130_trimmed processed
+Processing 6139_trimmed (180/352)...
+  Created: 6139_trimmed_summary.txt
+  Created: 6139_trimmed.treefile
+  Created: 6139_trimmed.txt
+Sun May  3 14:43:23 CST 2026: SUCCESS - 6139_trimmed processed
+Processing 6148_trimmed (181/352)...
+  Created: 6148_trimmed_summary.txt
+  Created: 6148_trimmed.treefile
+  Created: 6148_trimmed.txt
+Sun May  3 14:43:24 CST 2026: SUCCESS - 6148_trimmed processed
+Processing 6150_trimmed (182/352)...
+  Created: 6150_trimmed_summary.txt
+  Created: 6150_trimmed.treefile
+  Created: 6150_trimmed.txt
+Sun May  3 14:43:25 CST 2026: SUCCESS - 6150_trimmed processed
+Processing 6164_trimmed (183/352)...
+  Created: 6164_trimmed_summary.txt
+  Created: 6164_trimmed.treefile
+  Created: 6164_trimmed.txt
+Sun May  3 14:43:25 CST 2026: SUCCESS - 6164_trimmed processed
+Processing 6175_trimmed (184/352)...
+  Created: 6175_trimmed_summary.txt
+  Created: 6175_trimmed.treefile
+  Created: 6175_trimmed.txt
+Sun May  3 14:43:26 CST 2026: SUCCESS - 6175_trimmed processed
+Processing 6176_trimmed (185/352)...
+  Created: 6176_trimmed_summary.txt
+  Created: 6176_trimmed.treefile
+  Created: 6176_trimmed.txt
+Sun May  3 14:43:27 CST 2026: SUCCESS - 6176_trimmed processed
+Processing 6198_trimmed (186/352)...
+  Created: 6198_trimmed_summary.txt
+  Created: 6198_trimmed.treefile
+  Created: 6198_trimmed.txt
+Sun May  3 14:43:28 CST 2026: SUCCESS - 6198_trimmed processed
+Processing 6216_trimmed (187/352)...
+  Created: 6216_trimmed_summary.txt
+  Created: 6216_trimmed.treefile
+  Created: 6216_trimmed.txt
+Sun May  3 14:43:29 CST 2026: SUCCESS - 6216_trimmed processed
+Processing 6221_trimmed (188/352)...
+  Created: 6221_trimmed_summary.txt
+  Created: 6221_trimmed.treefile
+  Created: 6221_trimmed.txt
+Sun May  3 14:43:30 CST 2026: SUCCESS - 6221_trimmed processed
+Processing 6226_trimmed (189/352)...
+  Created: 6226_trimmed_summary.txt
+  Created: 6226_trimmed.treefile
+  Created: 6226_trimmed.txt
+Sun May  3 14:43:31 CST 2026: SUCCESS - 6226_trimmed processed
+Processing 6227_trimmed (190/352)...
+  Created: 6227_trimmed_summary.txt
+  Created: 6227_trimmed.treefile
+  Created: 6227_trimmed.txt
+Sun May  3 14:43:31 CST 2026: SUCCESS - 6227_trimmed processed
+Processing 6238_trimmed (191/352)...
+  Created: 6238_trimmed_summary.txt
+  Created: 6238_trimmed.treefile
+  Created: 6238_trimmed.txt
+Sun May  3 14:43:32 CST 2026: SUCCESS - 6238_trimmed processed
+Processing 6258_trimmed (192/352)...
+  Created: 6258_trimmed_summary.txt
+  Created: 6258_trimmed.treefile
+  Created: 6258_trimmed.txt
+Sun May  3 14:43:33 CST 2026: SUCCESS - 6258_trimmed processed
+Processing 6265_trimmed (193/352)...
+  Created: 6265_trimmed_summary.txt
+  Created: 6265_trimmed.treefile
+  Created: 6265_trimmed.txt
+Sun May  3 14:43:34 CST 2026: SUCCESS - 6265_trimmed processed
+Processing 6270_trimmed (194/352)...
+  Created: 6270_trimmed_summary.txt
+  Created: 6270_trimmed.treefile
+  Created: 6270_trimmed.txt
+Sun May  3 14:43:35 CST 2026: SUCCESS - 6270_trimmed processed
+Processing 6274_trimmed (195/352)...
+  Created: 6274_trimmed_summary.txt
+  Created: 6274_trimmed.treefile
+  Created: 6274_trimmed.txt
+Sun May  3 14:43:36 CST 2026: SUCCESS - 6274_trimmed processed
+Processing 6282_trimmed (196/352)...
+  Created: 6282_trimmed_summary.txt
+  Created: 6282_trimmed.treefile
+  Created: 6282_trimmed.txt
+Sun May  3 14:43:36 CST 2026: SUCCESS - 6282_trimmed processed
+Processing 6284_trimmed (197/352)...
+  Created: 6284_trimmed_summary.txt
+  Created: 6284_trimmed.treefile
+  Created: 6284_trimmed.txt
+Sun May  3 14:43:37 CST 2026: SUCCESS - 6284_trimmed processed
+Processing 6295_trimmed (198/352)...
+  Created: 6295_trimmed_summary.txt
+  Created: 6295_trimmed.treefile
+  Created: 6295_trimmed.txt
+Sun May  3 14:43:38 CST 2026: SUCCESS - 6295_trimmed processed
+Processing 6298_trimmed (199/352)...
+  Created: 6298_trimmed_summary.txt
+  Created: 6298_trimmed.treefile
+  Created: 6298_trimmed.txt
+Sun May  3 14:43:39 CST 2026: SUCCESS - 6298_trimmed processed
+Processing 6299_trimmed (200/352)...
+  Created: 6299_trimmed_summary.txt
+  Created: 6299_trimmed.treefile
+  Created: 6299_trimmed.txt
+Sun May  3 14:43:40 CST 2026: SUCCESS - 6299_trimmed processed
+Processing 6303_trimmed (201/352)...
+  Created: 6303_trimmed_summary.txt
+  Created: 6303_trimmed.treefile
+  Created: 6303_trimmed.txt
+Sun May  3 14:43:41 CST 2026: SUCCESS - 6303_trimmed processed
+Processing 6318_trimmed (202/352)...
+  Created: 6318_trimmed_summary.txt
+  Created: 6318_trimmed.treefile
+  Created: 6318_trimmed.txt
+Sun May  3 14:43:41 CST 2026: SUCCESS - 6318_trimmed processed
+Processing 6320_trimmed (203/352)...
+  Created: 6320_trimmed_summary.txt
+  Created: 6320_trimmed.treefile
+  Created: 6320_trimmed.txt
+Sun May  3 14:43:42 CST 2026: SUCCESS - 6320_trimmed processed
+Processing 6363_trimmed (204/352)...
+  Created: 6363_trimmed_summary.txt
+  Created: 6363_trimmed.treefile
+  Created: 6363_trimmed.txt
+Sun May  3 14:43:43 CST 2026: SUCCESS - 6363_trimmed processed
+Processing 6366_trimmed (205/352)...
+  Created: 6366_trimmed_summary.txt
+  Created: 6366_trimmed.treefile
+  Created: 6366_trimmed.txt
+Sun May  3 14:43:44 CST 2026: SUCCESS - 6366_trimmed processed
+Processing 6373_trimmed (206/352)...
+  Created: 6373_trimmed_summary.txt
+  Created: 6373_trimmed.treefile
+  Created: 6373_trimmed.txt
+Sun May  3 14:43:45 CST 2026: SUCCESS - 6373_trimmed processed
+Processing 6376_trimmed (207/352)...
+  Created: 6376_trimmed_summary.txt
+  Created: 6376_trimmed.treefile
+  Created: 6376_trimmed.txt
+Sun May  3 14:43:46 CST 2026: SUCCESS - 6376_trimmed processed
+Processing 6378_trimmed (208/352)...
+  Created: 6378_trimmed_summary.txt
+  Created: 6378_trimmed.treefile
+  Created: 6378_trimmed.txt
+Sun May  3 14:43:47 CST 2026: SUCCESS - 6378_trimmed processed
+Processing 6379_trimmed (209/352)...
+  Created: 6379_trimmed_summary.txt
+  Created: 6379_trimmed.treefile
+  Created: 6379_trimmed.txt
+Sun May  3 14:43:47 CST 2026: SUCCESS - 6379_trimmed processed
+Processing 6383_trimmed (210/352)...
+  Created: 6383_trimmed_summary.txt
+  Created: 6383_trimmed.treefile
+  Created: 6383_trimmed.txt
+Sun May  3 14:43:48 CST 2026: SUCCESS - 6383_trimmed processed
+Processing 6384_trimmed (211/352)...
+  Created: 6384_trimmed_summary.txt
+  Created: 6384_trimmed.treefile
+  Created: 6384_trimmed.txt
+Sun May  3 14:43:49 CST 2026: SUCCESS - 6384_trimmed processed
+Processing 6387_trimmed (212/352)...
+  Created: 6387_trimmed_summary.txt
+  Created: 6387_trimmed.treefile
+  Created: 6387_trimmed.txt
+Sun May  3 14:43:50 CST 2026: SUCCESS - 6387_trimmed processed
+Processing 6389_trimmed (213/352)...
+  Created: 6389_trimmed_summary.txt
+  Created: 6389_trimmed.treefile
+  Created: 6389_trimmed.txt
+Sun May  3 14:43:51 CST 2026: SUCCESS - 6389_trimmed processed
+Processing 6393_trimmed (214/352)...
+  Created: 6393_trimmed_summary.txt
+  Created: 6393_trimmed.treefile
+  Created: 6393_trimmed.txt
+Sun May  3 14:43:52 CST 2026: SUCCESS - 6393_trimmed processed
+Processing 6398_trimmed (215/352)...
+  Created: 6398_trimmed_summary.txt
+  Created: 6398_trimmed.treefile
+  Created: 6398_trimmed.txt
+Sun May  3 14:43:52 CST 2026: SUCCESS - 6398_trimmed processed
+Processing 6401_trimmed (216/352)...
+  Created: 6401_trimmed_summary.txt
+  Created: 6401_trimmed.treefile
+  Created: 6401_trimmed.txt
+Sun May  3 14:43:53 CST 2026: SUCCESS - 6401_trimmed processed
+Processing 6404_trimmed (217/352)...
+  Created: 6404_trimmed_summary.txt
+  Created: 6404_trimmed.treefile
+  Created: 6404_trimmed.txt
+Sun May  3 14:43:54 CST 2026: SUCCESS - 6404_trimmed processed
+Processing 6405_trimmed (218/352)...
+  Created: 6405_trimmed_summary.txt
+  Created: 6405_trimmed.treefile
+  Created: 6405_trimmed.txt
+Sun May  3 14:43:55 CST 2026: SUCCESS - 6405_trimmed processed
+Processing 6406_trimmed (219/352)...
+  Created: 6406_trimmed_summary.txt
+  Created: 6406_trimmed.treefile
+  Created: 6406_trimmed.txt
+Sun May  3 14:43:56 CST 2026: SUCCESS - 6406_trimmed processed
+Processing 6407_trimmed (220/352)...
+  Created: 6407_trimmed_summary.txt
+  Created: 6407_trimmed.treefile
+  Created: 6407_trimmed.txt
+Sun May  3 14:43:57 CST 2026: SUCCESS - 6407_trimmed processed
+Processing 6412_trimmed (221/352)...
+  Created: 6412_trimmed_summary.txt
+  Created: 6412_trimmed.treefile
+  Created: 6412_trimmed.txt
+Sun May  3 14:43:57 CST 2026: SUCCESS - 6412_trimmed processed
+Processing 6420_trimmed (222/352)...
+  Created: 6420_trimmed_summary.txt
+  Created: 6420_trimmed.treefile
+  Created: 6420_trimmed.txt
+Sun May  3 14:43:58 CST 2026: SUCCESS - 6420_trimmed processed
+Processing 6430_trimmed (223/352)...
+  Created: 6430_trimmed_summary.txt
+  Created: 6430_trimmed.treefile
+  Created: 6430_trimmed.txt
+Sun May  3 14:43:59 CST 2026: SUCCESS - 6430_trimmed processed
+Processing 6432_trimmed (224/352)...
+  Created: 6432_trimmed_summary.txt
+  Created: 6432_trimmed.treefile
+  Created: 6432_trimmed.txt
+Sun May  3 14:44:00 CST 2026: SUCCESS - 6432_trimmed processed
+Processing 6439_trimmed (225/352)...
+  Created: 6439_trimmed_summary.txt
+  Created: 6439_trimmed.treefile
+  Created: 6439_trimmed.txt
+Sun May  3 14:44:01 CST 2026: SUCCESS - 6439_trimmed processed
+Processing 6447_trimmed (226/352)...
+  Created: 6447_trimmed_summary.txt
+  Created: 6447_trimmed.treefile
+  Created: 6447_trimmed.txt
+Sun May  3 14:44:02 CST 2026: SUCCESS - 6447_trimmed processed
+Processing 6448_trimmed (227/352)...
+  Created: 6448_trimmed_summary.txt
+  Created: 6448_trimmed.treefile
+  Created: 6448_trimmed.txt
+Sun May  3 14:44:02 CST 2026: SUCCESS - 6448_trimmed processed
+Processing 6449_trimmed (228/352)...
+  Created: 6449_trimmed_summary.txt
+  Created: 6449_trimmed.treefile
+  Created: 6449_trimmed.txt
+Sun May  3 14:44:03 CST 2026: SUCCESS - 6449_trimmed processed
+Processing 6450_trimmed (229/352)...
+  Created: 6450_trimmed_summary.txt
+  Created: 6450_trimmed.treefile
+  Created: 6450_trimmed.txt
+Sun May  3 14:44:04 CST 2026: SUCCESS - 6450_trimmed processed
+Processing 6454_trimmed (230/352)...
+  Created: 6454_trimmed_summary.txt
+  Created: 6454_trimmed.treefile
+  Created: 6454_trimmed.txt
+Sun May  3 14:44:05 CST 2026: SUCCESS - 6454_trimmed processed
+Processing 6457_trimmed (231/352)...
+  Created: 6457_trimmed_summary.txt
+  Created: 6457_trimmed.treefile
+  Created: 6457_trimmed.txt
+Sun May  3 14:44:06 CST 2026: SUCCESS - 6457_trimmed processed
+Processing 6458_trimmed (232/352)...
+  Created: 6458_trimmed_summary.txt
+  Created: 6458_trimmed.treefile
+  Created: 6458_trimmed.txt
+Sun May  3 14:44:07 CST 2026: SUCCESS - 6458_trimmed processed
+Processing 6459_trimmed (233/352)...
+  Created: 6459_trimmed_summary.txt
+  Created: 6459_trimmed.treefile
+  Created: 6459_trimmed.txt
+Sun May  3 14:44:08 CST 2026: SUCCESS - 6459_trimmed processed
+Processing 6460_trimmed (234/352)...
+  Created: 6460_trimmed_summary.txt
+  Created: 6460_trimmed.treefile
+  Created: 6460_trimmed.txt
+Sun May  3 14:44:08 CST 2026: SUCCESS - 6460_trimmed processed
+Processing 6462_trimmed (235/352)...
+  Created: 6462_trimmed_summary.txt
+  Created: 6462_trimmed.treefile
+  Created: 6462_trimmed.txt
+Sun May  3 14:44:09 CST 2026: SUCCESS - 6462_trimmed processed
+Processing 6483_trimmed (236/352)...
+  Created: 6483_trimmed_summary.txt
+  Created: 6483_trimmed.treefile
+  Created: 6483_trimmed.txt
+Sun May  3 14:44:10 CST 2026: SUCCESS - 6483_trimmed processed
+Processing 6487_trimmed (237/352)...
+  Created: 6487_trimmed_summary.txt
+  Created: 6487_trimmed.treefile
+  Created: 6487_trimmed.txt
+Sun May  3 14:44:11 CST 2026: SUCCESS - 6487_trimmed processed
+Processing 6488_trimmed (238/352)...
+  Created: 6488_trimmed_summary.txt
+  Created: 6488_trimmed.treefile
+  Created: 6488_trimmed.txt
+Sun May  3 14:44:12 CST 2026: SUCCESS - 6488_trimmed processed
+Processing 6492_trimmed (239/352)...
+  Created: 6492_trimmed_summary.txt
+  Created: 6492_trimmed.treefile
+  Created: 6492_trimmed.txt
+Sun May  3 14:44:13 CST 2026: SUCCESS - 6492_trimmed processed
+Processing 6494_trimmed (240/352)...
+  Created: 6494_trimmed_summary.txt
+  Created: 6494_trimmed.treefile
+  Created: 6494_trimmed.txt
+Sun May  3 14:44:13 CST 2026: SUCCESS - 6494_trimmed processed
+Processing 6496_trimmed (241/352)...
+  Created: 6496_trimmed_summary.txt
+  Created: 6496_trimmed.treefile
+  Created: 6496_trimmed.txt
+Sun May  3 14:44:14 CST 2026: SUCCESS - 6496_trimmed processed
+Processing 6498_trimmed (242/352)...
+  Created: 6498_trimmed_summary.txt
+  Created: 6498_trimmed.treefile
+  Created: 6498_trimmed.txt
+Sun May  3 14:44:15 CST 2026: SUCCESS - 6498_trimmed processed
+Processing 6500_trimmed (243/352)...
+  Created: 6500_trimmed_summary.txt
+  Created: 6500_trimmed.treefile
+  Created: 6500_trimmed.txt
+Sun May  3 14:44:16 CST 2026: SUCCESS - 6500_trimmed processed
+Processing 6506_trimmed (244/352)...
+  Created: 6506_trimmed_summary.txt
+  Created: 6506_trimmed.treefile
+  Created: 6506_trimmed.txt
+Sun May  3 14:44:17 CST 2026: SUCCESS - 6506_trimmed processed
+Processing 6507_trimmed (245/352)...
+  Created: 6507_trimmed_summary.txt
+  Created: 6507_trimmed.treefile
+  Created: 6507_trimmed.txt
+Sun May  3 14:44:18 CST 2026: SUCCESS - 6507_trimmed processed
+Processing 6526_trimmed (246/352)...
+  Created: 6526_trimmed_summary.txt
+  Created: 6526_trimmed.treefile
+  Created: 6526_trimmed.txt
+Sun May  3 14:44:19 CST 2026: SUCCESS - 6526_trimmed processed
+Processing 6527_trimmed (247/352)...
+  Created: 6527_trimmed_summary.txt
+  Created: 6527_trimmed.treefile
+  Created: 6527_trimmed.txt
+Sun May  3 14:44:19 CST 2026: SUCCESS - 6527_trimmed processed
+Processing 6528_trimmed (248/352)...
+  Created: 6528_trimmed_summary.txt
+  Created: 6528_trimmed.treefile
+  Created: 6528_trimmed.txt
+Sun May  3 14:44:20 CST 2026: SUCCESS - 6528_trimmed processed
+Processing 6531_trimmed (249/352)...
+  Created: 6531_trimmed_summary.txt
+  Created: 6531_trimmed.treefile
+  Created: 6531_trimmed.txt
+Sun May  3 14:44:21 CST 2026: SUCCESS - 6531_trimmed processed
+Processing 6532_trimmed (250/352)...
+  Created: 6532_trimmed_summary.txt
+  Created: 6532_trimmed.treefile
+  Created: 6532_trimmed.txt
+Sun May  3 14:44:22 CST 2026: SUCCESS - 6532_trimmed processed
+Processing 6533_trimmed (251/352)...
+  Created: 6533_trimmed_summary.txt
+  Created: 6533_trimmed.treefile
+  Created: 6533_trimmed.txt
+Sun May  3 14:44:23 CST 2026: SUCCESS - 6533_trimmed processed
+Processing 6538_trimmed (252/352)...
+  Created: 6538_trimmed_summary.txt
+  Created: 6538_trimmed.treefile
+  Created: 6538_trimmed.txt
+Sun May  3 14:44:24 CST 2026: SUCCESS - 6538_trimmed processed
+Processing 6540_trimmed (253/352)...
+  Created: 6540_trimmed_summary.txt
+  Created: 6540_trimmed.treefile
+  Created: 6540_trimmed.txt
+Sun May  3 14:44:25 CST 2026: SUCCESS - 6540_trimmed processed
+Processing 6544_trimmed (254/352)...
+  Created: 6544_trimmed_summary.txt
+  Created: 6544_trimmed.treefile
+  Created: 6544_trimmed.txt
+Sun May  3 14:44:25 CST 2026: SUCCESS - 6544_trimmed processed
+Processing 6550_trimmed (255/352)...
+  Created: 6550_trimmed_summary.txt
+  Created: 6550_trimmed.treefile
+  Created: 6550_trimmed.txt
+Sun May  3 14:44:26 CST 2026: SUCCESS - 6550_trimmed processed
+Processing 6552_trimmed (256/352)...
+  Created: 6552_trimmed_summary.txt
+  Created: 6552_trimmed.treefile
+  Created: 6552_trimmed.txt
+Sun May  3 14:44:27 CST 2026: SUCCESS - 6552_trimmed processed
+Processing 6557_trimmed (257/352)...
+  Created: 6557_trimmed_summary.txt
+  Created: 6557_trimmed.treefile
+  Created: 6557_trimmed.txt
+Sun May  3 14:44:28 CST 2026: SUCCESS - 6557_trimmed processed
+Processing 6559_trimmed (258/352)...
+  Created: 6559_trimmed_summary.txt
+  Created: 6559_trimmed.treefile
+  Created: 6559_trimmed.txt
+Sun May  3 14:44:29 CST 2026: SUCCESS - 6559_trimmed processed
+Processing 6563_trimmed (259/352)...
+  Created: 6563_trimmed_summary.txt
+  Created: 6563_trimmed.treefile
+  Created: 6563_trimmed.txt
+Sun May  3 14:44:30 CST 2026: SUCCESS - 6563_trimmed processed
+Processing 6565_trimmed (260/352)...
+  Created: 6565_trimmed_summary.txt
+  Created: 6565_trimmed.treefile
+  Created: 6565_trimmed.txt
+Sun May  3 14:44:30 CST 2026: SUCCESS - 6565_trimmed processed
+Processing 6570_trimmed (261/352)...
+  Created: 6570_trimmed_summary.txt
+  Created: 6570_trimmed.treefile
+  Created: 6570_trimmed.txt
+Sun May  3 14:44:31 CST 2026: SUCCESS - 6570_trimmed processed
+Processing 6572_trimmed (262/352)...
+  Created: 6572_trimmed_summary.txt
+  Created: 6572_trimmed.treefile
+  Created: 6572_trimmed.txt
+Sun May  3 14:44:32 CST 2026: SUCCESS - 6572_trimmed processed
+Processing 6601_trimmed (263/352)...
+  Created: 6601_trimmed_summary.txt
+  Created: 6601_trimmed.treefile
+  Created: 6601_trimmed.txt
+Sun May  3 14:44:33 CST 2026: SUCCESS - 6601_trimmed processed
+Processing 6620_trimmed (264/352)...
+  Created: 6620_trimmed_summary.txt
+  Created: 6620_trimmed.treefile
+  Created: 6620_trimmed.txt
+Sun May  3 14:44:34 CST 2026: SUCCESS - 6620_trimmed processed
+Processing 6631_trimmed (265/352)...
+  Created: 6631_trimmed_summary.txt
+  Created: 6631_trimmed.treefile
+  Created: 6631_trimmed.txt
+Sun May  3 14:44:35 CST 2026: SUCCESS - 6631_trimmed processed
+Processing 6636_trimmed (266/352)...
+  Created: 6636_trimmed_summary.txt
+  Created: 6636_trimmed.treefile
+  Created: 6636_trimmed.txt
+Sun May  3 14:44:36 CST 2026: SUCCESS - 6636_trimmed processed
+Processing 6639_trimmed (267/352)...
+  Created: 6639_trimmed_summary.txt
+  Created: 6639_trimmed.treefile
+  Created: 6639_trimmed.txt
+Sun May  3 14:44:36 CST 2026: SUCCESS - 6639_trimmed processed
+Processing 6641_trimmed (268/352)...
+  Created: 6641_trimmed_summary.txt
+  Created: 6641_trimmed.treefile
+  Created: 6641_trimmed.txt
+Sun May  3 14:44:37 CST 2026: SUCCESS - 6641_trimmed processed
+Processing 6649_trimmed (269/352)...
+  Created: 6649_trimmed_summary.txt
+  Created: 6649_trimmed.treefile
+  Created: 6649_trimmed.txt
+Sun May  3 14:44:38 CST 2026: SUCCESS - 6649_trimmed processed
+Processing 6652_trimmed (270/352)...
+  Created: 6652_trimmed_summary.txt
+  Created: 6652_trimmed.treefile
+  Created: 6652_trimmed.txt
+Sun May  3 14:44:39 CST 2026: SUCCESS - 6652_trimmed processed
+Processing 6660_trimmed (271/352)...
+  Created: 6660_trimmed_summary.txt
+  Created: 6660_trimmed.treefile
+  Created: 6660_trimmed.txt
+Sun May  3 14:44:40 CST 2026: SUCCESS - 6660_trimmed processed
+Processing 6667_trimmed (272/352)...
+  Created: 6667_trimmed_summary.txt
+  Created: 6667_trimmed.treefile
+  Created: 6667_trimmed.txt
+Sun May  3 14:44:41 CST 2026: SUCCESS - 6667_trimmed processed
+Processing 6679_trimmed (273/352)...
+  Created: 6679_trimmed_summary.txt
+  Created: 6679_trimmed.treefile
+  Created: 6679_trimmed.txt
+Sun May  3 14:44:42 CST 2026: SUCCESS - 6679_trimmed processed
+Processing 6685_trimmed (274/352)...
+  Created: 6685_trimmed_summary.txt
+  Created: 6685_trimmed.treefile
+  Created: 6685_trimmed.txt
+Sun May  3 14:44:42 CST 2026: SUCCESS - 6685_trimmed processed
+Processing 6689_trimmed (275/352)...
+  Created: 6689_trimmed_summary.txt
+  Created: 6689_trimmed.treefile
+  Created: 6689_trimmed.txt
+Sun May  3 14:44:43 CST 2026: SUCCESS - 6689_trimmed processed
+Processing 6705_trimmed (276/352)...
+  Created: 6705_trimmed_summary.txt
+  Created: 6705_trimmed.treefile
+  Created: 6705_trimmed.txt
+Sun May  3 14:44:44 CST 2026: SUCCESS - 6705_trimmed processed
+Processing 6713_trimmed (277/352)...
+  Created: 6713_trimmed_summary.txt
+  Created: 6713_trimmed.treefile
+  Created: 6713_trimmed.txt
+Sun May  3 14:44:45 CST 2026: SUCCESS - 6713_trimmed processed
+Processing 6717_trimmed (278/352)...
+  Created: 6717_trimmed_summary.txt
+  Created: 6717_trimmed.treefile
+  Created: 6717_trimmed.txt
+Sun May  3 14:44:46 CST 2026: SUCCESS - 6717_trimmed processed
+Processing 6732_trimmed (279/352)...
+  Created: 6732_trimmed_summary.txt
+  Created: 6732_trimmed.treefile
+  Created: 6732_trimmed.txt
+Sun May  3 14:44:47 CST 2026: SUCCESS - 6732_trimmed processed
+Processing 6733_trimmed (280/352)...
+  Created: 6733_trimmed_summary.txt
+  Created: 6733_trimmed.treefile
+  Created: 6733_trimmed.txt
+Sun May  3 14:44:47 CST 2026: SUCCESS - 6733_trimmed processed
+Processing 6738_trimmed (281/352)...
+  Created: 6738_trimmed_summary.txt
+  Created: 6738_trimmed.treefile
+  Created: 6738_trimmed.txt
+Sun May  3 14:44:48 CST 2026: SUCCESS - 6738_trimmed processed
+Processing 6746_trimmed (282/352)...
+  Created: 6746_trimmed_summary.txt
+  Created: 6746_trimmed.treefile
+  Created: 6746_trimmed.txt
+Sun May  3 14:44:49 CST 2026: SUCCESS - 6746_trimmed processed
+Processing 6779_trimmed (283/352)...
+  Created: 6779_trimmed_summary.txt
+  Created: 6779_trimmed.treefile
+  Created: 6779_trimmed.txt
+Sun May  3 14:44:50 CST 2026: SUCCESS - 6779_trimmed processed
+Processing 6780_trimmed (284/352)...
+  Created: 6780_trimmed_summary.txt
+  Created: 6780_trimmed.treefile
+  Created: 6780_trimmed.txt
+Sun May  3 14:44:51 CST 2026: SUCCESS - 6780_trimmed processed
+Processing 6782_trimmed (285/352)...
+  Created: 6782_trimmed_summary.txt
+  Created: 6782_trimmed.treefile
+  Created: 6782_trimmed.txt
+Sun May  3 14:44:52 CST 2026: SUCCESS - 6782_trimmed processed
+Processing 6785_trimmed (286/352)...
+  Created: 6785_trimmed_summary.txt
+  Created: 6785_trimmed.treefile
+  Created: 6785_trimmed.txt
+Sun May  3 14:44:52 CST 2026: SUCCESS - 6785_trimmed processed
+Processing 6791_trimmed (287/352)...
+  Created: 6791_trimmed_summary.txt
+  Created: 6791_trimmed.treefile
+  Created: 6791_trimmed.txt
+Sun May  3 14:44:53 CST 2026: SUCCESS - 6791_trimmed processed
+Processing 6792_trimmed (288/352)...
+  Created: 6792_trimmed_summary.txt
+  Created: 6792_trimmed.treefile
+  Created: 6792_trimmed.txt
+Sun May  3 14:44:54 CST 2026: SUCCESS - 6792_trimmed processed
+Processing 6797_trimmed (289/352)...
+  Created: 6797_trimmed_summary.txt
+  Created: 6797_trimmed.treefile
+  Created: 6797_trimmed.txt
+Sun May  3 14:44:55 CST 2026: SUCCESS - 6797_trimmed processed
+Processing 6825_trimmed (290/352)...
+  Created: 6825_trimmed_summary.txt
+  Created: 6825_trimmed.treefile
+  Created: 6825_trimmed.txt
+Sun May  3 14:44:56 CST 2026: SUCCESS - 6825_trimmed processed
+Processing 6848_trimmed (291/352)...
+  Created: 6848_trimmed_summary.txt
+  Created: 6848_trimmed.treefile
+  Created: 6848_trimmed.txt
+Sun May  3 14:44:57 CST 2026: SUCCESS - 6848_trimmed processed
+Processing 6854_trimmed (292/352)...
+  Created: 6854_trimmed_summary.txt
+  Created: 6854_trimmed.treefile
+  Created: 6854_trimmed.txt
+Sun May  3 14:44:58 CST 2026: SUCCESS - 6854_trimmed processed
+Processing 6859_trimmed (293/352)...
+  Created: 6859_trimmed_summary.txt
+  Created: 6859_trimmed.treefile
+  Created: 6859_trimmed.txt
+Sun May  3 14:44:58 CST 2026: SUCCESS - 6859_trimmed processed
+Processing 6860_trimmed (294/352)...
+  Created: 6860_trimmed_summary.txt
+  Created: 6860_trimmed.treefile
+  Created: 6860_trimmed.txt
+Sun May  3 14:44:59 CST 2026: SUCCESS - 6860_trimmed processed
+Processing 6864_trimmed (295/352)...
+  Created: 6864_trimmed_summary.txt
+  Created: 6864_trimmed.treefile
+  Created: 6864_trimmed.txt
+Sun May  3 14:45:00 CST 2026: SUCCESS - 6864_trimmed processed
+Processing 6865_trimmed (296/352)...
+  Created: 6865_trimmed_summary.txt
+  Created: 6865_trimmed.treefile
+  Created: 6865_trimmed.txt
+Sun May  3 14:45:01 CST 2026: SUCCESS - 6865_trimmed processed
+Processing 6875_trimmed (297/352)...
+  Created: 6875_trimmed_summary.txt
+  Created: 6875_trimmed.treefile
+  Created: 6875_trimmed.txt
+Sun May  3 14:45:02 CST 2026: SUCCESS - 6875_trimmed processed
+Processing 6882_trimmed (298/352)...
+  Created: 6882_trimmed_summary.txt
+  Created: 6882_trimmed.treefile
+  Created: 6882_trimmed.txt
+Sun May  3 14:45:03 CST 2026: SUCCESS - 6882_trimmed processed
+Processing 6883_trimmed (299/352)...
+  Created: 6883_trimmed_summary.txt
+  Created: 6883_trimmed.treefile
+  Created: 6883_trimmed.txt
+Sun May  3 14:45:03 CST 2026: SUCCESS - 6883_trimmed processed
+Processing 6886_trimmed (300/352)...
+  Created: 6886_trimmed_summary.txt
+  Created: 6886_trimmed.treefile
+  Created: 6886_trimmed.txt
+Sun May  3 14:45:04 CST 2026: SUCCESS - 6886_trimmed processed
+Processing 6893_trimmed (301/352)...
+  Created: 6893_trimmed_summary.txt
+  Created: 6893_trimmed.treefile
+  Created: 6893_trimmed.txt
+Sun May  3 14:45:05 CST 2026: SUCCESS - 6893_trimmed processed
+Processing 6909_trimmed (302/352)...
+  Created: 6909_trimmed_summary.txt
+  Created: 6909_trimmed.treefile
+  Created: 6909_trimmed.txt
+Sun May  3 14:45:06 CST 2026: SUCCESS - 6909_trimmed processed
+Processing 6913_trimmed (303/352)...
+  Created: 6913_trimmed_summary.txt
+  Created: 6913_trimmed.treefile
+  Created: 6913_trimmed.txt
+Sun May  3 14:45:07 CST 2026: SUCCESS - 6913_trimmed processed
+Processing 6914_trimmed (304/352)...
+  Created: 6914_trimmed_summary.txt
+  Created: 6914_trimmed.treefile
+  Created: 6914_trimmed.txt
+Sun May  3 14:45:08 CST 2026: SUCCESS - 6914_trimmed processed
+Processing 6924_trimmed (305/352)...
+  Created: 6924_trimmed_summary.txt
+  Created: 6924_trimmed.treefile
+  Created: 6924_trimmed.txt
+Sun May  3 14:45:08 CST 2026: SUCCESS - 6924_trimmed processed
+Processing 6933_trimmed (306/352)...
+  Created: 6933_trimmed_summary.txt
+  Created: 6933_trimmed.treefile
+  Created: 6933_trimmed.txt
+Sun May  3 14:45:09 CST 2026: SUCCESS - 6933_trimmed processed
+Processing 6946_trimmed (307/352)...
+  Created: 6946_trimmed_summary.txt
+  Created: 6946_trimmed.treefile
+  Created: 6946_trimmed.txt
+Sun May  3 14:45:10 CST 2026: SUCCESS - 6946_trimmed processed
+Processing 6947_trimmed (308/352)...
+  Created: 6947_trimmed_summary.txt
+  Created: 6947_trimmed.treefile
+  Created: 6947_trimmed.txt
+Sun May  3 14:45:11 CST 2026: SUCCESS - 6947_trimmed processed
+Processing 6954_trimmed (309/352)...
+  Created: 6954_trimmed_summary.txt
+  Created: 6954_trimmed.treefile
+  Created: 6954_trimmed.txt
+Sun May  3 14:45:12 CST 2026: SUCCESS - 6954_trimmed processed
+Processing 6955_trimmed (310/352)...
+  Created: 6955_trimmed_summary.txt
+  Created: 6955_trimmed.treefile
+  Created: 6955_trimmed.txt
+Sun May  3 14:45:13 CST 2026: SUCCESS - 6955_trimmed processed
+Processing 6958_trimmed (311/352)...
+  Created: 6958_trimmed_summary.txt
+  Created: 6958_trimmed.treefile
+  Created: 6958_trimmed.txt
+Sun May  3 14:45:14 CST 2026: SUCCESS - 6958_trimmed processed
+Processing 6961_trimmed (312/352)...
+  Created: 6961_trimmed_summary.txt
+  Created: 6961_trimmed.treefile
+  Created: 6961_trimmed.txt
+Sun May  3 14:45:14 CST 2026: SUCCESS - 6961_trimmed processed
+Processing 6962_trimmed (313/352)...
+  Created: 6962_trimmed_summary.txt
+  Created: 6962_trimmed.treefile
+  Created: 6962_trimmed.txt
+Sun May  3 14:45:15 CST 2026: SUCCESS - 6962_trimmed processed
+Processing 6968_trimmed (314/352)...
+  Created: 6968_trimmed_summary.txt
+  Created: 6968_trimmed.treefile
+  Created: 6968_trimmed.txt
+Sun May  3 14:45:16 CST 2026: SUCCESS - 6968_trimmed processed
+Processing 6969_trimmed (315/352)...
+  Created: 6969_trimmed_summary.txt
+  Created: 6969_trimmed.treefile
+  Created: 6969_trimmed.txt
+Sun May  3 14:45:17 CST 2026: SUCCESS - 6969_trimmed processed
+Processing 6977_trimmed (316/352)...
+  Created: 6977_trimmed_summary.txt
+  Created: 6977_trimmed.treefile
+  Created: 6977_trimmed.txt
+Sun May  3 14:45:18 CST 2026: SUCCESS - 6977_trimmed processed
+Processing 6978_trimmed (317/352)...
+  Created: 6978_trimmed_summary.txt
+  Created: 6978_trimmed.treefile
+  Created: 6978_trimmed.txt
+Sun May  3 14:45:19 CST 2026: SUCCESS - 6978_trimmed processed
+Processing 6979_trimmed (318/352)...
+  Created: 6979_trimmed_summary.txt
+  Created: 6979_trimmed.treefile
+  Created: 6979_trimmed.txt
+Sun May  3 14:45:20 CST 2026: SUCCESS - 6979_trimmed processed
+Processing 6992_trimmed (319/352)...
+  Created: 6992_trimmed_summary.txt
+  Created: 6992_trimmed.treefile
+  Created: 6992_trimmed.txt
+Sun May  3 14:45:20 CST 2026: SUCCESS - 6992_trimmed processed
+Processing 6995_trimmed (320/352)...
+  Created: 6995_trimmed_summary.txt
+  Created: 6995_trimmed.treefile
+  Created: 6995_trimmed.txt
+Sun May  3 14:45:21 CST 2026: SUCCESS - 6995_trimmed processed
+Processing 7013_trimmed (321/352)...
+  Created: 7013_trimmed_summary.txt
+  Created: 7013_trimmed.treefile
+  Created: 7013_trimmed.txt
+Sun May  3 14:45:22 CST 2026: SUCCESS - 7013_trimmed processed
+Processing 7021_trimmed (322/352)...
+  Created: 7021_trimmed_summary.txt
+  Created: 7021_trimmed.treefile
+  Created: 7021_trimmed.txt
+Sun May  3 14:45:23 CST 2026: SUCCESS - 7021_trimmed processed
+Processing 7024_trimmed (323/352)...
+  Created: 7024_trimmed_summary.txt
+  Created: 7024_trimmed.treefile
+  Created: 7024_trimmed.txt
+Sun May  3 14:45:24 CST 2026: SUCCESS - 7024_trimmed processed
+Processing 7028_trimmed (324/352)...
+  Created: 7028_trimmed_summary.txt
+  Created: 7028_trimmed.treefile
+  Created: 7028_trimmed.txt
+Sun May  3 14:45:25 CST 2026: SUCCESS - 7028_trimmed processed
+Processing 7029_trimmed (325/352)...
+  Created: 7029_trimmed_summary.txt
+  Created: 7029_trimmed.treefile
+  Created: 7029_trimmed.txt
+Sun May  3 14:45:26 CST 2026: SUCCESS - 7029_trimmed processed
+Processing 7067_trimmed (326/352)...
+  Created: 7067_trimmed_summary.txt
+  Created: 7067_trimmed.treefile
+  Created: 7067_trimmed.txt
+Sun May  3 14:45:26 CST 2026: SUCCESS - 7067_trimmed processed
+Processing 7111_trimmed (327/352)...
+  Created: 7111_trimmed_summary.txt
+  Created: 7111_trimmed.treefile
+  Created: 7111_trimmed.txt
+Sun May  3 14:45:27 CST 2026: SUCCESS - 7111_trimmed processed
+Processing 7128_trimmed (328/352)...
+  Created: 7128_trimmed_summary.txt
+  Created: 7128_trimmed.treefile
+  Created: 7128_trimmed.txt
+Sun May  3 14:45:28 CST 2026: SUCCESS - 7128_trimmed processed
+Processing 7135_trimmed (329/352)...
+  Created: 7135_trimmed_summary.txt
+  Created: 7135_trimmed.treefile
+  Created: 7135_trimmed.txt
+Sun May  3 14:45:29 CST 2026: SUCCESS - 7135_trimmed processed
+Processing 7136_trimmed (330/352)...
+  Created: 7136_trimmed_summary.txt
+  Created: 7136_trimmed.treefile
+  Created: 7136_trimmed.txt
+Sun May  3 14:45:30 CST 2026: SUCCESS - 7136_trimmed processed
+Processing 7141_trimmed (331/352)...
+  Created: 7141_trimmed_summary.txt
+  Created: 7141_trimmed.treefile
+  Created: 7141_trimmed.txt
+Sun May  3 14:45:31 CST 2026: SUCCESS - 7141_trimmed processed
+Processing 7174_trimmed (332/352)...
+  Created: 7174_trimmed_summary.txt
+  Created: 7174_trimmed.treefile
+  Created: 7174_trimmed.txt
+Sun May  3 14:45:31 CST 2026: SUCCESS - 7174_trimmed processed
+Processing 7194_trimmed (333/352)...
+  Created: 7194_trimmed_summary.txt
+  Created: 7194_trimmed.treefile
+  Created: 7194_trimmed.txt
+Sun May  3 14:45:32 CST 2026: SUCCESS - 7194_trimmed processed
+Processing 7241_trimmed (334/352)...
+  Created: 7241_trimmed_summary.txt
+  Created: 7241_trimmed.treefile
+  Created: 7241_trimmed.txt
+Sun May  3 14:45:33 CST 2026: SUCCESS - 7241_trimmed processed
+Processing 7273_trimmed (335/352)...
+  Created: 7273_trimmed_summary.txt
+  Created: 7273_trimmed.treefile
+  Created: 7273_trimmed.txt
+Sun May  3 14:45:34 CST 2026: SUCCESS - 7273_trimmed processed
+Processing 7279_trimmed (336/352)...
+  Created: 7279_trimmed_summary.txt
+  Created: 7279_trimmed.treefile
+  Created: 7279_trimmed.txt
+Sun May  3 14:45:35 CST 2026: SUCCESS - 7279_trimmed processed
+Processing 7296_trimmed (337/352)...
+  Created: 7296_trimmed_summary.txt
+  Created: 7296_trimmed.treefile
+  Created: 7296_trimmed.txt
+Sun May  3 14:45:36 CST 2026: SUCCESS - 7296_trimmed processed
+Processing 7313_trimmed (338/352)...
+  Created: 7313_trimmed_summary.txt
+  Created: 7313_trimmed.treefile
+  Created: 7313_trimmed.txt
+Sun May  3 14:45:37 CST 2026: SUCCESS - 7313_trimmed processed
+Processing 7324_trimmed (339/352)...
+  Created: 7324_trimmed_summary.txt
+  Created: 7324_trimmed.treefile
+  Created: 7324_trimmed.txt
+Sun May  3 14:45:37 CST 2026: SUCCESS - 7324_trimmed processed
+Processing 7325_trimmed (340/352)...
+  Created: 7325_trimmed_summary.txt
+  Created: 7325_trimmed.treefile
+  Created: 7325_trimmed.txt
+Sun May  3 14:45:38 CST 2026: SUCCESS - 7325_trimmed processed
+Processing 7331_trimmed (341/352)...
+  Created: 7331_trimmed_summary.txt
+  Created: 7331_trimmed.treefile
+  Created: 7331_trimmed.txt
+Sun May  3 14:45:39 CST 2026: SUCCESS - 7331_trimmed processed
+Processing 7333_trimmed (342/352)...
+  Created: 7333_trimmed_summary.txt
+  Created: 7333_trimmed.treefile
+  Created: 7333_trimmed.txt
+Sun May  3 14:45:40 CST 2026: SUCCESS - 7333_trimmed processed
+Processing 7336_trimmed (343/352)...
+  Created: 7336_trimmed_summary.txt
+  Created: 7336_trimmed.treefile
+  Created: 7336_trimmed.txt
+Sun May  3 14:45:41 CST 2026: SUCCESS - 7336_trimmed processed
+Processing 7361_trimmed (344/352)...
+  Created: 7361_trimmed_summary.txt
+  Created: 7361_trimmed.treefile
+  Created: 7361_trimmed.txt
+Sun May  3 14:45:42 CST 2026: SUCCESS - 7361_trimmed processed
+Processing 7363_trimmed (345/352)...
+  Created: 7363_trimmed_summary.txt
+  Created: 7363_trimmed.treefile
+  Created: 7363_trimmed.txt
+Sun May  3 14:45:43 CST 2026: SUCCESS - 7363_trimmed processed
+Processing 7367_trimmed (346/352)...
+  Created: 7367_trimmed_summary.txt
+  Created: 7367_trimmed.treefile
+  Created: 7367_trimmed.txt
+Sun May  3 14:45:43 CST 2026: SUCCESS - 7367_trimmed processed
+Processing 7371_trimmed (347/352)...
+  Created: 7371_trimmed_summary.txt
+  Created: 7371_trimmed.treefile
+  Created: 7371_trimmed.txt
+Sun May  3 14:45:44 CST 2026: SUCCESS - 7371_trimmed processed
+Processing 7572_trimmed (348/352)...
+  Created: 7572_trimmed_summary.txt
+  Created: 7572_trimmed.treefile
+  Created: 7572_trimmed.txt
+Sun May  3 14:45:45 CST 2026: SUCCESS - 7572_trimmed processed
+Processing 7577_trimmed (349/352)...
+  Created: 7577_trimmed_summary.txt
+  Created: 7577_trimmed.treefile
+  Created: 7577_trimmed.txt
+Sun May  3 14:45:46 CST 2026: SUCCESS - 7577_trimmed processed
+Processing 7583_trimmed (350/352)...
+  Created: 7583_trimmed_summary.txt
+  Created: 7583_trimmed.treefile
+  Created: 7583_trimmed.txt
+Sun May  3 14:45:47 CST 2026: SUCCESS - 7583_trimmed processed
+Processing 7602_trimmed (351/352)...
+  Created: 7602_trimmed_summary.txt
+  Created: 7602_trimmed.treefile
+  Created: 7602_trimmed.txt
+Sun May  3 14:45:48 CST 2026: SUCCESS - 7602_trimmed processed
+Processing 7628_trimmed (352/352)...
+  Created: 7628_trimmed_summary.txt
+  Created: 7628_trimmed.treefile
+  Created: 7628_trimmed.txt
+Sun May  3 14:45:49 CST 2026: SUCCESS - 7628_trimmed processed
+==============================================
+Processing complete
+Successfully processed: 352 genes
+Failed: 0 genes
+Total output files in /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/iqtree/treeshrink_results:
+1057
+Sun May  3 14:45:49 CST 2026: Processing complete. Success: 352, Failed: 0
