@@ -1,0 +1,3208 @@
+
+RAxML-NG v. 1.2.2 released on 11.04.2024 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) Gold 6254 CPU @ 3.10GHz, 72 cores, 503 GB RAM
+
+RAxML-NG was called at 26-Apr-2026 20:52:35 as follows:
+
+raxml-ng --all --msa /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/supermatrix/concatenated_supermatrix.fasta --model /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/supermatrix/partitions.txt --prefix /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/raxml_results/angio353_supermatrix --threads 4 --seed 12345 --bs-trees 1000
+
+Analysis options:
+  run mode: ML tree search + bootstrapping (Felsenstein Bootstrap)
+  start tree(s): random (10) + parsimony (10)
+  bootstrap replicates: parsimony (1000)
+  random seed: 12345
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (4 threads), thread pinning: OFF
+
+[00:00:00] Reading alignment from file: /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/supermatrix/concatenated_supermatrix.fasta
+[00:00:00] Loaded alignment with 110 taxa and 196363 sites
+
+Alignment comprises 352 partitions and 133062 patterns
+
+Partition 0: p1_4471_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 777 / 509
+Gaps: 16.98 %
+Invariant sites: 47.88 %
+
+Partition 1: p2_4527_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1275 / 824
+Gaps: 43.12 %
+Invariant sites: 50.59 %
+
+Partition 2: p3_4691_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 528 / 328
+Gaps: 23.05 %
+Invariant sites: 52.27 %
+
+Partition 3: p4_4724_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 675 / 529
+Gaps: 5.75 %
+Invariant sites: 29.63 %
+
+Partition 4: p5_4744_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 165 / 77
+Gaps: 16.90 %
+Invariant sites: 65.45 %
+
+Partition 5: p6_4757_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 528 / 310
+Gaps: 15.39 %
+Invariant sites: 53.98 %
+
+Partition 6: p7_4793_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1542 / 1181
+Gaps: 24.70 %
+Invariant sites: 38.07 %
+
+Partition 7: p8_4796_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 822 / 623
+Gaps: 18.07 %
+Invariant sites: 41.00 %
+
+Partition 8: p9_4802_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 146 / 93
+Gaps: 21.03 %
+Invariant sites: 52.74 %
+
+Partition 9: p10_4806_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 471 / 311
+Gaps: 4.69 %
+Invariant sites: 43.74 %
+
+Partition 10: p11_4848_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1617 / 1092
+Gaps: 7.19 %
+Invariant sites: 42.30 %
+
+Partition 11: p12_4889_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 465 / 324
+Gaps: 11.91 %
+Invariant sites: 45.59 %
+
+Partition 12: p13_4890_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 189 / 148
+Gaps: 15.90 %
+Invariant sites: 33.86 %
+
+Partition 13: p14_4893_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 657 / 388
+Gaps: 18.94 %
+Invariant sites: 53.12 %
+
+Partition 14: p15_4932_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 952 / 539
+Gaps: 7.23 %
+Invariant sites: 50.95 %
+
+Partition 15: p16_4942_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 878 / 530
+Gaps: 16.69 %
+Invariant sites: 54.78 %
+
+Partition 16: p17_4951_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 555 / 396
+Gaps: 29.83 %
+Invariant sites: 47.93 %
+
+Partition 17: p18_4954_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 78 / 48
+Gaps: 12.16 %
+Invariant sites: 43.59 %
+
+Partition 18: p19_4989_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 276 / 121
+Gaps: 8.15 %
+Invariant sites: 62.32 %
+
+Partition 19: p20_4992_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1662 / 1134
+Gaps: 7.33 %
+Invariant sites: 44.22 %
+
+Partition 20: p21_5018_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1127 / 816
+Gaps: 17.83 %
+Invariant sites: 40.64 %
+
+Partition 21: p22_5032_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 686 / 483
+Gaps: 9.43 %
+Invariant sites: 39.80 %
+
+Partition 22: p23_5034_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 726 / 535
+Gaps: 26.21 %
+Invariant sites: 43.53 %
+
+Partition 23: p24_5038_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 489 / 285
+Gaps: 9.48 %
+Invariant sites: 52.15 %
+
+Partition 24: p25_5064_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 198 / 164
+Gaps: 25.25 %
+Invariant sites: 31.82 %
+
+Partition 25: p26_5090_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 471 / 282
+Gaps: 19.59 %
+Invariant sites: 51.17 %
+
+Partition 26: p27_5104_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 224 / 129
+Gaps: 47.31 %
+Invariant sites: 58.48 %
+
+Partition 27: p28_5116_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 755 / 542
+Gaps: 7.81 %
+Invariant sites: 38.15 %
+
+Partition 28: p29_5123_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 340 / 225
+Gaps: 6.09 %
+Invariant sites: 41.76 %
+
+Partition 29: p30_5131_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 447 / 349
+Gaps: 19.11 %
+Invariant sites: 39.37 %
+
+Partition 30: p31_5138_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 675 / 448
+Gaps: 19.88 %
+Invariant sites: 51.70 %
+
+Partition 31: p32_5162_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1416 / 962
+Gaps: 22.48 %
+Invariant sites: 44.92 %
+
+Partition 32: p33_5163_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 596 / 459
+Gaps: 13.18 %
+Invariant sites: 37.92 %
+
+Partition 33: p34_5168_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 477 / 352
+Gaps: 15.72 %
+Invariant sites: 37.32 %
+
+Partition 34: p35_5177_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 570 / 434
+Gaps: 48.97 %
+Invariant sites: 42.81 %
+
+Partition 35: p36_5188_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 468 / 289
+Gaps: 5.79 %
+Invariant sites: 52.78 %
+
+Partition 36: p37_5200_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 300 / 211
+Gaps: 18.00 %
+Invariant sites: 47.00 %
+
+Partition 37: p38_5206_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 451 / 260
+Gaps: 20.10 %
+Invariant sites: 55.21 %
+
+Partition 38: p39_5220_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 294 / 155
+Gaps: 14.38 %
+Invariant sites: 53.06 %
+
+Partition 39: p40_5257_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 435 / 291
+Gaps: 24.60 %
+Invariant sites: 42.76 %
+
+Partition 40: p41_5260_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 282 / 204
+Gaps: 20.14 %
+Invariant sites: 46.10 %
+
+Partition 41: p42_5264_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1302 / 932
+Gaps: 18.59 %
+Invariant sites: 41.86 %
+
+Partition 42: p43_5271_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 300 / 228
+Gaps: 8.61 %
+Invariant sites: 35.00 %
+
+Partition 43: p44_5273_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1334 / 890
+Gaps: 9.37 %
+Invariant sites: 46.48 %
+
+Partition 44: p45_5280_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 795 / 458
+Gaps: 8.37 %
+Invariant sites: 52.96 %
+
+Partition 45: p46_5296_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 759 / 653
+Gaps: 22.30 %
+Invariant sites: 22.13 %
+
+Partition 46: p47_5299_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 927 / 618
+Gaps: 15.48 %
+Invariant sites: 48.00 %
+
+Partition 47: p48_5304_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 594 / 422
+Gaps: 17.00 %
+Invariant sites: 44.61 %
+
+Partition 48: p49_5318_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 183 / 99
+Gaps: 22.12 %
+Invariant sites: 55.74 %
+
+Partition 49: p50_5326_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1038 / 729
+Gaps: 6.13 %
+Invariant sites: 42.20 %
+
+Partition 50: p51_5328_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 411 / 301
+Gaps: 13.92 %
+Invariant sites: 43.80 %
+
+Partition 51: p52_5333_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 2250 / 1754
+Gaps: 13.39 %
+Invariant sites: 32.44 %
+
+Partition 52: p53_5335_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 120 / 55
+Gaps: 4.08 %
+Invariant sites: 63.33 %
+
+Partition 53: p54_5339_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 690 / 542
+Gaps: 28.56 %
+Invariant sites: 44.64 %
+
+Partition 54: p55_5343_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 726 / 458
+Gaps: 12.52 %
+Invariant sites: 48.35 %
+
+Partition 55: p56_5347_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 210 / 144
+Gaps: 28.48 %
+Invariant sites: 43.33 %
+
+Partition 56: p57_5348_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 513 / 426
+Gaps: 35.01 %
+Invariant sites: 33.14 %
+
+Partition 57: p58_5354_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 213 / 125
+Gaps: 19.82 %
+Invariant sites: 57.75 %
+
+Partition 58: p59_5355_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 270 / 160
+Gaps: 20.77 %
+Invariant sites: 48.89 %
+
+Partition 59: p60_5357_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 258 / 148
+Gaps: 4.49 %
+Invariant sites: 48.06 %
+
+Partition 60: p61_5366_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 862 / 613
+Gaps: 16.03 %
+Invariant sites: 44.32 %
+
+Partition 61: p62_5398_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1482 / 807
+Gaps: 6.40 %
+Invariant sites: 54.05 %
+
+Partition 62: p63_5404_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1086 / 667
+Gaps: 5.58 %
+Invariant sites: 47.33 %
+
+Partition 63: p64_5406_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1020 / 552
+Gaps: 10.13 %
+Invariant sites: 57.06 %
+
+Partition 64: p65_5421_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1212 / 857
+Gaps: 32.67 %
+Invariant sites: 51.73 %
+
+Partition 65: p66_5422_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 558 / 379
+Gaps: 7.46 %
+Invariant sites: 35.30 %
+
+Partition 66: p67_5426_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 949 / 585
+Gaps: 11.05 %
+Invariant sites: 48.58 %
+
+Partition 67: p68_5427_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 624 / 398
+Gaps: 6.11 %
+Invariant sites: 48.24 %
+
+Partition 68: p69_5428_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 552 / 389
+Gaps: 18.00 %
+Invariant sites: 45.83 %
+
+Partition 69: p70_5430_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 300 / 202
+Gaps: 28.36 %
+Invariant sites: 44.33 %
+
+Partition 70: p71_5434_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 657 / 355
+Gaps: 21.21 %
+Invariant sites: 55.71 %
+
+Partition 71: p72_5449_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1038 / 683
+Gaps: 17.41 %
+Invariant sites: 48.17 %
+
+Partition 72: p73_5454_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1045 / 746
+Gaps: 28.09 %
+Invariant sites: 48.90 %
+
+Partition 73: p74_5460_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 342 / 228
+Gaps: 35.81 %
+Invariant sites: 54.68 %
+
+Partition 74: p75_5463_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 453 / 278
+Gaps: 9.85 %
+Invariant sites: 52.54 %
+
+Partition 75: p76_5464_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 435 / 338
+Gaps: 11.00 %
+Invariant sites: 34.25 %
+
+Partition 76: p77_5469_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 567 / 391
+Gaps: 18.91 %
+Invariant sites: 44.62 %
+
+Partition 77: p78_5477_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 445 / 371
+Gaps: 28.16 %
+Invariant sites: 35.96 %
+
+Partition 78: p79_5489_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 708 / 509
+Gaps: 24.36 %
+Invariant sites: 49.15 %
+
+Partition 79: p80_5502_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 468 / 280
+Gaps: 8.03 %
+Invariant sites: 51.28 %
+
+Partition 80: p81_5513_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 755 / 517
+Gaps: 16.07 %
+Invariant sites: 48.74 %
+
+Partition 81: p82_5528_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 526 / 335
+Gaps: 21.40 %
+Invariant sites: 52.66 %
+
+Partition 82: p83_5531_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 152 / 82
+Gaps: 15.47 %
+Invariant sites: 53.29 %
+
+Partition 83: p84_5536_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 239 / 148
+Gaps: 42.66 %
+Invariant sites: 54.81 %
+
+Partition 84: p85_5551_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 816 / 541
+Gaps: 43.83 %
+Invariant sites: 52.33 %
+
+Partition 85: p86_5554_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 724 / 584
+Gaps: 9.87 %
+Invariant sites: 32.32 %
+
+Partition 86: p87_5562_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 330 / 210
+Gaps: 53.29 %
+Invariant sites: 50.00 %
+
+Partition 87: p88_5578_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 156 / 104
+Gaps: 40.93 %
+Invariant sites: 46.79 %
+
+Partition 88: p89_5594_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 624 / 399
+Gaps: 14.53 %
+Invariant sites: 48.40 %
+
+Partition 89: p90_5596_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 880 / 479
+Gaps: 8.23 %
+Invariant sites: 52.95 %
+
+Partition 90: p91_5599_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 479 / 331
+Gaps: 7.93 %
+Invariant sites: 45.93 %
+
+Partition 91: p92_5614_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 2151 / 1474
+Gaps: 24.11 %
+Invariant sites: 46.91 %
+
+Partition 92: p93_5620_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 522 / 360
+Gaps: 10.28 %
+Invariant sites: 49.43 %
+
+Partition 93: p94_5634_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 540 / 342
+Gaps: 8.80 %
+Invariant sites: 47.78 %
+
+Partition 94: p95_5639_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 453 / 313
+Gaps: 5.45 %
+Invariant sites: 43.49 %
+
+Partition 95: p96_5642_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 117 / 56
+Gaps: 57.67 %
+Invariant sites: 65.81 %
+
+Partition 96: p97_5644_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 845 / 582
+Gaps: 29.22 %
+Invariant sites: 42.96 %
+
+Partition 97: p98_5656_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 90 / 51
+Gaps: 38.33 %
+Invariant sites: 54.44 %
+
+Partition 98: p99_5660_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 381 / 270
+Gaps: 29.75 %
+Invariant sites: 45.14 %
+
+Partition 99: p100_5664_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 954 / 626
+Gaps: 10.53 %
+Invariant sites: 46.86 %
+
+Partition 100: p101_5670_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 816 / 613
+Gaps: 31.31 %
+Invariant sites: 49.39 %
+
+Partition 101: p102_5699_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 709 / 468
+Gaps: 23.20 %
+Invariant sites: 47.81 %
+
+Partition 102: p103_5702_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 635 / 417
+Gaps: 15.30 %
+Invariant sites: 48.98 %
+
+Partition 103: p104_5703_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 581 / 430
+Gaps: 26.14 %
+Invariant sites: 40.28 %
+
+Partition 104: p105_5716_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1344 / 1051
+Gaps: 14.16 %
+Invariant sites: 39.43 %
+
+Partition 105: p106_5721_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 723 / 480
+Gaps: 5.40 %
+Invariant sites: 43.71 %
+
+Partition 106: p107_5733_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 195 / 110
+Gaps: 37.51 %
+Invariant sites: 58.97 %
+
+Partition 107: p108_5744_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 339 / 231
+Gaps: 56.19 %
+Invariant sites: 53.98 %
+
+Partition 108: p109_5770_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 792 / 475
+Gaps: 5.75 %
+Invariant sites: 47.60 %
+
+Partition 109: p110_5772_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 156 / 101
+Gaps: 8.88 %
+Invariant sites: 43.59 %
+
+Partition 110: p111_5791_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 609 / 428
+Gaps: 18.69 %
+Invariant sites: 45.81 %
+
+Partition 111: p112_5802_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 213 / 144
+Gaps: 20.56 %
+Invariant sites: 48.83 %
+
+Partition 112: p113_5815_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 555 / 399
+Gaps: 17.61 %
+Invariant sites: 38.02 %
+
+Partition 113: p114_5816_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1121 / 845
+Gaps: 11.75 %
+Invariant sites: 40.68 %
+
+Partition 114: p115_5821_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 157 / 111
+Gaps: 24.02 %
+Invariant sites: 39.49 %
+
+Partition 115: p116_5822_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 417 / 349
+Gaps: 63.40 %
+Invariant sites: 37.41 %
+
+Partition 116: p117_5840_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 798 / 529
+Gaps: 5.00 %
+Invariant sites: 43.36 %
+
+Partition 117: p118_5841_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 813 / 527
+Gaps: 27.62 %
+Invariant sites: 47.60 %
+
+Partition 118: p119_5842_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 725 / 528
+Gaps: 18.66 %
+Invariant sites: 41.79 %
+
+Partition 119: p120_5843_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 123 / 70
+Gaps: 11.69 %
+Invariant sites: 50.41 %
+
+Partition 120: p121_5849_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 231 / 163
+Gaps: 36.63 %
+Invariant sites: 49.35 %
+
+Partition 121: p122_5853_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 183 / 104
+Gaps: 8.84 %
+Invariant sites: 53.01 %
+
+Partition 122: p123_5857_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 648 / 447
+Gaps: 18.46 %
+Invariant sites: 42.59 %
+
+Partition 123: p124_5858_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 561 / 356
+Gaps: 15.50 %
+Invariant sites: 52.76 %
+
+Partition 124: p125_5859_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 804 / 527
+Gaps: 10.83 %
+Invariant sites: 45.02 %
+
+Partition 125: p126_5865_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1248 / 835
+Gaps: 14.18 %
+Invariant sites: 44.63 %
+
+Partition 126: p127_5866_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 459 / 283
+Gaps: 34.10 %
+Invariant sites: 52.07 %
+
+Partition 127: p128_5870_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 323 / 217
+Gaps: 9.62 %
+Invariant sites: 42.11 %
+
+Partition 128: p129_5893_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 187 / 116
+Gaps: 33.77 %
+Invariant sites: 47.06 %
+
+Partition 129: p130_5894_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 351 / 220
+Gaps: 12.23 %
+Invariant sites: 42.17 %
+
+Partition 130: p131_5899_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1032 / 685
+Gaps: 14.73 %
+Invariant sites: 47.09 %
+
+Partition 131: p132_5910_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 579 / 369
+Gaps: 9.40 %
+Invariant sites: 48.53 %
+
+Partition 132: p133_5913_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 696 / 407
+Gaps: 10.01 %
+Invariant sites: 52.01 %
+
+Partition 133: p134_5918_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 618 / 436
+Gaps: 10.63 %
+Invariant sites: 40.29 %
+
+Partition 134: p135_5919_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 423 / 296
+Gaps: 10.51 %
+Invariant sites: 38.06 %
+
+Partition 135: p136_5921_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 2558 / 1929
+Gaps: 28.19 %
+Invariant sites: 41.59 %
+
+Partition 136: p137_5922_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1261 / 763
+Gaps: 18.10 %
+Invariant sites: 55.19 %
+
+Partition 137: p138_5926_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 816 / 598
+Gaps: 25.46 %
+Invariant sites: 49.75 %
+
+Partition 138: p139_5933_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 789 / 472
+Gaps: 11.30 %
+Invariant sites: 56.53 %
+
+Partition 139: p140_5936_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 273 / 162
+Gaps: 14.95 %
+Invariant sites: 52.38 %
+
+Partition 140: p141_5940_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 726 / 463
+Gaps: 6.35 %
+Invariant sites: 43.94 %
+
+Partition 141: p142_5941_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 320 / 263
+Gaps: 31.83 %
+Invariant sites: 37.19 %
+
+Partition 142: p143_5942_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 522 / 349
+Gaps: 14.21 %
+Invariant sites: 45.02 %
+
+Partition 143: p144_5943_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1728 / 1251
+Gaps: 9.47 %
+Invariant sites: 40.57 %
+
+Partition 144: p145_5944_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 416 / 301
+Gaps: 32.40 %
+Invariant sites: 48.80 %
+
+Partition 145: p146_5945_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 504 / 327
+Gaps: 22.85 %
+Invariant sites: 48.21 %
+
+Partition 146: p147_5949_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 459 / 321
+Gaps: 14.52 %
+Invariant sites: 45.32 %
+
+Partition 147: p148_5950_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 657 / 453
+Gaps: 15.74 %
+Invariant sites: 45.81 %
+
+Partition 148: p149_5958_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 321 / 181
+Gaps: 19.23 %
+Invariant sites: 54.83 %
+
+Partition 149: p150_5960_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1012 / 694
+Gaps: 34.41 %
+Invariant sites: 39.53 %
+
+Partition 150: p151_5968_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 375 / 196
+Gaps: 28.19 %
+Invariant sites: 58.40 %
+
+Partition 151: p152_5974_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 642 / 468
+Gaps: 31.26 %
+Invariant sites: 42.99 %
+
+Partition 152: p153_5977_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 409 / 297
+Gaps: 24.19 %
+Invariant sites: 42.79 %
+
+Partition 153: p154_5980_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 474 / 362
+Gaps: 33.17 %
+Invariant sites: 44.30 %
+
+Partition 154: p155_5981_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 840 / 593
+Gaps: 17.31 %
+Invariant sites: 42.74 %
+
+Partition 155: p156_5990_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 72 / 56
+Gaps: 57.32 %
+Invariant sites: 31.94 %
+
+Partition 156: p157_6000_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 261 / 164
+Gaps: 9.41 %
+Invariant sites: 49.04 %
+
+Partition 157: p158_6003_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 222 / 115
+Gaps: 6.92 %
+Invariant sites: 54.95 %
+
+Partition 158: p159_6004_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 168 / 131
+Gaps: 7.06 %
+Invariant sites: 38.10 %
+
+Partition 159: p160_6016_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 273 / 143
+Gaps: 6.55 %
+Invariant sites: 60.07 %
+
+Partition 160: p161_6026_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 150 / 85
+Gaps: 14.10 %
+Invariant sites: 52.00 %
+
+Partition 161: p162_6029_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 415 / 319
+Gaps: 50.46 %
+Invariant sites: 41.93 %
+
+Partition 162: p163_6034_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 594 / 406
+Gaps: 27.14 %
+Invariant sites: 43.94 %
+
+Partition 163: p164_6036_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1239 / 823
+Gaps: 8.14 %
+Invariant sites: 44.87 %
+
+Partition 164: p165_6038_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 443 / 280
+Gaps: 14.25 %
+Invariant sites: 52.37 %
+
+Partition 165: p166_6041_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 444 / 250
+Gaps: 4.14 %
+Invariant sites: 53.38 %
+
+Partition 166: p167_6048_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 303 / 200
+Gaps: 19.73 %
+Invariant sites: 45.54 %
+
+Partition 167: p168_6050_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 291 / 200
+Gaps: 15.25 %
+Invariant sites: 50.86 %
+
+Partition 168: p169_6051_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1185 / 918
+Gaps: 17.16 %
+Invariant sites: 38.90 %
+
+Partition 169: p170_6056_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 448 / 390
+Gaps: 39.43 %
+Invariant sites: 27.46 %
+
+Partition 170: p171_6064_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 443 / 350
+Gaps: 17.03 %
+Invariant sites: 35.67 %
+
+Partition 171: p172_6068_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 219 / 153
+Gaps: 45.21 %
+Invariant sites: 49.77 %
+
+Partition 172: p173_6072_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 338 / 215
+Gaps: 52.52 %
+Invariant sites: 44.67 %
+
+Partition 173: p174_6098_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1203 / 703
+Gaps: 4.01 %
+Invariant sites: 51.12 %
+
+Partition 174: p175_6110_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 324 / 256
+Gaps: 22.33 %
+Invariant sites: 37.35 %
+
+Partition 175: p176_6114_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 460 / 378
+Gaps: 28.61 %
+Invariant sites: 32.61 %
+
+Partition 176: p177_6119_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1371 / 865
+Gaps: 6.58 %
+Invariant sites: 44.64 %
+
+Partition 177: p178_6128_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 100 / 59
+Gaps: 10.58 %
+Invariant sites: 56.00 %
+
+Partition 178: p179_6130_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 390 / 282
+Gaps: 13.51 %
+Invariant sites: 43.85 %
+
+Partition 179: p180_6139_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 663 / 382
+Gaps: 6.48 %
+Invariant sites: 50.68 %
+
+Partition 180: p181_6148_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 447 / 324
+Gaps: 22.80 %
+Invariant sites: 45.19 %
+
+Partition 181: p182_6150_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 609 / 457
+Gaps: 14.03 %
+Invariant sites: 42.86 %
+
+Partition 182: p183_6164_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 267 / 186
+Gaps: 10.23 %
+Invariant sites: 46.82 %
+
+Partition 183: p184_6175_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 751 / 586
+Gaps: 17.28 %
+Invariant sites: 36.48 %
+
+Partition 184: p185_6176_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1029 / 740
+Gaps: 8.25 %
+Invariant sites: 43.44 %
+
+Partition 185: p186_6198_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 326 / 214
+Gaps: 29.87 %
+Invariant sites: 48.77 %
+
+Partition 186: p187_6216_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 488 / 310
+Gaps: 11.21 %
+Invariant sites: 45.29 %
+
+Partition 187: p188_6221_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 645 / 497
+Gaps: 20.87 %
+Invariant sites: 39.22 %
+
+Partition 188: p189_6226_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 990 / 744
+Gaps: 13.30 %
+Invariant sites: 40.30 %
+
+Partition 189: p190_6227_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 594 / 365
+Gaps: 34.29 %
+Invariant sites: 56.73 %
+
+Partition 190: p191_6238_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 543 / 363
+Gaps: 6.93 %
+Invariant sites: 41.44 %
+
+Partition 191: p192_6258_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 771 / 500
+Gaps: 12.19 %
+Invariant sites: 49.42 %
+
+Partition 192: p193_6265_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 297 / 166
+Gaps: 21.91 %
+Invariant sites: 52.19 %
+
+Partition 193: p194_6270_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 309 / 214
+Gaps: 47.54 %
+Invariant sites: 44.66 %
+
+Partition 194: p195_6274_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 465 / 318
+Gaps: 21.40 %
+Invariant sites: 51.18 %
+
+Partition 195: p196_6282_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 462 / 279
+Gaps: 22.81 %
+Invariant sites: 55.41 %
+
+Partition 196: p197_6284_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 716 / 507
+Gaps: 20.75 %
+Invariant sites: 48.18 %
+
+Partition 197: p198_6295_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 702 / 467
+Gaps: 12.72 %
+Invariant sites: 51.57 %
+
+Partition 198: p199_6298_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 88 / 39
+Gaps: 51.15 %
+Invariant sites: 67.05 %
+
+Partition 199: p200_6299_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 429 / 287
+Gaps: 26.33 %
+Invariant sites: 44.06 %
+
+Partition 200: p201_6303_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 258 / 149
+Gaps: 24.38 %
+Invariant sites: 62.02 %
+
+Partition 201: p202_6318_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1262 / 868
+Gaps: 10.76 %
+Invariant sites: 44.06 %
+
+Partition 202: p203_6320_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1033 / 698
+Gaps: 9.41 %
+Invariant sites: 44.63 %
+
+Partition 203: p204_6363_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 723 / 488
+Gaps: 9.78 %
+Invariant sites: 48.69 %
+
+Partition 204: p205_6366_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 174 / 91
+Gaps: 13.31 %
+Invariant sites: 60.34 %
+
+Partition 205: p206_6373_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 729 / 431
+Gaps: 8.21 %
+Invariant sites: 51.58 %
+
+Partition 206: p207_6376_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 507 / 357
+Gaps: 17.15 %
+Invariant sites: 44.97 %
+
+Partition 207: p208_6378_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 249 / 166
+Gaps: 22.73 %
+Invariant sites: 44.58 %
+
+Partition 208: p209_6379_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 288 / 177
+Gaps: 39.27 %
+Invariant sites: 48.61 %
+
+Partition 209: p210_6383_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 765 / 554
+Gaps: 29.59 %
+Invariant sites: 48.50 %
+
+Partition 210: p211_6384_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 760 / 581
+Gaps: 33.47 %
+Invariant sites: 42.63 %
+
+Partition 211: p212_6387_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 771 / 423
+Gaps: 7.01 %
+Invariant sites: 54.35 %
+
+Partition 212: p213_6389_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 650 / 364
+Gaps: 9.04 %
+Invariant sites: 54.92 %
+
+Partition 213: p214_6393_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 714 / 524
+Gaps: 26.74 %
+Invariant sites: 41.04 %
+
+Partition 214: p215_6398_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 357 / 197
+Gaps: 42.90 %
+Invariant sites: 54.34 %
+
+Partition 215: p216_6401_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 528 / 362
+Gaps: 10.87 %
+Invariant sites: 38.83 %
+
+Partition 216: p217_6404_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 484 / 360
+Gaps: 35.30 %
+Invariant sites: 39.88 %
+
+Partition 217: p218_6405_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 999 / 789
+Gaps: 12.36 %
+Invariant sites: 35.14 %
+
+Partition 218: p219_6406_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 172 / 148
+Gaps: 44.76 %
+Invariant sites: 27.91 %
+
+Partition 219: p220_6407_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 220 / 97
+Gaps: 57.69 %
+Invariant sites: 67.73 %
+
+Partition 220: p221_6412_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 546 / 402
+Gaps: 45.06 %
+Invariant sites: 49.08 %
+
+Partition 221: p222_6420_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 600 / 415
+Gaps: 12.18 %
+Invariant sites: 44.83 %
+
+Partition 222: p223_6430_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 73 / 33
+Gaps: 94.33 %
+Invariant sites: 71.23 %
+
+Partition 223: p224_6432_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 378 / 213
+Gaps: 19.69 %
+Invariant sites: 54.76 %
+
+Partition 224: p225_6439_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 453 / 325
+Gaps: 19.83 %
+Invariant sites: 44.59 %
+
+Partition 225: p226_6447_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 267 / 182
+Gaps: 11.09 %
+Invariant sites: 50.56 %
+
+Partition 226: p227_6448_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 483 / 309
+Gaps: 46.03 %
+Invariant sites: 46.17 %
+
+Partition 227: p228_6449_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 207 / 128
+Gaps: 8.88 %
+Invariant sites: 45.41 %
+
+Partition 228: p229_6450_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 731 / 534
+Gaps: 21.05 %
+Invariant sites: 41.86 %
+
+Partition 229: p230_6454_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 571 / 390
+Gaps: 9.78 %
+Invariant sites: 47.81 %
+
+Partition 230: p231_6457_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 318 / 226
+Gaps: 20.75 %
+Invariant sites: 44.34 %
+
+Partition 231: p232_6458_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1245 / 796
+Gaps: 31.90 %
+Invariant sites: 57.11 %
+
+Partition 232: p233_6459_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 675 / 489
+Gaps: 16.53 %
+Invariant sites: 40.30 %
+
+Partition 233: p234_6460_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1012 / 739
+Gaps: 21.00 %
+Invariant sites: 41.21 %
+
+Partition 234: p235_6462_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 696 / 451
+Gaps: 14.47 %
+Invariant sites: 49.57 %
+
+Partition 235: p236_6483_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 750 / 490
+Gaps: 16.42 %
+Invariant sites: 47.33 %
+
+Partition 236: p237_6487_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 323 / 186
+Gaps: 7.33 %
+Invariant sites: 52.63 %
+
+Partition 237: p238_6488_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 412 / 319
+Gaps: 16.26 %
+Invariant sites: 35.19 %
+
+Partition 238: p239_6492_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 364 / 214
+Gaps: 13.65 %
+Invariant sites: 53.85 %
+
+Partition 239: p240_6494_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 658 / 363
+Gaps: 8.03 %
+Invariant sites: 53.80 %
+
+Partition 240: p241_6496_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 160 / 92
+Gaps: 11.56 %
+Invariant sites: 46.25 %
+
+Partition 241: p242_6498_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 243 / 140
+Gaps: 12.48 %
+Invariant sites: 59.67 %
+
+Partition 242: p243_6500_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1226 / 891
+Gaps: 40.11 %
+Invariant sites: 52.53 %
+
+Partition 243: p244_6506_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 381 / 249
+Gaps: 28.43 %
+Invariant sites: 52.23 %
+
+Partition 244: p245_6507_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 404 / 294
+Gaps: 32.57 %
+Invariant sites: 42.33 %
+
+Partition 245: p246_6526_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 266 / 186
+Gaps: 37.45 %
+Invariant sites: 46.99 %
+
+Partition 246: p247_6527_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 953 / 678
+Gaps: 14.14 %
+Invariant sites: 45.54 %
+
+Partition 247: p248_6528_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 375 / 253
+Gaps: 34.07 %
+Invariant sites: 55.73 %
+
+Partition 248: p249_6531_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 102 / 69
+Gaps: 62.62 %
+Invariant sites: 50.00 %
+
+Partition 249: p250_6532_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 185 / 69
+Gaps: 17.87 %
+Invariant sites: 70.81 %
+
+Partition 250: p251_6533_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 540 / 376
+Gaps: 20.06 %
+Invariant sites: 45.37 %
+
+Partition 251: p252_6538_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 600 / 422
+Gaps: 10.95 %
+Invariant sites: 46.83 %
+
+Partition 252: p253_6540_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 499 / 303
+Gaps: 41.50 %
+Invariant sites: 59.12 %
+
+Partition 253: p254_6544_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1004 / 684
+Gaps: 13.13 %
+Invariant sites: 47.11 %
+
+Partition 254: p255_6550_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 249 / 145
+Gaps: 40.57 %
+Invariant sites: 51.41 %
+
+Partition 255: p256_6552_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 553 / 383
+Gaps: 14.01 %
+Invariant sites: 44.30 %
+
+Partition 256: p257_6557_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 135 / 85
+Gaps: 13.41 %
+Invariant sites: 46.67 %
+
+Partition 257: p258_6559_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 345 / 199
+Gaps: 10.15 %
+Invariant sites: 50.72 %
+
+Partition 258: p259_6563_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 876 / 585
+Gaps: 24.39 %
+Invariant sites: 44.52 %
+
+Partition 259: p260_6565_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 213 / 161
+Gaps: 21.18 %
+Invariant sites: 39.91 %
+
+Partition 260: p261_6570_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 273 / 217
+Gaps: 48.60 %
+Invariant sites: 43.96 %
+
+Partition 261: p262_6572_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 843 / 607
+Gaps: 11.96 %
+Invariant sites: 39.98 %
+
+Partition 262: p263_6601_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 725 / 457
+Gaps: 27.14 %
+Invariant sites: 44.83 %
+
+Partition 263: p264_6620_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 444 / 286
+Gaps: 17.54 %
+Invariant sites: 50.45 %
+
+Partition 264: p265_6631_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 204 / 162
+Gaps: 15.60 %
+Invariant sites: 36.76 %
+
+Partition 265: p266_6636_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 606 / 432
+Gaps: 15.58 %
+Invariant sites: 46.04 %
+
+Partition 266: p267_6639_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 708 / 503
+Gaps: 16.69 %
+Invariant sites: 42.51 %
+
+Partition 267: p268_6641_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 554 / 359
+Gaps: 19.36 %
+Invariant sites: 53.61 %
+
+Partition 268: p269_6649_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 182 / 108
+Gaps: 68.95 %
+Invariant sites: 64.29 %
+
+Partition 269: p270_6652_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1332 / 872
+Gaps: 6.70 %
+Invariant sites: 45.50 %
+
+Partition 270: p271_6660_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 696 / 533
+Gaps: 29.11 %
+Invariant sites: 39.94 %
+
+Partition 271: p272_6667_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 542 / 343
+Gaps: 16.44 %
+Invariant sites: 50.00 %
+
+Partition 272: p273_6679_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 95 / 69
+Gaps: 21.87 %
+Invariant sites: 47.37 %
+
+Partition 273: p274_6685_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 70 / 37
+Gaps: 25.42 %
+Invariant sites: 54.29 %
+
+Partition 274: p275_6689_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 860 / 528
+Gaps: 18.29 %
+Invariant sites: 54.19 %
+
+Partition 275: p276_6705_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 174 / 131
+Gaps: 23.34 %
+Invariant sites: 39.08 %
+
+Partition 276: p277_6713_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 527 / 377
+Gaps: 25.60 %
+Invariant sites: 39.28 %
+
+Partition 277: p278_6717_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1260 / 875
+Gaps: 13.51 %
+Invariant sites: 46.75 %
+
+Partition 278: p279_6732_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 145 / 106
+Gaps: 44.91 %
+Invariant sites: 47.59 %
+
+Partition 279: p280_6733_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 91 / 57
+Gaps: 40.64 %
+Invariant sites: 56.04 %
+
+Partition 280: p281_6738_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 60 / 39
+Gaps: 66.71 %
+Invariant sites: 41.67 %
+
+Partition 281: p282_6746_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 72 / 35
+Gaps: 67.39 %
+Invariant sites: 47.22 %
+
+Partition 282: p283_6779_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 702 / 527
+Gaps: 23.30 %
+Invariant sites: 41.45 %
+
+Partition 283: p284_6780_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 219 / 123
+Gaps: 14.48 %
+Invariant sites: 59.36 %
+
+Partition 284: p285_6782_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 237 / 166
+Gaps: 27.10 %
+Invariant sites: 45.15 %
+
+Partition 285: p286_6785_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 291 / 219
+Gaps: 24.53 %
+Invariant sites: 40.89 %
+
+Partition 286: p287_6791_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 177 / 123
+Gaps: 23.44 %
+Invariant sites: 36.72 %
+
+Partition 287: p288_6792_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 651 / 476
+Gaps: 15.47 %
+Invariant sites: 40.25 %
+
+Partition 288: p289_6797_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 642 / 354
+Gaps: 27.97 %
+Invariant sites: 56.23 %
+
+Partition 289: p290_6825_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 345 / 208
+Gaps: 17.58 %
+Invariant sites: 54.49 %
+
+Partition 290: p291_6848_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 551 / 403
+Gaps: 35.98 %
+Invariant sites: 47.91 %
+
+Partition 291: p292_6854_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 154 / 115
+Gaps: 22.41 %
+Invariant sites: 42.21 %
+
+Partition 292: p293_6859_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 771 / 556
+Gaps: 7.69 %
+Invariant sites: 38.78 %
+
+Partition 293: p294_6860_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 510 / 299
+Gaps: 13.74 %
+Invariant sites: 47.65 %
+
+Partition 294: p295_6864_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 312 / 216
+Gaps: 16.76 %
+Invariant sites: 47.12 %
+
+Partition 295: p296_6865_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 134 / 80
+Gaps: 35.41 %
+Invariant sites: 55.22 %
+
+Partition 296: p297_6875_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 375 / 250
+Gaps: 9.00 %
+Invariant sites: 41.07 %
+
+Partition 297: p298_6882_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 519 / 333
+Gaps: 35.28 %
+Invariant sites: 45.86 %
+
+Partition 298: p299_6883_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 411 / 215
+Gaps: 14.10 %
+Invariant sites: 56.45 %
+
+Partition 299: p300_6886_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 162 / 120
+Gaps: 12.58 %
+Invariant sites: 36.42 %
+
+Partition 300: p301_6893_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 250 / 166
+Gaps: 67.33 %
+Invariant sites: 53.20 %
+
+Partition 301: p302_6909_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 287 / 195
+Gaps: 10.16 %
+Invariant sites: 41.81 %
+
+Partition 302: p303_6913_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 966 / 540
+Gaps: 8.22 %
+Invariant sites: 56.73 %
+
+Partition 303: p304_6914_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 723 / 535
+Gaps: 36.32 %
+Invariant sites: 40.94 %
+
+Partition 304: p305_6924_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 870 / 529
+Gaps: 7.55 %
+Invariant sites: 51.84 %
+
+Partition 305: p306_6933_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 663 / 433
+Gaps: 25.83 %
+Invariant sites: 48.87 %
+
+Partition 306: p307_6946_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 345 / 190
+Gaps: 13.36 %
+Invariant sites: 47.83 %
+
+Partition 307: p308_6947_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1406 / 1041
+Gaps: 11.51 %
+Invariant sites: 40.04 %
+
+Partition 308: p309_6954_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 645 / 469
+Gaps: 18.80 %
+Invariant sites: 44.96 %
+
+Partition 309: p310_6955_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 333 / 174
+Gaps: 12.24 %
+Invariant sites: 58.26 %
+
+Partition 310: p311_6958_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 449 / 294
+Gaps: 53.21 %
+Invariant sites: 43.88 %
+
+Partition 311: p312_6961_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 375 / 222
+Gaps: 6.09 %
+Invariant sites: 52.27 %
+
+Partition 312: p313_6962_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 246 / 141
+Gaps: 12.04 %
+Invariant sites: 50.81 %
+
+Partition 313: p314_6968_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 762 / 551
+Gaps: 18.20 %
+Invariant sites: 42.91 %
+
+Partition 314: p315_6969_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 210 / 117
+Gaps: 88.20 %
+Invariant sites: 55.71 %
+
+Partition 315: p316_6977_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 406 / 266
+Gaps: 72.83 %
+Invariant sites: 45.81 %
+
+Partition 316: p317_6978_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 318 / 201
+Gaps: 16.01 %
+Invariant sites: 50.94 %
+
+Partition 317: p318_6979_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 810 / 581
+Gaps: 11.66 %
+Invariant sites: 41.23 %
+
+Partition 318: p319_6992_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 270 / 159
+Gaps: 20.46 %
+Invariant sites: 54.81 %
+
+Partition 319: p320_6995_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 180 / 118
+Gaps: 14.71 %
+Invariant sites: 43.33 %
+
+Partition 320: p321_7013_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 201 / 129
+Gaps: 49.92 %
+Invariant sites: 56.72 %
+
+Partition 321: p322_7021_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 597 / 441
+Gaps: 31.80 %
+Invariant sites: 38.69 %
+
+Partition 322: p323_7024_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 290 / 208
+Gaps: 28.34 %
+Invariant sites: 46.55 %
+
+Partition 323: p324_7028_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 390 / 279
+Gaps: 17.13 %
+Invariant sites: 40.00 %
+
+Partition 324: p325_7029_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 726 / 439
+Gaps: 9.18 %
+Invariant sites: 50.83 %
+
+Partition 325: p326_7067_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 144 / 80
+Gaps: 33.96 %
+Invariant sites: 53.47 %
+
+Partition 326: p327_7111_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 382 / 248
+Gaps: 16.05 %
+Invariant sites: 47.38 %
+
+Partition 327: p328_7128_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1082 / 855
+Gaps: 31.02 %
+Invariant sites: 41.59 %
+
+Partition 328: p329_7135_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 47 / 22
+Gaps: 38.18 %
+Invariant sites: 61.70 %
+
+Partition 329: p330_7136_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 384 / 268
+Gaps: 20.29 %
+Invariant sites: 44.01 %
+
+Partition 330: p331_7141_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 627 / 490
+Gaps: 20.05 %
+Invariant sites: 40.51 %
+
+Partition 331: p332_7174_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 1231 / 823
+Gaps: 44.65 %
+Invariant sites: 48.98 %
+
+Partition 332: p333_7194_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 432 / 306
+Gaps: 38.64 %
+Invariant sites: 49.54 %
+
+Partition 333: p334_7241_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 268 / 193
+Gaps: 73.33 %
+Invariant sites: 40.67 %
+
+Partition 334: p335_7273_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 390 / 273
+Gaps: 13.42 %
+Invariant sites: 43.33 %
+
+Partition 335: p336_7279_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 38 / 14
+Gaps: 30.91 %
+Invariant sites: 68.42 %
+
+Partition 336: p337_7296_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 162 / 113
+Gaps: 27.17 %
+Invariant sites: 47.53 %
+
+Partition 337: p338_7313_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 222 / 116
+Gaps: 16.07 %
+Invariant sites: 57.66 %
+
+Partition 338: p339_7324_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 554 / 330
+Gaps: 17.06 %
+Invariant sites: 52.89 %
+
+Partition 339: p340_7325_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 465 / 364
+Gaps: 43.51 %
+Invariant sites: 40.65 %
+
+Partition 340: p341_7331_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 765 / 541
+Gaps: 28.87 %
+Invariant sites: 44.97 %
+
+Partition 341: p342_7333_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 399 / 295
+Gaps: 24.97 %
+Invariant sites: 44.36 %
+
+Partition 342: p343_7336_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 339 / 194
+Gaps: 15.86 %
+Invariant sites: 53.69 %
+
+Partition 343: p344_7361_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 247 / 153
+Gaps: 22.13 %
+Invariant sites: 51.42 %
+
+Partition 344: p345_7363_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 336 / 208
+Gaps: 12.61 %
+Invariant sites: 50.89 %
+
+Partition 345: p346_7367_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 306 / 189
+Gaps: 20.39 %
+Invariant sites: 54.25 %
+
+Partition 346: p347_7371_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 207 / 115
+Gaps: 10.72 %
+Invariant sites: 58.45 %
+
+Partition 347: p348_7572_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 617 / 453
+Gaps: 9.16 %
+Invariant sites: 44.57 %
+
+Partition 348: p349_7577_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 264 / 181
+Gaps: 24.22 %
+Invariant sites: 46.97 %
+
+Partition 349: p350_7583_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 222 / 170
+Gaps: 50.68 %
+Invariant sites: 38.74 %
+
+Partition 350: p351_7602_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 613 / 433
+Gaps: 40.13 %
+Invariant sites: 49.76 %
+
+Partition 351: p352_7628_trimmed
+Model: GTR+FC+G4m+B
+Alignment sites / patterns: 234 / 159
+Gaps: 22.75 %
+Invariant sites: 49.15 %
+
+
+NOTE: Binary MSA file created: /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/raxml_results/angio353_supermatrix.raxml.rba
+
+Parallelization scheme autoconfig: 1 worker(s) x 4 thread(s)
+
+[00:00:00] Generating 10 random starting tree(s) with 110 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 110 taxa
+Parallel parsimony with 4 threads
+Parallel reduction/worker buffer size: 22 KB  / 0 KB
+
+[00:00:02] Data distribution: max. partitions/sites/weight per thread: 89 / 33266 / 532256
+[00:00:02] Data distribution: max. searches per worker: 1020
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:38:15] ML tree search #1, logLikelihood: -2215008.306365
+[01:15:33] ML tree search #2, logLikelihood: -2215246.699714
+[01:53:40] ML tree search #3, logLikelihood: -2215246.785098
+[02:36:36] ML tree search #4, logLikelihood: -2215288.022877
+[03:07:22] ML tree search #5, logLikelihood: -2215009.590735
+[03:37:54] ML tree search #6, logLikelihood: -2215008.387520
+[04:12:24] ML tree search #7, logLikelihood: -2215287.989972
+[04:44:36] ML tree search #8, logLikelihood: -2215258.971576
+[05:15:14] ML tree search #9, logLikelihood: -2215008.332410
+[05:50:40] ML tree search #10, logLikelihood: -2215246.647584
+[06:25:11] ML tree search #11, logLikelihood: -2215008.369232
+[07:00:34] ML tree search #12, logLikelihood: -2215008.458649
+[07:34:50] ML tree search #13, logLikelihood: -2215008.425140
+[08:04:03] ML tree search #14, logLikelihood: -2215008.452222
+[08:43:20] ML tree search #15, logLikelihood: -2215008.465433
+[09:17:34] ML tree search #16, logLikelihood: -2215008.458344
+[09:58:05] ML tree search #17, logLikelihood: -2215008.461136
+[10:38:24] ML tree search #18, logLikelihood: -2215010.372305
+[11:10:05] ML tree search #19, logLikelihood: -2215010.329497
+[11:45:20] ML tree search #20, logLikelihood: -2215008.431595
+
+[11:45:21] ML tree search completed, best tree logLH: -2215008.306365
+
+[11:45:21] Starting bootstrapping analysis with 1000 replicates.
+
+[12:05:51] Bootstrap tree #1, logLikelihood: -2214829.073124
+[12:29:22] Bootstrap tree #2, logLikelihood: -2224234.250595
+[12:58:25] Bootstrap tree #3, logLikelihood: -2210098.804168
+[13:20:54] Bootstrap tree #4, logLikelihood: -2212566.102897
+[13:44:27] Bootstrap tree #5, logLikelihood: -2216401.553339
+[14:08:17] Bootstrap tree #6, logLikelihood: -2212666.692326
+[14:33:48] Bootstrap tree #7, logLikelihood: -2212813.996987
+[14:59:48] Bootstrap tree #8, logLikelihood: -2207419.734508
+[15:21:40] Bootstrap tree #9, logLikelihood: -2203295.447748
+[15:42:14] Bootstrap tree #10, logLikelihood: -2211979.465003
+[16:06:41] Bootstrap tree #11, logLikelihood: -2204828.801595
+[16:33:23] Bootstrap tree #12, logLikelihood: -2211033.845061
+[16:56:07] Bootstrap tree #13, logLikelihood: -2214647.243545
+[17:19:08] Bootstrap tree #14, logLikelihood: -2216232.102290
+[17:41:15] Bootstrap tree #15, logLikelihood: -2201412.408321
+[18:05:45] Bootstrap tree #16, logLikelihood: -2216918.787132
+[18:29:47] Bootstrap tree #17, logLikelihood: -2221484.641017
+[18:54:15] Bootstrap tree #18, logLikelihood: -2214839.301076
+[19:19:15] Bootstrap tree #19, logLikelihood: -2198754.483169
+[19:38:33] Bootstrap tree #20, logLikelihood: -2220021.675894
+[19:56:39] Bootstrap tree #21, logLikelihood: -2205591.807955
+[20:17:28] Bootstrap tree #22, logLikelihood: -2214342.759527
+[20:37:31] Bootstrap tree #23, logLikelihood: -2212038.530343
+[20:58:31] Bootstrap tree #24, logLikelihood: -2216258.817444
+[21:21:13] Bootstrap tree #25, logLikelihood: -2206087.548765
+[21:43:36] Bootstrap tree #26, logLikelihood: -2208516.049589
+[22:05:57] Bootstrap tree #27, logLikelihood: -2219823.424797
+[22:29:10] Bootstrap tree #28, logLikelihood: -2208647.860163
+[22:51:13] Bootstrap tree #29, logLikelihood: -2226888.715696
+[23:13:33] Bootstrap tree #30, logLikelihood: -2199392.755688
+[23:35:39] Bootstrap tree #31, logLikelihood: -2211201.144826
+[23:56:44] Bootstrap tree #32, logLikelihood: -2196954.199587
+[24:19:24] Bootstrap tree #33, logLikelihood: -2204503.119693
+[24:42:01] Bootstrap tree #34, logLikelihood: -2204328.169606
+[25:02:40] Bootstrap tree #35, logLikelihood: -2213851.130132
+[25:26:36] Bootstrap tree #36, logLikelihood: -2209158.442407
+[25:43:29] Bootstrap tree #37, logLikelihood: -2213342.343416
+[26:03:40] Bootstrap tree #38, logLikelihood: -2208525.567048
+[26:25:10] Bootstrap tree #39, logLikelihood: -2212092.544101
+[26:44:24] Bootstrap tree #40, logLikelihood: -2204622.192932
+[27:06:59] Bootstrap tree #41, logLikelihood: -2200980.827549
+[27:30:54] Bootstrap tree #42, logLikelihood: -2221541.285280
+[27:57:25] Bootstrap tree #43, logLikelihood: -2207766.614374
+[28:17:06] Bootstrap tree #44, logLikelihood: -2214686.357561
+[28:37:56] Bootstrap tree #45, logLikelihood: -2218912.991694
+[29:01:22] Bootstrap tree #46, logLikelihood: -2208685.993139
+[29:20:54] Bootstrap tree #47, logLikelihood: -2224643.828686
+[29:45:15] Bootstrap tree #48, logLikelihood: -2216374.330638
+[30:06:02] Bootstrap tree #49, logLikelihood: -2217496.294677
+[30:29:32] Bootstrap tree #50, logLikelihood: -2216979.476728
+[30:53:54] Bootstrap tree #51, logLikelihood: -2208035.118421
+[31:16:50] Bootstrap tree #52, logLikelihood: -2211780.641143
+[31:41:42] Bootstrap tree #53, logLikelihood: -2216456.342925
+[32:06:08] Bootstrap tree #54, logLikelihood: -2203362.361573
+[32:32:19] Bootstrap tree #55, logLikelihood: -2207260.901538
+[32:58:54] Bootstrap tree #56, logLikelihood: -2207429.975448
+[33:25:57] Bootstrap tree #57, logLikelihood: -2222809.182715
+[33:52:10] Bootstrap tree #58, logLikelihood: -2201976.702841
+[34:21:19] Bootstrap tree #59, logLikelihood: -2214335.975792
+[34:47:10] Bootstrap tree #60, logLikelihood: -2211535.467906
+[35:12:08] Bootstrap tree #61, logLikelihood: -2206646.906760
+[35:33:41] Bootstrap tree #62, logLikelihood: -2218780.338891
+[35:54:04] Bootstrap tree #63, logLikelihood: -2208695.332863
+[36:15:28] Bootstrap tree #64, logLikelihood: -2213244.004263
+[36:37:01] Bootstrap tree #65, logLikelihood: -2211661.210437
+[37:00:45] Bootstrap tree #66, logLikelihood: -2219122.525457
+[37:28:57] Bootstrap tree #67, logLikelihood: -2193758.474434
+[37:50:55] Bootstrap tree #68, logLikelihood: -2207974.292764
+[38:15:31] Bootstrap tree #69, logLikelihood: -2216593.811107
+[38:36:01] Bootstrap tree #70, logLikelihood: -2216111.353100
+[39:02:52] Bootstrap tree #71, logLikelihood: -2212618.354060
+[39:28:09] Bootstrap tree #72, logLikelihood: -2215318.543985
+[39:50:42] Bootstrap tree #73, logLikelihood: -2211782.983893
+[40:11:37] Bootstrap tree #74, logLikelihood: -2201291.720478
+[40:31:49] Bootstrap tree #75, logLikelihood: -2222556.479114
+[40:52:18] Bootstrap tree #76, logLikelihood: -2209939.657992
+[41:13:31] Bootstrap tree #77, logLikelihood: -2213372.698671
+[41:35:03] Bootstrap tree #78, logLikelihood: -2213158.748491
+[41:52:09] Bootstrap tree #79, logLikelihood: -2208102.482644
+[42:10:19] Bootstrap tree #80, logLikelihood: -2214413.100071
+[42:35:07] Bootstrap tree #81, logLikelihood: -2217620.334772
+[42:56:33] Bootstrap tree #82, logLikelihood: -2214090.215867
+[43:23:59] Bootstrap tree #83, logLikelihood: -2210151.243772
+[43:51:03] Bootstrap tree #84, logLikelihood: -2218994.078074
+[44:11:40] Bootstrap tree #85, logLikelihood: -2209213.514113
+[44:33:38] Bootstrap tree #86, logLikelihood: -2211459.804356
+[44:53:44] Bootstrap tree #87, logLikelihood: -2201188.461818
+[45:18:12] Bootstrap tree #88, logLikelihood: -2210889.668277
+[45:40:15] Bootstrap tree #89, logLikelihood: -2199518.939334
+[46:02:14] Bootstrap tree #90, logLikelihood: -2210233.896665
+[46:25:28] Bootstrap tree #91, logLikelihood: -2208170.815957
+[46:49:58] Bootstrap tree #92, logLikelihood: -2210806.214921
+[47:18:04] Bootstrap tree #93, logLikelihood: -2215195.334116
+[47:40:28] Bootstrap tree #94, logLikelihood: -2202495.191412
+[48:05:51] Bootstrap tree #95, logLikelihood: -2215029.665880
+[48:36:12] Bootstrap tree #96, logLikelihood: -2203490.851005
+[49:01:00] Bootstrap tree #97, logLikelihood: -2218745.179383
+[49:24:58] Bootstrap tree #98, logLikelihood: -2210674.327661
+[49:50:09] Bootstrap tree #99, logLikelihood: -2208366.594332
+[50:19:37] Bootstrap tree #100, logLikelihood: -2210856.142736
+[50:44:16] Bootstrap tree #101, logLikelihood: -2217396.489677
+[51:10:24] Bootstrap tree #102, logLikelihood: -2215769.998968
+[51:30:55] Bootstrap tree #103, logLikelihood: -2206429.570919
+[51:55:15] Bootstrap tree #104, logLikelihood: -2219897.272195
+[52:22:10] Bootstrap tree #105, logLikelihood: -2211581.992170
+[52:45:07] Bootstrap tree #106, logLikelihood: -2207205.649608
+[53:07:45] Bootstrap tree #107, logLikelihood: -2216296.003037
+[53:28:44] Bootstrap tree #108, logLikelihood: -2219708.015311
+[53:50:36] Bootstrap tree #109, logLikelihood: -2214838.863552
+[54:14:58] Bootstrap tree #110, logLikelihood: -2209033.347974
+[54:36:02] Bootstrap tree #111, logLikelihood: -2214386.532837
+[54:59:34] Bootstrap tree #112, logLikelihood: -2212932.117733
+[55:25:08] Bootstrap tree #113, logLikelihood: -2203082.071355
+[55:53:32] Bootstrap tree #114, logLikelihood: -2208560.469866
+[56:20:14] Bootstrap tree #115, logLikelihood: -2212559.638979
+[56:46:27] Bootstrap tree #116, logLikelihood: -2207086.769567
+[57:10:20] Bootstrap tree #117, logLikelihood: -2212506.488389
+[57:33:02] Bootstrap tree #118, logLikelihood: -2208530.201895
+[57:56:48] Bootstrap tree #119, logLikelihood: -2216639.109402
+[58:22:36] Bootstrap tree #120, logLikelihood: -2218186.013285
+[58:48:53] Bootstrap tree #121, logLikelihood: -2219516.102191
+[59:17:03] Bootstrap tree #122, logLikelihood: -2204956.244279
+[59:44:49] Bootstrap tree #123, logLikelihood: -2208907.549762
+[60:13:23] Bootstrap tree #124, logLikelihood: -2225870.343271
+[60:41:42] Bootstrap tree #125, logLikelihood: -2208921.756283
+[61:01:35] Bootstrap tree #126, logLikelihood: -2207908.551073
+[61:26:21] Bootstrap tree #127, logLikelihood: -2224291.371634
+[61:53:53] Bootstrap tree #128, logLikelihood: -2222182.771743
+[62:18:12] Bootstrap tree #129, logLikelihood: -2215351.467504
+[62:38:56] Bootstrap tree #130, logLikelihood: -2212342.912077
+[63:02:04] Bootstrap tree #131, logLikelihood: -2209474.198665
+[63:25:52] Bootstrap tree #132, logLikelihood: -2206662.376342
+[63:46:44] Bootstrap tree #133, logLikelihood: -2208495.031518
+[64:05:07] Bootstrap tree #134, logLikelihood: -2206702.909832
+[64:26:00] Bootstrap tree #135, logLikelihood: -2204200.554691
+[64:47:56] Bootstrap tree #136, logLikelihood: -2217047.778705
+[65:08:57] Bootstrap tree #137, logLikelihood: -2213920.792126
+[65:29:28] Bootstrap tree #138, logLikelihood: -2205560.688861
+[65:49:02] Bootstrap tree #139, logLikelihood: -2221857.845088
+[66:09:35] Bootstrap tree #140, logLikelihood: -2212232.145946
+[66:32:15] Bootstrap tree #141, logLikelihood: -2213609.543270
+[66:55:33] Bootstrap tree #142, logLikelihood: -2213682.519136
+[67:17:24] Bootstrap tree #143, logLikelihood: -2217668.066243
+[67:40:35] Bootstrap tree #144, logLikelihood: -2221669.392051
+[68:04:52] Bootstrap tree #145, logLikelihood: -2220772.048778
+[68:30:06] Bootstrap tree #146, logLikelihood: -2207047.632236
+[68:52:09] Bootstrap tree #147, logLikelihood: -2208913.118213
+[69:15:46] Bootstrap tree #148, logLikelihood: -2204783.789121
+[69:45:55] Bootstrap tree #149, logLikelihood: -2217973.200497
+[70:12:28] Bootstrap tree #150, logLikelihood: -2204723.036532
+[70:35:07] Bootstrap tree #151, logLikelihood: -2221029.991950
+[70:58:32] Bootstrap tree #152, logLikelihood: -2207064.324212
+[71:25:12] Bootstrap tree #153, logLikelihood: -2220932.189640
+[71:51:44] Bootstrap tree #154, logLikelihood: -2215020.313913
+[72:15:44] Bootstrap tree #155, logLikelihood: -2205684.768967
+[72:38:51] Bootstrap tree #156, logLikelihood: -2201679.752238
+[72:59:23] Bootstrap tree #157, logLikelihood: -2219579.358072
+[73:21:18] Bootstrap tree #158, logLikelihood: -2210714.762282
+[73:43:47] Bootstrap tree #159, logLikelihood: -2199863.378579
+[74:06:39] Bootstrap tree #160, logLikelihood: -2205299.664682
+[74:28:34] Bootstrap tree #161, logLikelihood: -2219522.543950
+[74:49:40] Bootstrap tree #162, logLikelihood: -2217974.106493
+[75:07:58] Bootstrap tree #163, logLikelihood: -2215256.863175
+[75:30:49] Bootstrap tree #164, logLikelihood: -2199018.172756
+[76:00:06] Bootstrap tree #165, logLikelihood: -2201908.735331
+[76:26:16] Bootstrap tree #166, logLikelihood: -2208889.315858
+[76:51:42] Bootstrap tree #167, logLikelihood: -2220436.372411
+[77:21:30] Bootstrap tree #168, logLikelihood: -2219785.933769
+[77:48:30] Bootstrap tree #169, logLikelihood: -2210891.239316
+[78:13:09] Bootstrap tree #170, logLikelihood: -2204916.114389
+[78:37:54] Bootstrap tree #171, logLikelihood: -2196157.625450
+[79:06:09] Bootstrap tree #172, logLikelihood: -2205364.559954
+[79:30:29] Bootstrap tree #173, logLikelihood: -2205458.748658
+[79:57:00] Bootstrap tree #174, logLikelihood: -2211943.063175
+[80:25:10] Bootstrap tree #175, logLikelihood: -2217462.963851
+[80:54:46] Bootstrap tree #176, logLikelihood: -2204671.092736
+[81:19:18] Bootstrap tree #177, logLikelihood: -2206215.218949
+[81:44:38] Bootstrap tree #178, logLikelihood: -2212119.304793
+[82:12:34] Bootstrap tree #179, logLikelihood: -2209002.220371
+[82:38:11] Bootstrap tree #180, logLikelihood: -2211104.075751
+[83:06:09] Bootstrap tree #181, logLikelihood: -2207716.318441
+[83:31:50] Bootstrap tree #182, logLikelihood: -2204590.930546
+[83:53:33] Bootstrap tree #183, logLikelihood: -2207953.923286
+[84:21:52] Bootstrap tree #184, logLikelihood: -2220174.437254
+[84:46:08] Bootstrap tree #185, logLikelihood: -2220140.513219
+[85:15:28] Bootstrap tree #186, logLikelihood: -2222326.093651
+[85:39:30] Bootstrap tree #187, logLikelihood: -2208043.979510
+[86:06:08] Bootstrap tree #188, logLikelihood: -2207597.080831
+[86:31:45] Bootstrap tree #189, logLikelihood: -2212774.444782
+[86:56:39] Bootstrap tree #190, logLikelihood: -2214349.905438
+[87:23:30] Bootstrap tree #191, logLikelihood: -2224209.671880
+[87:49:35] Bootstrap tree #192, logLikelihood: -2202172.801058
+[88:16:08] Bootstrap tree #193, logLikelihood: -2204292.756454
+[88:44:28] Bootstrap tree #194, logLikelihood: -2215821.667274
+[89:14:00] Bootstrap tree #195, logLikelihood: -2217070.540020
+[89:38:14] Bootstrap tree #196, logLikelihood: -2208907.277973
+[90:02:40] Bootstrap tree #197, logLikelihood: -2221060.099065
+[90:22:23] Bootstrap tree #198, logLikelihood: -2202197.779028
+[90:46:40] Bootstrap tree #199, logLikelihood: -2209311.988857
+[91:10:56] Bootstrap tree #200, logLikelihood: -2221410.326237
+[91:33:42] Bootstrap tree #201, logLikelihood: -2207463.219981
+[91:55:41] Bootstrap tree #202, logLikelihood: -2211749.227206
+[92:20:36] Bootstrap tree #203, logLikelihood: -2205830.727744
+[92:44:09] Bootstrap tree #204, logLikelihood: -2207389.558255
+[93:07:56] Bootstrap tree #205, logLikelihood: -2206535.305687
+[93:29:27] Bootstrap tree #206, logLikelihood: -2209936.498863
+[93:52:44] Bootstrap tree #207, logLikelihood: -2216821.538354
+[94:15:32] Bootstrap tree #208, logLikelihood: -2205109.554292
+[94:41:34] Bootstrap tree #209, logLikelihood: -2207899.865161
+[95:09:26] Bootstrap tree #210, logLikelihood: -2210151.271828
+[95:40:22] Bootstrap tree #211, logLikelihood: -2214966.109343
+[96:05:21] Bootstrap tree #212, logLikelihood: -2213423.558840
+[96:25:55] Bootstrap tree #213, logLikelihood: -2212899.447668
+[96:55:19] Bootstrap tree #214, logLikelihood: -2202917.227486
+[97:17:13] Bootstrap tree #215, logLikelihood: -2220107.419985
+[97:40:23] Bootstrap tree #216, logLikelihood: -2218910.024269
+[98:04:59] Bootstrap tree #217, logLikelihood: -2216346.336158
+[98:30:09] Bootstrap tree #218, logLikelihood: -2191538.610480
+[98:54:42] Bootstrap tree #219, logLikelihood: -2210911.294605
+[99:23:48] Bootstrap tree #220, logLikelihood: -2215476.442249
+[99:48:38] Bootstrap tree #221, logLikelihood: -2198874.484880
+[100:12:04] Bootstrap tree #222, logLikelihood: -2218653.630581
+[100:34:14] Bootstrap tree #223, logLikelihood: -2207763.567068
+[101:00:09] Bootstrap tree #224, logLikelihood: -2215339.806150
+[101:23:34] Bootstrap tree #225, logLikelihood: -2204250.147950
+[101:48:27] Bootstrap tree #226, logLikelihood: -2213027.630675
+[102:10:38] Bootstrap tree #227, logLikelihood: -2215217.354502
+[102:32:38] Bootstrap tree #228, logLikelihood: -2216265.108785
+[102:57:45] Bootstrap tree #229, logLikelihood: -2208382.405431
+[103:20:13] Bootstrap tree #230, logLikelihood: -2197723.308385
+[103:44:08] Bootstrap tree #231, logLikelihood: -2215182.473127
+[104:08:27] Bootstrap tree #232, logLikelihood: -2212581.373184
+[104:36:20] Bootstrap tree #233, logLikelihood: -2217352.981169
+[105:01:19] Bootstrap tree #234, logLikelihood: -2206494.291648
+[105:24:05] Bootstrap tree #235, logLikelihood: -2216091.782197
+[105:48:40] Bootstrap tree #236, logLikelihood: -2222944.099684
+[106:11:15] Bootstrap tree #237, logLikelihood: -2213165.682617
+[106:30:11] Bootstrap tree #238, logLikelihood: -2213068.872498
+[106:51:58] Bootstrap tree #239, logLikelihood: -2210951.363532
+[107:13:47] Bootstrap tree #240, logLikelihood: -2211839.567918
+[107:35:13] Bootstrap tree #241, logLikelihood: -2212034.914692
+[107:58:11] Bootstrap tree #242, logLikelihood: -2195520.428280
+[108:25:14] Bootstrap tree #243, logLikelihood: -2216001.970549
+[108:46:28] Bootstrap tree #244, logLikelihood: -2222279.471106
+[109:08:46] Bootstrap tree #245, logLikelihood: -2226391.042242
+[109:30:35] Bootstrap tree #246, logLikelihood: -2209979.387608
+[109:55:07] Bootstrap tree #247, logLikelihood: -2208322.557862
+[110:19:14] Bootstrap tree #248, logLikelihood: -2208940.669857
+[110:43:14] Bootstrap tree #249, logLikelihood: -2202894.402038
+[111:09:45] Bootstrap tree #250, logLikelihood: -2199750.361680
+[111:32:41] Bootstrap tree #251, logLikelihood: -2213460.772124
+[111:56:36] Bootstrap tree #252, logLikelihood: -2214934.525627
+[112:18:51] Bootstrap tree #253, logLikelihood: -2218845.447757
+[112:43:12] Bootstrap tree #254, logLikelihood: -2212956.616921
+[113:12:32] Bootstrap tree #255, logLikelihood: -2215952.620000
+[113:32:38] Bootstrap tree #256, logLikelihood: -2215271.028076
+[113:55:30] Bootstrap tree #257, logLikelihood: -2215420.031678
+[114:22:32] Bootstrap tree #258, logLikelihood: -2204074.015628
+[114:48:08] Bootstrap tree #259, logLikelihood: -2214272.071518
+[115:16:48] Bootstrap tree #260, logLikelihood: -2211598.881068
+[115:41:17] Bootstrap tree #261, logLikelihood: -2220107.823417
+[116:03:27] Bootstrap tree #262, logLikelihood: -2210449.742381
+[116:29:58] Bootstrap tree #263, logLikelihood: -2210144.822834
+[116:53:46] Bootstrap tree #264, logLikelihood: -2208915.698394
+[117:17:39] Bootstrap tree #265, logLikelihood: -2203625.154767
+[117:45:29] Bootstrap tree #266, logLikelihood: -2205345.782500
+[118:08:14] Bootstrap tree #267, logLikelihood: -2209230.166960
+[118:33:19] Bootstrap tree #268, logLikelihood: -2210065.363969
+[119:00:40] Bootstrap tree #269, logLikelihood: -2216840.112865
+[119:31:22] Bootstrap tree #270, logLikelihood: -2212946.804544
+[119:55:50] Bootstrap tree #271, logLikelihood: -2210857.912428
+[120:21:56] Bootstrap tree #272, logLikelihood: -2217625.438117
+[120:44:17] Bootstrap tree #273, logLikelihood: -2206645.506981
+[121:09:18] Bootstrap tree #274, logLikelihood: -2213783.092782
+[121:34:04] Bootstrap tree #275, logLikelihood: -2208866.886872
+[121:56:14] Bootstrap tree #276, logLikelihood: -2210563.029897
+[122:19:46] Bootstrap tree #277, logLikelihood: -2214767.961693
+[122:44:55] Bootstrap tree #278, logLikelihood: -2220739.845097
+[123:08:31] Bootstrap tree #279, logLikelihood: -2212888.751255
+[123:33:34] Bootstrap tree #280, logLikelihood: -2215333.223834
+[124:03:01] Bootstrap tree #281, logLikelihood: -2214256.690097
+[124:26:06] Bootstrap tree #282, logLikelihood: -2211252.318989
+[124:52:03] Bootstrap tree #283, logLikelihood: -2210167.060091
+[125:17:47] Bootstrap tree #284, logLikelihood: -2215759.398584
+[125:45:37] Bootstrap tree #285, logLikelihood: -2214549.278394
+[126:10:04] Bootstrap tree #286, logLikelihood: -2216164.045929
+[126:30:05] Bootstrap tree #287, logLikelihood: -2198345.644628
+[126:54:35] Bootstrap tree #288, logLikelihood: -2215061.269492
+[127:16:51] Bootstrap tree #289, logLikelihood: -2210460.590009
+[127:42:26] Bootstrap tree #290, logLikelihood: -2222055.221726
+[128:02:42] Bootstrap tree #291, logLikelihood: -2210149.341979
+[128:23:27] Bootstrap tree #292, logLikelihood: -2213329.310308
+[128:47:04] Bootstrap tree #293, logLikelihood: -2209662.724899
+[129:12:12] Bootstrap tree #294, logLikelihood: -2214377.999039
+[129:34:11] Bootstrap tree #295, logLikelihood: -2217743.130421
+[129:59:47] Bootstrap tree #296, logLikelihood: -2217387.667085
+[130:21:35] Bootstrap tree #297, logLikelihood: -2216179.630149
+[130:43:48] Bootstrap tree #298, logLikelihood: -2213744.664764
+[131:07:03] Bootstrap tree #299, logLikelihood: -2218457.833123
+[131:32:13] Bootstrap tree #300, logLikelihood: -2213026.776702
+[131:51:12] Bootstrap tree #301, logLikelihood: -2216312.244322
+[132:18:37] Bootstrap tree #302, logLikelihood: -2203648.527179
+[132:41:15] Bootstrap tree #303, logLikelihood: -2205949.817135
+[133:02:30] Bootstrap tree #304, logLikelihood: -2218939.419436
+[133:26:00] Bootstrap tree #305, logLikelihood: -2210344.246159
+[133:49:45] Bootstrap tree #306, logLikelihood: -2215528.586587
+[134:12:22] Bootstrap tree #307, logLikelihood: -2202958.176462
+[134:37:09] Bootstrap tree #308, logLikelihood: -2212302.574485
+[135:00:30] Bootstrap tree #309, logLikelihood: -2201138.387423
+[135:22:00] Bootstrap tree #310, logLikelihood: -2223249.612929
+[135:45:03] Bootstrap tree #311, logLikelihood: -2206093.036570
+[136:04:48] Bootstrap tree #312, logLikelihood: -2208215.250377
+[136:28:45] Bootstrap tree #313, logLikelihood: -2212764.772607
+[136:51:30] Bootstrap tree #314, logLikelihood: -2211203.762465
+[137:11:01] Bootstrap tree #315, logLikelihood: -2213930.582235
+[137:29:53] Bootstrap tree #316, logLikelihood: -2207490.945075
+[137:48:58] Bootstrap tree #317, logLikelihood: -2215192.323209
+[138:14:23] Bootstrap tree #318, logLikelihood: -2202425.573136
+[138:40:29] Bootstrap tree #319, logLikelihood: -2213439.232390
+[139:02:13] Bootstrap tree #320, logLikelihood: -2212875.625944
+[139:29:06] Bootstrap tree #321, logLikelihood: -2201125.823146
+[139:48:31] Bootstrap tree #322, logLikelihood: -2215607.792875
+[140:17:14] Bootstrap tree #323, logLikelihood: -2201385.851235
+[140:38:49] Bootstrap tree #324, logLikelihood: -2205607.195103
+[141:04:46] Bootstrap tree #325, logLikelihood: -2209630.195582
+[141:28:09] Bootstrap tree #326, logLikelihood: -2218541.474419
+[141:53:46] Bootstrap tree #327, logLikelihood: -2209773.131382
+[142:22:28] Bootstrap tree #328, logLikelihood: -2217094.539283
+[142:44:33] Bootstrap tree #329, logLikelihood: -2212199.107779
+[143:05:39] Bootstrap tree #330, logLikelihood: -2223699.571208
+[143:31:20] Bootstrap tree #331, logLikelihood: -2212078.504693
+[143:57:59] Bootstrap tree #332, logLikelihood: -2215684.310304
+[144:24:13] Bootstrap tree #333, logLikelihood: -2215065.936744
+[144:49:05] Bootstrap tree #334, logLikelihood: -2204066.455580
+[145:12:03] Bootstrap tree #335, logLikelihood: -2208665.838106
+[145:37:06] Bootstrap tree #336, logLikelihood: -2219139.437492
+[145:59:09] Bootstrap tree #337, logLikelihood: -2213510.301180
+[146:26:27] Bootstrap tree #338, logLikelihood: -2217804.990776
+[146:49:39] Bootstrap tree #339, logLikelihood: -2218353.526173
+[147:08:32] Bootstrap tree #340, logLikelihood: -2200969.710657
+[147:34:15] Bootstrap tree #341, logLikelihood: -2212403.528482
+[147:56:58] Bootstrap tree #342, logLikelihood: -2204254.747695
+[148:19:27] Bootstrap tree #343, logLikelihood: -2215050.870346
+[148:50:56] Bootstrap tree #344, logLikelihood: -2203190.101480
+[149:27:42] Bootstrap tree #345, logLikelihood: -2215341.806758
+[149:51:51] Bootstrap tree #346, logLikelihood: -2220292.232821
+[150:16:02] Bootstrap tree #347, logLikelihood: -2214781.184625
+[150:40:39] Bootstrap tree #348, logLikelihood: -2212201.036877
+[151:05:05] Bootstrap tree #349, logLikelihood: -2210776.640109
+[151:25:08] Bootstrap tree #350, logLikelihood: -2225574.733261
+[151:49:12] Bootstrap tree #351, logLikelihood: -2195259.042561
+[152:15:12] Bootstrap tree #352, logLikelihood: -2204697.841850
+[152:37:20] Bootstrap tree #353, logLikelihood: -2206795.203674
+[153:02:27] Bootstrap tree #354, logLikelihood: -2219728.699346
+[153:25:05] Bootstrap tree #355, logLikelihood: -2206238.349167
+[153:51:27] Bootstrap tree #356, logLikelihood: -2214217.819004
+[154:15:12] Bootstrap tree #357, logLikelihood: -2208913.367248
+[154:39:45] Bootstrap tree #358, logLikelihood: -2207870.108951
+[155:01:22] Bootstrap tree #359, logLikelihood: -2214838.800927
+[155:25:26] Bootstrap tree #360, logLikelihood: -2211840.309851
+[155:50:40] Bootstrap tree #361, logLikelihood: -2210620.480698
+[156:18:25] Bootstrap tree #362, logLikelihood: -2215785.262215
+[156:42:04] Bootstrap tree #363, logLikelihood: -2218844.172248
+[157:03:51] Bootstrap tree #364, logLikelihood: -2209551.641830
+[157:31:15] Bootstrap tree #365, logLikelihood: -2218185.946708
+[157:57:53] Bootstrap tree #366, logLikelihood: -2216326.739448
+[158:25:52] Bootstrap tree #367, logLikelihood: -2222315.729166
+[158:54:39] Bootstrap tree #368, logLikelihood: -2217370.225388
+[159:20:33] Bootstrap tree #369, logLikelihood: -2213602.247445
+[159:50:32] Bootstrap tree #370, logLikelihood: -2208548.935311
+[160:14:19] Bootstrap tree #371, logLikelihood: -2204008.517698
+[160:37:23] Bootstrap tree #372, logLikelihood: -2208432.150191
+[161:02:30] Bootstrap tree #373, logLikelihood: -2204639.719357
+[161:30:37] Bootstrap tree #374, logLikelihood: -2208051.898691
+[161:53:25] Bootstrap tree #375, logLikelihood: -2206711.568899
+[162:16:24] Bootstrap tree #376, logLikelihood: -2209276.076167
+[162:38:10] Bootstrap tree #377, logLikelihood: -2211318.495648
+[162:57:43] Bootstrap tree #378, logLikelihood: -2214020.169590
+[163:21:26] Bootstrap tree #379, logLikelihood: -2216710.092751
+[163:48:26] Bootstrap tree #380, logLikelihood: -2207114.353651
+[164:14:11] Bootstrap tree #381, logLikelihood: -2206363.012430
+[164:39:13] Bootstrap tree #382, logLikelihood: -2210418.669033
+[165:05:00] Bootstrap tree #383, logLikelihood: -2212455.056131
+[165:28:24] Bootstrap tree #384, logLikelihood: -2212401.588699
+[165:51:23] Bootstrap tree #385, logLikelihood: -2211196.253172
+[166:12:08] Bootstrap tree #386, logLikelihood: -2215086.936124
+[166:36:10] Bootstrap tree #387, logLikelihood: -2212225.521090
+[167:00:05] Bootstrap tree #388, logLikelihood: -2207684.385702
+[167:24:38] Bootstrap tree #389, logLikelihood: -2204157.175366
+[167:51:56] Bootstrap tree #390, logLikelihood: -2213889.629241
+[168:19:56] Bootstrap tree #391, logLikelihood: -2213912.345227
+[168:45:25] Bootstrap tree #392, logLikelihood: -2206645.335642
+[169:05:55] Bootstrap tree #393, logLikelihood: -2213312.109581
+[169:28:03] Bootstrap tree #394, logLikelihood: -2206695.126372
+[169:47:45] Bootstrap tree #395, logLikelihood: -2211593.695559
+[170:08:27] Bootstrap tree #396, logLikelihood: -2210952.194253
+[170:36:04] Bootstrap tree #397, logLikelihood: -2208625.698974
+[171:02:18] Bootstrap tree #398, logLikelihood: -2219576.280992
+[171:22:31] Bootstrap tree #399, logLikelihood: -2207340.568406
+[171:43:37] Bootstrap tree #400, logLikelihood: -2214535.914827
+[172:03:09] Bootstrap tree #401, logLikelihood: -2207687.304171
+[172:29:38] Bootstrap tree #402, logLikelihood: -2212218.272854
+[172:52:52] Bootstrap tree #403, logLikelihood: -2206312.276847
+[173:14:37] Bootstrap tree #404, logLikelihood: -2204368.988660
+[173:39:02] Bootstrap tree #405, logLikelihood: -2215608.776491
+[174:05:13] Bootstrap tree #406, logLikelihood: -2208660.735706
+[174:24:58] Bootstrap tree #407, logLikelihood: -2206024.749075
+[174:47:26] Bootstrap tree #408, logLikelihood: -2211741.409438
+[175:09:58] Bootstrap tree #409, logLikelihood: -2207409.234813
+[175:34:28] Bootstrap tree #410, logLikelihood: -2218394.047676
+[175:54:42] Bootstrap tree #411, logLikelihood: -2221083.109106
+[176:14:16] Bootstrap tree #412, logLikelihood: -2226361.708602
+[176:36:29] Bootstrap tree #413, logLikelihood: -2213398.810692
+[176:59:40] Bootstrap tree #414, logLikelihood: -2206595.970750
+[177:25:12] Bootstrap tree #415, logLikelihood: -2203654.534136
+[177:49:25] Bootstrap tree #416, logLikelihood: -2212143.018961
+[178:09:50] Bootstrap tree #417, logLikelihood: -2210889.998568
+[178:36:54] Bootstrap tree #418, logLikelihood: -2213533.493681
+[178:57:33] Bootstrap tree #419, logLikelihood: -2211661.006680
+[179:21:38] Bootstrap tree #420, logLikelihood: -2207107.852200
+[179:43:02] Bootstrap tree #421, logLikelihood: -2211262.865912
+[180:05:36] Bootstrap tree #422, logLikelihood: -2221415.859935
+[180:26:20] Bootstrap tree #423, logLikelihood: -2217605.301257
+[180:53:14] Bootstrap tree #424, logLikelihood: -2216561.882159
+[181:17:45] Bootstrap tree #425, logLikelihood: -2219080.992934
+[181:40:52] Bootstrap tree #426, logLikelihood: -2220180.307501
+[182:02:40] Bootstrap tree #427, logLikelihood: -2217147.241905
+[182:24:32] Bootstrap tree #428, logLikelihood: -2209712.097353
+[182:50:43] Bootstrap tree #429, logLikelihood: -2211971.971703
+[183:13:54] Bootstrap tree #430, logLikelihood: -2210738.579641
+[183:42:08] Bootstrap tree #431, logLikelihood: -2211476.658365
+[184:03:11] Bootstrap tree #432, logLikelihood: -2212328.608107
+[184:26:23] Bootstrap tree #433, logLikelihood: -2204097.779076
+[184:50:34] Bootstrap tree #434, logLikelihood: -2211602.332017
+[185:15:05] Bootstrap tree #435, logLikelihood: -2208365.227984
+[185:33:18] Bootstrap tree #436, logLikelihood: -2202781.779289
+[185:55:48] Bootstrap tree #437, logLikelihood: -2216866.675396
+[186:21:18] Bootstrap tree #438, logLikelihood: -2212713.698285
+[186:42:24] Bootstrap tree #439, logLikelihood: -2216954.349318
+[187:04:30] Bootstrap tree #440, logLikelihood: -2213975.559461
+[187:27:14] Bootstrap tree #441, logLikelihood: -2209801.962411
+[187:48:53] Bootstrap tree #442, logLikelihood: -2204399.318155
+[188:09:22] Bootstrap tree #443, logLikelihood: -2221356.780217
+[188:33:48] Bootstrap tree #444, logLikelihood: -2203560.252747
+[188:58:26] Bootstrap tree #445, logLikelihood: -2209049.483874
+[189:20:29] Bootstrap tree #446, logLikelihood: -2208440.017721
+[189:43:55] Bootstrap tree #447, logLikelihood: -2208040.600282
+[190:07:53] Bootstrap tree #448, logLikelihood: -2213220.247572
+[190:32:25] Bootstrap tree #449, logLikelihood: -2213036.834002
+[190:53:28] Bootstrap tree #450, logLikelihood: -2202262.509607
+[191:16:23] Bootstrap tree #451, logLikelihood: -2213246.498816
+[191:34:49] Bootstrap tree #452, logLikelihood: -2215419.907225
+[192:01:10] Bootstrap tree #453, logLikelihood: -2208704.109812
+[192:25:23] Bootstrap tree #454, logLikelihood: -2207875.654594
+[192:48:27] Bootstrap tree #455, logLikelihood: -2217052.767114
+[193:08:50] Bootstrap tree #456, logLikelihood: -2215070.187719
+[193:27:29] Bootstrap tree #457, logLikelihood: -2215507.135802
+[193:49:07] Bootstrap tree #458, logLikelihood: -2216202.918473
+[194:13:43] Bootstrap tree #459, logLikelihood: -2212132.756361
+[194:38:49] Bootstrap tree #460, logLikelihood: -2208504.109119
+[195:06:50] Bootstrap tree #461, logLikelihood: -2214987.186638
+[195:31:22] Bootstrap tree #462, logLikelihood: -2214120.437300
+[195:58:01] Bootstrap tree #463, logLikelihood: -2216704.959984
+[196:16:57] Bootstrap tree #464, logLikelihood: -2212897.208584
+[196:40:07] Bootstrap tree #465, logLikelihood: -2203139.799620
+[197:02:53] Bootstrap tree #466, logLikelihood: -2207839.018100
+[197:26:08] Bootstrap tree #467, logLikelihood: -2215801.576616
+[197:48:06] Bootstrap tree #468, logLikelihood: -2221997.060755
+[198:09:46] Bootstrap tree #469, logLikelihood: -2218421.506392
+[198:32:28] Bootstrap tree #470, logLikelihood: -2216189.731044
+[198:55:53] Bootstrap tree #471, logLikelihood: -2202918.394043
+[199:18:10] Bootstrap tree #472, logLikelihood: -2204461.481360
+[199:38:24] Bootstrap tree #473, logLikelihood: -2202526.045466
+[200:00:12] Bootstrap tree #474, logLikelihood: -2207615.287192
+[200:21:47] Bootstrap tree #475, logLikelihood: -2222156.253654
+[200:45:05] Bootstrap tree #476, logLikelihood: -2217633.662117
+[201:06:59] Bootstrap tree #477, logLikelihood: -2212115.514526
+[201:32:42] Bootstrap tree #478, logLikelihood: -2215393.067989
+[201:57:00] Bootstrap tree #479, logLikelihood: -2212479.041154
+[202:22:46] Bootstrap tree #480, logLikelihood: -2211988.463149
+[202:44:15] Bootstrap tree #481, logLikelihood: -2209656.491151
+[203:07:04] Bootstrap tree #482, logLikelihood: -2213182.788375
+[203:27:19] Bootstrap tree #483, logLikelihood: -2214413.009312
+[203:48:03] Bootstrap tree #484, logLikelihood: -2210072.220890
+[204:12:04] Bootstrap tree #485, logLikelihood: -2208326.523705
+[204:35:23] Bootstrap tree #486, logLikelihood: -2203361.109619
+[205:00:42] Bootstrap tree #487, logLikelihood: -2206788.514637
+[205:23:56] Bootstrap tree #488, logLikelihood: -2218553.332071
+[205:47:36] Bootstrap tree #489, logLikelihood: -2215941.365344
+[206:14:33] Bootstrap tree #490, logLikelihood: -2214650.824587
+[206:37:17] Bootstrap tree #491, logLikelihood: -2198616.702931
+[207:04:25] Bootstrap tree #492, logLikelihood: -2224186.329150
+[207:30:41] Bootstrap tree #493, logLikelihood: -2202627.653419
+[207:55:09] Bootstrap tree #494, logLikelihood: -2217673.852093
+[208:21:22] Bootstrap tree #495, logLikelihood: -2214213.311187
+[208:46:35] Bootstrap tree #496, logLikelihood: -2212913.542192
+[209:11:21] Bootstrap tree #497, logLikelihood: -2205079.627048
+[209:34:03] Bootstrap tree #498, logLikelihood: -2211184.107311
+[209:56:58] Bootstrap tree #499, logLikelihood: -2215620.026271
+[210:20:21] Bootstrap tree #500, logLikelihood: -2222387.325906
+[210:42:07] Bootstrap tree #501, logLikelihood: -2207454.181230
+[211:05:17] Bootstrap tree #502, logLikelihood: -2224124.503845
+[211:27:46] Bootstrap tree #503, logLikelihood: -2205087.022967
+[211:49:12] Bootstrap tree #504, logLikelihood: -2208554.973451
+[212:11:29] Bootstrap tree #505, logLikelihood: -2215601.418876
+[212:35:33] Bootstrap tree #506, logLikelihood: -2214235.604845
+[213:00:14] Bootstrap tree #507, logLikelihood: -2215504.914474
+[213:21:02] Bootstrap tree #508, logLikelihood: -2210019.281716
+[213:43:07] Bootstrap tree #509, logLikelihood: -2206481.762630
+[214:07:26] Bootstrap tree #510, logLikelihood: -2206669.388373
+[214:31:52] Bootstrap tree #511, logLikelihood: -2213336.016318
+[214:54:54] Bootstrap tree #512, logLikelihood: -2194103.995608
+[215:18:43] Bootstrap tree #513, logLikelihood: -2205217.669430
+[215:41:58] Bootstrap tree #514, logLikelihood: -2206389.162666
+[216:03:12] Bootstrap tree #515, logLikelihood: -2204643.831227
+[216:26:59] Bootstrap tree #516, logLikelihood: -2206551.211942
+[216:48:16] Bootstrap tree #517, logLikelihood: -2209124.642733
+[217:10:41] Bootstrap tree #518, logLikelihood: -2211523.224383
+[217:32:31] Bootstrap tree #519, logLikelihood: -2214602.282318
+[217:53:47] Bootstrap tree #520, logLikelihood: -2212976.896088
+[218:15:37] Bootstrap tree #521, logLikelihood: -2227060.551012
+[218:39:56] Bootstrap tree #522, logLikelihood: -2207459.402434
+[219:00:54] Bootstrap tree #523, logLikelihood: -2206989.323399
+[219:25:35] Bootstrap tree #524, logLikelihood: -2207133.819249
+[219:51:55] Bootstrap tree #525, logLikelihood: -2220865.364155
+[220:14:28] Bootstrap tree #526, logLikelihood: -2219416.014470
+[220:35:27] Bootstrap tree #527, logLikelihood: -2208491.097022
+[220:58:50] Bootstrap tree #528, logLikelihood: -2216206.657438
+[221:20:25] Bootstrap tree #529, logLikelihood: -2210672.778264
+[221:44:43] Bootstrap tree #530, logLikelihood: -2201066.237224
+[222:12:57] Bootstrap tree #531, logLikelihood: -2209844.352292
+[222:38:50] Bootstrap tree #532, logLikelihood: -2201595.247056
+[223:03:56] Bootstrap tree #533, logLikelihood: -2206737.581977
+[223:28:31] Bootstrap tree #534, logLikelihood: -2202379.866587
+[223:51:43] Bootstrap tree #535, logLikelihood: -2215677.194471
+[224:14:05] Bootstrap tree #536, logLikelihood: -2222620.347553
+[224:37:28] Bootstrap tree #537, logLikelihood: -2210881.240169
+[225:01:41] Bootstrap tree #538, logLikelihood: -2205454.973872
+[225:28:16] Bootstrap tree #539, logLikelihood: -2220427.330600
+[225:54:03] Bootstrap tree #540, logLikelihood: -2215143.054872
+[226:16:11] Bootstrap tree #541, logLikelihood: -2216846.498877
+[226:39:11] Bootstrap tree #542, logLikelihood: -2209472.060442
+[227:04:06] Bootstrap tree #543, logLikelihood: -2218072.817694
+[227:31:12] Bootstrap tree #544, logLikelihood: -2218267.595496
+[227:52:22] Bootstrap tree #545, logLikelihood: -2207110.729708
+[228:14:32] Bootstrap tree #546, logLikelihood: -2208593.156026
+[228:40:15] Bootstrap tree #547, logLikelihood: -2216948.483859
+[229:03:45] Bootstrap tree #548, logLikelihood: -2212690.298602
+[229:22:35] Bootstrap tree #549, logLikelihood: -2204372.871932
+[229:46:08] Bootstrap tree #550, logLikelihood: -2217300.590764
+[230:10:09] Bootstrap tree #551, logLikelihood: -2215013.543809
+[230:34:17] Bootstrap tree #552, logLikelihood: -2215476.693874
+[230:58:41] Bootstrap tree #553, logLikelihood: -2216046.602074
+[231:22:21] Bootstrap tree #554, logLikelihood: -2210331.736542
+[231:43:48] Bootstrap tree #555, logLikelihood: -2205001.702971
+[232:08:22] Bootstrap tree #556, logLikelihood: -2217340.963706
+[232:32:54] Bootstrap tree #557, logLikelihood: -2204488.455019
+[232:58:18] Bootstrap tree #558, logLikelihood: -2222563.415541
+[233:24:13] Bootstrap tree #559, logLikelihood: -2211841.501216
+[233:47:30] Bootstrap tree #560, logLikelihood: -2225377.296713
+[234:12:23] Bootstrap tree #561, logLikelihood: -2216991.925654
+[234:32:58] Bootstrap tree #562, logLikelihood: -2210054.104546
+[235:00:29] Bootstrap tree #563, logLikelihood: -2208053.306946
+[235:24:03] Bootstrap tree #564, logLikelihood: -2198965.094542
+[235:50:37] Bootstrap tree #565, logLikelihood: -2206560.110160
+[236:09:56] Bootstrap tree #566, logLikelihood: -2214455.362575
+[236:32:47] Bootstrap tree #567, logLikelihood: -2214726.814180
+[236:55:12] Bootstrap tree #568, logLikelihood: -2213676.864843
+[237:16:36] Bootstrap tree #569, logLikelihood: -2206670.972345
+[237:35:54] Bootstrap tree #570, logLikelihood: -2212925.455176
+[237:57:46] Bootstrap tree #571, logLikelihood: -2211732.230445
+[238:20:00] Bootstrap tree #572, logLikelihood: -2213681.271958
+[238:43:19] Bootstrap tree #573, logLikelihood: -2213387.387519
+[239:04:02] Bootstrap tree #574, logLikelihood: -2211660.833093
+[239:26:43] Bootstrap tree #575, logLikelihood: -2220108.328059
+[239:48:38] Bootstrap tree #576, logLikelihood: -2218447.872329
+[240:09:56] Bootstrap tree #577, logLikelihood: -2215669.625140
+[240:33:03] Bootstrap tree #578, logLikelihood: -2214767.986424
+[240:49:26] Bootstrap tree #579, logLikelihood: -2212617.510410
+[241:07:29] Bootstrap tree #580, logLikelihood: -2217357.839344
+[241:24:23] Bootstrap tree #581, logLikelihood: -2227081.581105
+[241:48:12] Bootstrap tree #582, logLikelihood: -2206924.057039
+[242:09:08] Bootstrap tree #583, logLikelihood: -2202773.282677
+[242:32:06] Bootstrap tree #584, logLikelihood: -2212255.826138
+[242:58:13] Bootstrap tree #585, logLikelihood: -2201851.678617
+[243:21:41] Bootstrap tree #586, logLikelihood: -2207881.388195
+[243:49:43] Bootstrap tree #587, logLikelihood: -2205969.079673
+[244:17:21] Bootstrap tree #588, logLikelihood: -2209604.725434
+[244:43:02] Bootstrap tree #589, logLikelihood: -2211793.602114
+[245:02:28] Bootstrap tree #590, logLikelihood: -2201945.181450
+[245:19:03] Bootstrap tree #591, logLikelihood: -2210489.536195
+[245:46:33] Bootstrap tree #592, logLikelihood: -2214436.060942
+[246:07:47] Bootstrap tree #593, logLikelihood: -2220237.547995
+[246:30:46] Bootstrap tree #594, logLikelihood: -2215896.307241
+[246:53:41] Bootstrap tree #595, logLikelihood: -2208089.959171
+[247:15:10] Bootstrap tree #596, logLikelihood: -2215391.184463
+[247:36:54] Bootstrap tree #597, logLikelihood: -2207441.079439
+[247:56:48] Bootstrap tree #598, logLikelihood: -2220255.260098
+[248:17:13] Bootstrap tree #599, logLikelihood: -2203268.196331
+[248:40:19] Bootstrap tree #600, logLikelihood: -2213430.032601
+[249:06:03] Bootstrap tree #601, logLikelihood: -2208520.871936
+[249:27:38] Bootstrap tree #602, logLikelihood: -2210469.170935
+[249:46:05] Bootstrap tree #603, logLikelihood: -2205590.151237
+[250:11:50] Bootstrap tree #604, logLikelihood: -2205965.403444
+[250:37:40] Bootstrap tree #605, logLikelihood: -2215870.443524
+[251:04:31] Bootstrap tree #606, logLikelihood: -2208401.632337
+[251:25:32] Bootstrap tree #607, logLikelihood: -2204764.379130
+[251:47:30] Bootstrap tree #608, logLikelihood: -2215248.818593
+[252:06:10] Bootstrap tree #609, logLikelihood: -2209459.513193
+[252:26:18] Bootstrap tree #610, logLikelihood: -2209548.300066
+[252:49:24] Bootstrap tree #611, logLikelihood: -2200982.929460
+[253:17:46] Bootstrap tree #612, logLikelihood: -2210397.675465
+[253:39:32] Bootstrap tree #613, logLikelihood: -2226887.336111
+[254:03:46] Bootstrap tree #614, logLikelihood: -2202371.118192
+[254:22:03] Bootstrap tree #615, logLikelihood: -2212829.081004
+[254:44:12] Bootstrap tree #616, logLikelihood: -2212644.275318
+[255:04:00] Bootstrap tree #617, logLikelihood: -2208368.348791
+[255:22:17] Bootstrap tree #618, logLikelihood: -2200397.137280
+[255:45:43] Bootstrap tree #619, logLikelihood: -2217823.558688
+[256:07:53] Bootstrap tree #620, logLikelihood: -2206916.218682
+[256:31:31] Bootstrap tree #621, logLikelihood: -2210075.947183
+[257:02:13] Bootstrap tree #622, logLikelihood: -2204825.299979
+[257:26:44] Bootstrap tree #623, logLikelihood: -2211625.020733
+[257:51:05] Bootstrap tree #624, logLikelihood: -2211123.358189
+[258:10:05] Bootstrap tree #625, logLikelihood: -2218903.885585
+[258:32:08] Bootstrap tree #626, logLikelihood: -2210070.557213
+[258:56:12] Bootstrap tree #627, logLikelihood: -2207698.503606
+[259:18:46] Bootstrap tree #628, logLikelihood: -2208789.564747
+[259:42:31] Bootstrap tree #629, logLikelihood: -2206880.474929
+[260:08:21] Bootstrap tree #630, logLikelihood: -2206581.955410
+[260:37:12] Bootstrap tree #631, logLikelihood: -2214721.001466
+[260:59:04] Bootstrap tree #632, logLikelihood: -2214987.476693
+[261:25:31] Bootstrap tree #633, logLikelihood: -2213662.037074
+[261:49:46] Bootstrap tree #634, logLikelihood: -2223643.783369
+[262:15:19] Bootstrap tree #635, logLikelihood: -2212721.491383
+[262:37:34] Bootstrap tree #636, logLikelihood: -2215461.288969
+[263:00:07] Bootstrap tree #637, logLikelihood: -2222425.117112
+[263:21:58] Bootstrap tree #638, logLikelihood: -2211739.075707
+[263:45:36] Bootstrap tree #639, logLikelihood: -2217676.385304
+[264:04:41] Bootstrap tree #640, logLikelihood: -2204563.983752
+[264:28:35] Bootstrap tree #641, logLikelihood: -2214707.461757
+[264:46:40] Bootstrap tree #642, logLikelihood: -2208158.066941
+[265:09:27] Bootstrap tree #643, logLikelihood: -2198607.383595
+[265:32:54] Bootstrap tree #644, logLikelihood: -2214132.464404
+[265:59:33] Bootstrap tree #645, logLikelihood: -2212621.598979
+[266:28:40] Bootstrap tree #646, logLikelihood: -2202704.957833
+[267:00:26] Bootstrap tree #647, logLikelihood: -2211237.188520
+[267:35:35] Bootstrap tree #648, logLikelihood: -2219149.719838
+[268:07:32] Bootstrap tree #649, logLikelihood: -2216768.541906
+[268:44:01] Bootstrap tree #650, logLikelihood: -2213816.419657
+[269:17:25] Bootstrap tree #651, logLikelihood: -2208451.882489
+[269:56:31] Bootstrap tree #652, logLikelihood: -2209630.083707
+[270:37:36] Bootstrap tree #653, logLikelihood: -2219568.202009
+[271:29:12] Bootstrap tree #654, logLikelihood: -2210688.745637
+[272:15:55] Bootstrap tree #655, logLikelihood: -2204309.545246
+[273:00:01] Bootstrap tree #656, logLikelihood: -2208042.899712
+[273:26:44] Bootstrap tree #657, logLikelihood: -2210990.810450
+[273:52:01] Bootstrap tree #658, logLikelihood: -2210973.713998
+[274:21:03] Bootstrap tree #659, logLikelihood: -2212935.710842
+[274:44:16] Bootstrap tree #660, logLikelihood: -2206277.757663
+[275:08:22] Bootstrap tree #661, logLikelihood: -2212043.100021
+[275:31:55] Bootstrap tree #662, logLikelihood: -2208333.200138
+[275:54:48] Bootstrap tree #663, logLikelihood: -2207605.237471
+[276:20:17] Bootstrap tree #664, logLikelihood: -2229233.277299
+[276:46:42] Bootstrap tree #665, logLikelihood: -2219857.110689
+[277:12:39] Bootstrap tree #666, logLikelihood: -2213418.728831
+[277:39:02] Bootstrap tree #667, logLikelihood: -2207205.693110
+[278:00:42] Bootstrap tree #668, logLikelihood: -2217471.545162
+[278:24:40] Bootstrap tree #669, logLikelihood: -2214110.970624
+[278:50:15] Bootstrap tree #670, logLikelihood: -2209763.172810
+[279:13:59] Bootstrap tree #671, logLikelihood: -2209171.559454
+[279:38:06] Bootstrap tree #672, logLikelihood: -2212878.787858
+[280:00:13] Bootstrap tree #673, logLikelihood: -2217306.936541
+[280:23:32] Bootstrap tree #674, logLikelihood: -2220222.088453
+[280:45:55] Bootstrap tree #675, logLikelihood: -2214863.900922
+[281:05:37] Bootstrap tree #676, logLikelihood: -2204432.434975
+[281:25:07] Bootstrap tree #677, logLikelihood: -2214444.666092
+[281:49:27] Bootstrap tree #678, logLikelihood: -2211037.989839
+[282:12:20] Bootstrap tree #679, logLikelihood: -2208533.573284
+[282:34:06] Bootstrap tree #680, logLikelihood: -2201305.806551
+[282:52:56] Bootstrap tree #681, logLikelihood: -2207752.825115
+[283:13:51] Bootstrap tree #682, logLikelihood: -2201975.442480
+[283:35:03] Bootstrap tree #683, logLikelihood: -2210257.135291
+[283:58:06] Bootstrap tree #684, logLikelihood: -2215381.065590
+[284:23:28] Bootstrap tree #685, logLikelihood: -2212730.199758
+[284:48:12] Bootstrap tree #686, logLikelihood: -2212196.652484
+[285:11:10] Bootstrap tree #687, logLikelihood: -2209077.721091
+[285:36:27] Bootstrap tree #688, logLikelihood: -2214640.851487
+[285:59:48] Bootstrap tree #689, logLikelihood: -2216992.673130
+[286:24:04] Bootstrap tree #690, logLikelihood: -2217082.069616
+[286:47:48] Bootstrap tree #691, logLikelihood: -2205616.756310
+[287:12:32] Bootstrap tree #692, logLikelihood: -2204494.581340
+[287:38:09] Bootstrap tree #693, logLikelihood: -2214564.938062
+[288:05:12] Bootstrap tree #694, logLikelihood: -2208337.127877
+[288:24:59] Bootstrap tree #695, logLikelihood: -2208067.321914
+[288:50:03] Bootstrap tree #696, logLikelihood: -2210964.027705
+[289:11:27] Bootstrap tree #697, logLikelihood: -2218722.883220
+[289:35:32] Bootstrap tree #698, logLikelihood: -2214400.495067
+[289:58:29] Bootstrap tree #699, logLikelihood: -2213724.428995
+[290:20:43] Bootstrap tree #700, logLikelihood: -2207659.987457
+[290:44:57] Bootstrap tree #701, logLikelihood: -2206309.792756
+[291:09:58] Bootstrap tree #702, logLikelihood: -2211777.315915
+[291:30:44] Bootstrap tree #703, logLikelihood: -2213293.739872
+[291:57:11] Bootstrap tree #704, logLikelihood: -2213516.049454
+[292:19:48] Bootstrap tree #705, logLikelihood: -2217865.454964
+[292:46:07] Bootstrap tree #706, logLikelihood: -2209080.007150
+[293:12:15] Bootstrap tree #707, logLikelihood: -2204337.875689
+[293:35:35] Bootstrap tree #708, logLikelihood: -2212458.727570
+[294:01:40] Bootstrap tree #709, logLikelihood: -2202254.762378
+[294:22:02] Bootstrap tree #710, logLikelihood: -2203390.410351
+[294:45:17] Bootstrap tree #711, logLikelihood: -2210655.032748
+[295:11:55] Bootstrap tree #712, logLikelihood: -2210104.041790
+[295:33:55] Bootstrap tree #713, logLikelihood: -2217021.247176
+[295:58:59] Bootstrap tree #714, logLikelihood: -2214898.107356
+[296:22:19] Bootstrap tree #715, logLikelihood: -2214507.805206
+[296:44:42] Bootstrap tree #716, logLikelihood: -2217991.736296
+[297:10:36] Bootstrap tree #717, logLikelihood: -2203001.005374
+[297:36:10] Bootstrap tree #718, logLikelihood: -2229536.661931
+[297:59:14] Bootstrap tree #719, logLikelihood: -2213387.848204
+[298:24:27] Bootstrap tree #720, logLikelihood: -2216081.497905
+[298:47:36] Bootstrap tree #721, logLikelihood: -2212482.344251
+[299:10:17] Bootstrap tree #722, logLikelihood: -2212298.966870
+[299:36:53] Bootstrap tree #723, logLikelihood: -2221741.918294
+[300:00:23] Bootstrap tree #724, logLikelihood: -2214551.724580
+[300:27:10] Bootstrap tree #725, logLikelihood: -2207644.734677
+[300:52:36] Bootstrap tree #726, logLikelihood: -2225580.054388
+[301:15:39] Bootstrap tree #727, logLikelihood: -2208857.485457
+[301:35:32] Bootstrap tree #728, logLikelihood: -2214137.240915
+[301:54:21] Bootstrap tree #729, logLikelihood: -2198883.533264
+[302:13:46] Bootstrap tree #730, logLikelihood: -2211701.561726
+[302:33:30] Bootstrap tree #731, logLikelihood: -2204617.360845
+[302:54:13] Bootstrap tree #732, logLikelihood: -2213339.981272
+[303:13:52] Bootstrap tree #733, logLikelihood: -2203358.210149
+[303:33:28] Bootstrap tree #734, logLikelihood: -2205397.454810
+[303:57:09] Bootstrap tree #735, logLikelihood: -2208936.585525
+[304:18:55] Bootstrap tree #736, logLikelihood: -2210892.641837
+[304:41:37] Bootstrap tree #737, logLikelihood: -2208515.785243
+[305:06:23] Bootstrap tree #738, logLikelihood: -2207750.334805
+[305:27:01] Bootstrap tree #739, logLikelihood: -2202384.694614
+[305:49:08] Bootstrap tree #740, logLikelihood: -2219277.597574
+[306:15:57] Bootstrap tree #741, logLikelihood: -2222179.545392
+[306:38:37] Bootstrap tree #742, logLikelihood: -2207605.192597
+[307:00:52] Bootstrap tree #743, logLikelihood: -2208551.802083
+[307:26:37] Bootstrap tree #744, logLikelihood: -2215978.839590
+[307:51:42] Bootstrap tree #745, logLikelihood: -2210251.908484
+[308:17:51] Bootstrap tree #746, logLikelihood: -2209053.855532
+[308:46:34] Bootstrap tree #747, logLikelihood: -2207137.228349
+[309:12:10] Bootstrap tree #748, logLikelihood: -2214567.153627
+[309:36:41] Bootstrap tree #749, logLikelihood: -2216110.564464
+[309:58:14] Bootstrap tree #750, logLikelihood: -2212309.687210
+[310:24:03] Bootstrap tree #751, logLikelihood: -2207853.817332
+[310:51:05] Bootstrap tree #752, logLikelihood: -2219247.661342
+[311:14:11] Bootstrap tree #753, logLikelihood: -2223920.937526
+[311:40:13] Bootstrap tree #754, logLikelihood: -2204761.903437
+[311:59:47] Bootstrap tree #755, logLikelihood: -2213544.924792
+[312:24:17] Bootstrap tree #756, logLikelihood: -2209908.191834
+[312:49:28] Bootstrap tree #757, logLikelihood: -2213621.599913
+[313:11:48] Bootstrap tree #758, logLikelihood: -2206412.992176
+[313:34:26] Bootstrap tree #759, logLikelihood: -2215714.241189
+[314:00:01] Bootstrap tree #760, logLikelihood: -2212477.365765
+[314:20:29] Bootstrap tree #761, logLikelihood: -2211964.453958
+[314:45:32] Bootstrap tree #762, logLikelihood: -2208827.473234
+[315:09:08] Bootstrap tree #763, logLikelihood: -2213646.536032
+[315:30:28] Bootstrap tree #764, logLikelihood: -2212560.278279
+[315:53:13] Bootstrap tree #765, logLikelihood: -2222763.190715
+[316:17:36] Bootstrap tree #766, logLikelihood: -2224095.894327
+[316:37:42] Bootstrap tree #767, logLikelihood: -2213050.039159
+[317:03:37] Bootstrap tree #768, logLikelihood: -2212609.757367
+[317:26:52] Bootstrap tree #769, logLikelihood: -2210873.124834
+[317:51:44] Bootstrap tree #770, logLikelihood: -2215592.629033
+[318:12:51] Bootstrap tree #771, logLikelihood: -2212207.602860
+[318:41:38] Bootstrap tree #772, logLikelihood: -2202625.564665
+[319:03:06] Bootstrap tree #773, logLikelihood: -2210821.974841
+[319:25:02] Bootstrap tree #774, logLikelihood: -2205810.554672
+[319:48:48] Bootstrap tree #775, logLikelihood: -2203860.437844
+[320:11:08] Bootstrap tree #776, logLikelihood: -2215310.760464
+[320:32:37] Bootstrap tree #777, logLikelihood: -2208584.871421
+[320:56:50] Bootstrap tree #778, logLikelihood: -2203548.574960
+[321:18:11] Bootstrap tree #779, logLikelihood: -2219091.739506
+[321:42:57] Bootstrap tree #780, logLikelihood: -2206502.957581
+[322:01:50] Bootstrap tree #781, logLikelihood: -2214779.821601
+[322:29:17] Bootstrap tree #782, logLikelihood: -2215131.358720
+[322:50:24] Bootstrap tree #783, logLikelihood: -2202681.282349
+[323:15:06] Bootstrap tree #784, logLikelihood: -2201634.797164
+[323:40:11] Bootstrap tree #785, logLikelihood: -2197781.240696
+[324:04:13] Bootstrap tree #786, logLikelihood: -2204929.440313
+[324:29:24] Bootstrap tree #787, logLikelihood: -2209785.426958
+[324:54:08] Bootstrap tree #788, logLikelihood: -2227064.476122
+[325:20:25] Bootstrap tree #789, logLikelihood: -2208058.119166
+[325:44:24] Bootstrap tree #790, logLikelihood: -2216290.748823
+[326:07:29] Bootstrap tree #791, logLikelihood: -2217679.281948
+[326:31:26] Bootstrap tree #792, logLikelihood: -2209220.332236
+[326:54:52] Bootstrap tree #793, logLikelihood: -2209787.470691
+[327:20:36] Bootstrap tree #794, logLikelihood: -2210264.738432
+[327:42:46] Bootstrap tree #795, logLikelihood: -2224423.826633
+[328:01:58] Bootstrap tree #796, logLikelihood: -2213369.246630
+[328:18:06] Bootstrap tree #797, logLikelihood: -2212131.238919
+[328:37:16] Bootstrap tree #798, logLikelihood: -2202232.635553
+[329:01:33] Bootstrap tree #799, logLikelihood: -2208859.366705
+[329:18:42] Bootstrap tree #800, logLikelihood: -2203635.211121
+[329:49:20] Bootstrap tree #801, logLikelihood: -2216911.572752
+[330:16:56] Bootstrap tree #802, logLikelihood: -2209500.518893
+[330:42:49] Bootstrap tree #803, logLikelihood: -2215698.890109
+[331:15:32] Bootstrap tree #804, logLikelihood: -2219218.790692
+[331:47:16] Bootstrap tree #805, logLikelihood: -2212705.463768
+[332:17:44] Bootstrap tree #806, logLikelihood: -2214726.530937
+[332:46:12] Bootstrap tree #807, logLikelihood: -2214015.740340
+[333:22:13] Bootstrap tree #808, logLikelihood: -2210001.628885
+[333:52:34] Bootstrap tree #809, logLikelihood: -2220840.349572
+[334:22:19] Bootstrap tree #810, logLikelihood: -2206222.241349
+[334:53:02] Bootstrap tree #811, logLikelihood: -2212564.909269
+[335:21:41] Bootstrap tree #812, logLikelihood: -2213872.625400
+[335:46:05] Bootstrap tree #813, logLikelihood: -2211027.364424
+[336:11:06] Bootstrap tree #814, logLikelihood: -2212487.506354
+[336:33:43] Bootstrap tree #815, logLikelihood: -2220462.187600
+[336:57:51] Bootstrap tree #816, logLikelihood: -2206306.634778
+[337:19:43] Bootstrap tree #817, logLikelihood: -2211211.225131
+[337:42:38] Bootstrap tree #818, logLikelihood: -2211673.926569
+[338:07:33] Bootstrap tree #819, logLikelihood: -2210245.563543
+[338:30:52] Bootstrap tree #820, logLikelihood: -2206289.571405
+[338:59:27] Bootstrap tree #821, logLikelihood: -2216553.036906
+[339:26:40] Bootstrap tree #822, logLikelihood: -2202881.600816
+[339:51:40] Bootstrap tree #823, logLikelihood: -2201417.935738
+[340:18:40] Bootstrap tree #824, logLikelihood: -2220467.288197
+[340:39:56] Bootstrap tree #825, logLikelihood: -2207846.477145
+[341:04:33] Bootstrap tree #826, logLikelihood: -2219665.664452
+[341:26:39] Bootstrap tree #827, logLikelihood: -2201146.463548
+[341:55:33] Bootstrap tree #828, logLikelihood: -2214200.401097
+[342:24:06] Bootstrap tree #829, logLikelihood: -2210338.249250
+[342:47:30] Bootstrap tree #830, logLikelihood: -2211013.941654
+[343:08:47] Bootstrap tree #831, logLikelihood: -2210935.686637
+[343:32:54] Bootstrap tree #832, logLikelihood: -2206710.746217
+[343:56:51] Bootstrap tree #833, logLikelihood: -2201004.797211
+[344:26:08] Bootstrap tree #834, logLikelihood: -2210589.490127
+[344:48:41] Bootstrap tree #835, logLikelihood: -2212132.948140
+[345:12:32] Bootstrap tree #836, logLikelihood: -2215039.311619
+[345:41:33] Bootstrap tree #837, logLikelihood: -2219847.456453
+[346:03:53] Bootstrap tree #838, logLikelihood: -2219028.395720
+[346:31:20] Bootstrap tree #839, logLikelihood: -2216992.293874
+[347:01:02] Bootstrap tree #840, logLikelihood: -2215984.788236
+[347:23:53] Bootstrap tree #841, logLikelihood: -2197230.103305
+[347:45:42] Bootstrap tree #842, logLikelihood: -2215899.135435
+[348:09:16] Bootstrap tree #843, logLikelihood: -2208958.385270
+[348:32:46] Bootstrap tree #844, logLikelihood: -2195373.297400
+[348:57:48] Bootstrap tree #845, logLikelihood: -2209202.088476
+[349:23:45] Bootstrap tree #846, logLikelihood: -2219606.994581
+[349:50:29] Bootstrap tree #847, logLikelihood: -2217664.131388
+[350:12:48] Bootstrap tree #848, logLikelihood: -2207137.684109
+[350:35:10] Bootstrap tree #849, logLikelihood: -2209989.632239
+[351:01:01] Bootstrap tree #850, logLikelihood: -2215887.038180
+[351:23:56] Bootstrap tree #851, logLikelihood: -2211633.096273
+[351:45:49] Bootstrap tree #852, logLikelihood: -2205533.661676
+[352:06:04] Bootstrap tree #853, logLikelihood: -2204110.339099
+[352:25:48] Bootstrap tree #854, logLikelihood: -2219197.505869
+[352:47:29] Bootstrap tree #855, logLikelihood: -2208473.607180
+[353:13:00] Bootstrap tree #856, logLikelihood: -2205280.851826
+[353:37:47] Bootstrap tree #857, logLikelihood: -2209247.003321
+[353:59:35] Bootstrap tree #858, logLikelihood: -2210532.269952
+[354:18:36] Bootstrap tree #859, logLikelihood: -2216577.462607
+[354:39:38] Bootstrap tree #860, logLikelihood: -2211129.209423
+[355:04:23] Bootstrap tree #861, logLikelihood: -2207407.069496
+[355:24:07] Bootstrap tree #862, logLikelihood: -2212499.096064
+[355:49:54] Bootstrap tree #863, logLikelihood: -2214969.022231
+[356:17:28] Bootstrap tree #864, logLikelihood: -2213129.260231
+[356:42:38] Bootstrap tree #865, logLikelihood: -2206776.948580
+[357:13:30] Bootstrap tree #866, logLikelihood: -2207990.095703
+[357:45:48] Bootstrap tree #867, logLikelihood: -2209850.521458
+[358:12:31] Bootstrap tree #868, logLikelihood: -2208674.253186
+[358:43:40] Bootstrap tree #869, logLikelihood: -2211361.989369
+[359:12:44] Bootstrap tree #870, logLikelihood: -2214510.887098
+[359:35:40] Bootstrap tree #871, logLikelihood: -2211355.723408
+[360:01:22] Bootstrap tree #872, logLikelihood: -2213095.113168
+[360:27:51] Bootstrap tree #873, logLikelihood: -2213706.520212
+[360:48:41] Bootstrap tree #874, logLikelihood: -2211138.704618
+[361:13:24] Bootstrap tree #875, logLikelihood: -2210350.205089
+[361:38:01] Bootstrap tree #876, logLikelihood: -2206729.684739
+[362:03:09] Bootstrap tree #877, logLikelihood: -2206160.414013
+[362:27:50] Bootstrap tree #878, logLikelihood: -2209036.663014
+[362:52:01] Bootstrap tree #879, logLikelihood: -2218042.666849
+[363:15:00] Bootstrap tree #880, logLikelihood: -2210670.490928
+[363:38:48] Bootstrap tree #881, logLikelihood: -2206135.557301
+[364:01:26] Bootstrap tree #882, logLikelihood: -2211202.809398
+[364:31:20] Bootstrap tree #883, logLikelihood: -2205563.831695
+[364:52:19] Bootstrap tree #884, logLikelihood: -2211823.246359
+[365:16:46] Bootstrap tree #885, logLikelihood: -2216522.808961
+[365:43:21] Bootstrap tree #886, logLikelihood: -2224702.048738
+[366:07:00] Bootstrap tree #887, logLikelihood: -2208697.842987
+[366:32:20] Bootstrap tree #888, logLikelihood: -2200635.750726
+[366:59:52] Bootstrap tree #889, logLikelihood: -2212085.286250
+[367:26:39] Bootstrap tree #890, logLikelihood: -2202175.090208
+[367:48:02] Bootstrap tree #891, logLikelihood: -2226370.152313
+[368:08:17] Bootstrap tree #892, logLikelihood: -2200169.108003
+[368:31:38] Bootstrap tree #893, logLikelihood: -2211977.280497
+[368:59:56] Bootstrap tree #894, logLikelihood: -2216818.217663
+[369:22:39] Bootstrap tree #895, logLikelihood: -2218297.553493
+[369:53:41] Bootstrap tree #896, logLikelihood: -2222766.769215
+[370:23:40] Bootstrap tree #897, logLikelihood: -2207340.095804
+[370:47:22] Bootstrap tree #898, logLikelihood: -2207742.102758
+[371:07:53] Bootstrap tree #899, logLikelihood: -2203555.238755
+[371:26:50] Bootstrap tree #900, logLikelihood: -2214145.619734
+[371:43:31] Bootstrap tree #901, logLikelihood: -2220624.682570
+[372:02:42] Bootstrap tree #902, logLikelihood: -2207008.695264
+[372:26:46] Bootstrap tree #903, logLikelihood: -2221979.913596
+[372:51:09] Bootstrap tree #904, logLikelihood: -2205249.338314
+[373:14:04] Bootstrap tree #905, logLikelihood: -2216534.433569
+[373:35:12] Bootstrap tree #906, logLikelihood: -2214204.595748
+[373:57:42] Bootstrap tree #907, logLikelihood: -2215922.589300
+[374:20:19] Bootstrap tree #908, logLikelihood: -2208550.852786
+[374:45:17] Bootstrap tree #909, logLikelihood: -2214466.178059
+[375:04:22] Bootstrap tree #910, logLikelihood: -2210109.470556
+[375:28:28] Bootstrap tree #911, logLikelihood: -2208904.458947
+[375:48:11] Bootstrap tree #912, logLikelihood: -2226990.903527
+[376:10:11] Bootstrap tree #913, logLikelihood: -2209444.416710
+[376:33:44] Bootstrap tree #914, logLikelihood: -2212208.718323
+[376:55:29] Bootstrap tree #915, logLikelihood: -2211258.619091
+[377:16:07] Bootstrap tree #916, logLikelihood: -2219618.661852
+[377:37:33] Bootstrap tree #917, logLikelihood: -2212643.703465
+[377:59:04] Bootstrap tree #918, logLikelihood: -2209330.807520
+[378:20:03] Bootstrap tree #919, logLikelihood: -2214433.224034
+[378:45:14] Bootstrap tree #920, logLikelihood: -2206054.172981
+[379:06:16] Bootstrap tree #921, logLikelihood: -2214936.370314
+[379:30:35] Bootstrap tree #922, logLikelihood: -2217178.996049
+[379:53:05] Bootstrap tree #923, logLikelihood: -2218632.636607
+[380:13:27] Bootstrap tree #924, logLikelihood: -2216745.942281
+[380:33:43] Bootstrap tree #925, logLikelihood: -2196884.680045
+[380:54:34] Bootstrap tree #926, logLikelihood: -2208230.981216
+[381:16:06] Bootstrap tree #927, logLikelihood: -2203939.872748
+[381:37:19] Bootstrap tree #928, logLikelihood: -2212427.364226
+[381:59:20] Bootstrap tree #929, logLikelihood: -2214860.102163
+[382:28:54] Bootstrap tree #930, logLikelihood: -2213205.898423
+[382:51:51] Bootstrap tree #931, logLikelihood: -2198871.891739
+[383:16:43] Bootstrap tree #932, logLikelihood: -2220263.284038
+[383:37:32] Bootstrap tree #933, logLikelihood: -2221383.362754
+[384:01:48] Bootstrap tree #934, logLikelihood: -2208976.124685
+[384:23:42] Bootstrap tree #935, logLikelihood: -2214425.658338
+[384:43:17] Bootstrap tree #936, logLikelihood: -2208656.931881
+[385:09:49] Bootstrap tree #937, logLikelihood: -2207819.452424
+[385:33:26] Bootstrap tree #938, logLikelihood: -2225028.591813
+[385:57:41] Bootstrap tree #939, logLikelihood: -2212360.805600
+[386:23:18] Bootstrap tree #940, logLikelihood: -2211193.996340
+[386:51:04] Bootstrap tree #941, logLikelihood: -2222273.476144
+[387:14:18] Bootstrap tree #942, logLikelihood: -2209616.223894
+[387:38:19] Bootstrap tree #943, logLikelihood: -2213209.229203
+[387:57:11] Bootstrap tree #944, logLikelihood: -2220535.699220
+[388:18:13] Bootstrap tree #945, logLikelihood: -2206900.053909
+[388:40:00] Bootstrap tree #946, logLikelihood: -2209751.594890
+[389:03:13] Bootstrap tree #947, logLikelihood: -2220309.415368
+[389:28:59] Bootstrap tree #948, logLikelihood: -2211930.601061
+[389:49:49] Bootstrap tree #949, logLikelihood: -2216534.452506
+[390:18:18] Bootstrap tree #950, logLikelihood: -2207798.242689
+[390:45:07] Bootstrap tree #951, logLikelihood: -2213245.719174
+[391:11:35] Bootstrap tree #952, logLikelihood: -2211282.197824
+[391:39:39] Bootstrap tree #953, logLikelihood: -2203591.000913
+[392:07:27] Bootstrap tree #954, logLikelihood: -2221227.547623
+[392:31:57] Bootstrap tree #955, logLikelihood: -2211718.472396
+[392:59:29] Bootstrap tree #956, logLikelihood: -2221675.796088
+[393:31:59] Bootstrap tree #957, logLikelihood: -2213166.492983
+[394:02:17] Bootstrap tree #958, logLikelihood: -2224325.561328
+[394:28:54] Bootstrap tree #959, logLikelihood: -2214388.326371
+[394:57:02] Bootstrap tree #960, logLikelihood: -2211132.560577
+[395:23:49] Bootstrap tree #961, logLikelihood: -2210901.743202
+[395:51:12] Bootstrap tree #962, logLikelihood: -2214683.984174
+[396:18:20] Bootstrap tree #963, logLikelihood: -2214127.410974
+[396:48:47] Bootstrap tree #964, logLikelihood: -2212448.871885
+[397:18:02] Bootstrap tree #965, logLikelihood: -2209838.319919
+[397:39:57] Bootstrap tree #966, logLikelihood: -2213322.514976
+[398:06:16] Bootstrap tree #967, logLikelihood: -2207906.557775
+[398:31:03] Bootstrap tree #968, logLikelihood: -2215656.178040
+[398:57:20] Bootstrap tree #969, logLikelihood: -2214383.143884
+[399:27:50] Bootstrap tree #970, logLikelihood: -2205210.409180
+[399:51:01] Bootstrap tree #971, logLikelihood: -2214932.473051
+[400:16:35] Bootstrap tree #972, logLikelihood: -2221697.229362
+[400:37:48] Bootstrap tree #973, logLikelihood: -2211346.519973
+[400:59:36] Bootstrap tree #974, logLikelihood: -2210101.616851
+[401:26:42] Bootstrap tree #975, logLikelihood: -2206991.041675
+[401:50:05] Bootstrap tree #976, logLikelihood: -2205191.604705
+[402:15:45] Bootstrap tree #977, logLikelihood: -2205898.546399
+[402:40:51] Bootstrap tree #978, logLikelihood: -2218858.965174
+[403:05:04] Bootstrap tree #979, logLikelihood: -2209580.896387
+[403:25:47] Bootstrap tree #980, logLikelihood: -2218923.792326
+[403:50:26] Bootstrap tree #981, logLikelihood: -2215969.638833
+[404:23:15] Bootstrap tree #982, logLikelihood: -2208769.962970
+[404:47:42] Bootstrap tree #983, logLikelihood: -2218719.539233
+[405:10:42] Bootstrap tree #984, logLikelihood: -2211576.629222
+[405:33:38] Bootstrap tree #985, logLikelihood: -2213592.472361
+[405:53:07] Bootstrap tree #986, logLikelihood: -2214000.698896
+[406:18:03] Bootstrap tree #987, logLikelihood: -2207802.921108
+[406:43:38] Bootstrap tree #988, logLikelihood: -2212286.777803
+[407:08:39] Bootstrap tree #989, logLikelihood: -2210344.195727
+[407:30:41] Bootstrap tree #990, logLikelihood: -2210783.876919
+[407:57:51] Bootstrap tree #991, logLikelihood: -2211013.060887
+[408:22:18] Bootstrap tree #992, logLikelihood: -2206726.673861
+[408:49:56] Bootstrap tree #993, logLikelihood: -2212800.539947
+[409:14:16] Bootstrap tree #994, logLikelihood: -2212734.087335
+[409:42:45] Bootstrap tree #995, logLikelihood: -2210216.490020
+[410:08:24] Bootstrap tree #996, logLikelihood: -2210366.506203
+[410:36:19] Bootstrap tree #997, logLikelihood: -2205024.862117
+[410:57:10] Bootstrap tree #998, logLikelihood: -2210633.202476
+[411:18:51] Bootstrap tree #999, logLikelihood: -2200367.294771
+[411:43:01] Bootstrap tree #1000, logLikelihood: -2210482.567952
+
+
+Final LogLikelihood: -2215008.306365
+
+AIC score: 4437488.612730 / AICc score: 4437633.571687 / BIC score: 4475549.935644
+Free parameters (model + branch lengths): 3736
+
+Best ML tree saved to: /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/raxml_results/angio353_supermatrix.raxml.bestTree
+All ML trees saved to: /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/raxml_results/angio353_supermatrix.raxml.mlTrees
+Best ML tree with Felsenstein bootstrap (FBP) support values saved to: /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/raxml_results/angio353_supermatrix.raxml.support
+Optimized model saved to: /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/raxml_results/angio353_supermatrix.raxml.bestModel
+Bootstrap trees saved to: /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/raxml_results/angio353_supermatrix.raxml.bootstraps
+
+Execution log saved to: /home/stuint/Belay/Hybpiper/All_clean_renamed_FNG/merged_genes_results/raxml_results/angio353_supermatrix.raxml.log
+
+Analysis started: 26-Apr-2026 20:52:35 / finished: 14-May-2026 00:35:37
+
+Elapsed time: 1482181.838 seconds
+
+Consumed energy: 161162.003 Wh (= 806 km in an electric car, or 4029 km with an e-scooter!)
+
